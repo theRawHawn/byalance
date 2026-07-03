@@ -7,25 +7,25 @@
 
 ## Core Pages
 
-- [Home](https://byalance.com/): Overview of services, pricing, and founding member waitlist offer
-- [Services](https://byalance.com/#services): Full list of accounting and compliance services offered
-- [Pricing](https://byalance.com/#pricing): Transparent monthly pricing tiers for individuals and businesses
-- [About](https://byalance.com/#about): About Byalance, its mission, and team
-- [Contact](https://byalance.com/#contact): WhatsApp and email contact, office location in JP Nagar, Bengaluru
-- [Employer of Record (EOR) India](https://byalance.com/services/eor-services-india): Compliant hiring and payroll in India without setting up a local entity
-- [Privacy Policy](https://byalance.com/privacy-policy): Compliant with DPDP Act 2023 and IT Act 2000
-- [Data Handling Policy](https://byalance.com/data-handling-policy): How client financial data is stored, processed, and protected
+- [Home](https://byalance.in/): Overview of services, pricing, and founding member waitlist offer
+- [Services](https://byalance.in/#services): Full list of accounting and compliance services offered
+- [Pricing](https://byalance.in/#pricing): Transparent monthly pricing tiers for individuals and businesses
+- [About](https://byalance.in/#about): About Byalance, its mission, and team
+- [Contact](https://byalance.in/#contact): WhatsApp and email contact, office location in JP Nagar, Bengaluru
+- [Employer of Record (EOR) India](https://byalance.in/services/eor-services-india): Compliant hiring and payroll in India without setting up a local entity
+- [Privacy Policy](https://byalance.in/privacy-policy): Compliant with DPDP Act 2023 and IT Act 2000
+- [Data Handling Policy](https://byalance.in/data-handling-policy): How client financial data is stored, processed, and protected
 
 ## Services
 
-- [Employer of Record (EOR) India](https://byalance.com/services/eor-services-india): Compliant talent onboarding, INR salary disbursement, statutory EPF, ESIC, Professional Tax, and TDS filings under Byalance corporate codes
-- [GST Filing & Compliance](https://byalance.com/#gst): Monthly/quarterly GST return filing (GSTR-1, GSTR-3B), GST registration, GST notices
-- [TDS Compliance](https://byalance.com/#tds): TDS deduction, challan payment, quarterly TDS returns (Form 24Q, 26Q)
-- [Bookkeeping](https://byalance.com/#bookkeeping): Monthly ledger management, bank reconciliation, P&L and Balance Sheet preparation
-- [Payroll Processing](https://byalance.com/#payroll): Monthly payroll, salary slips, PF/ESI compliance, Form 16 issuance
-- [Income Tax Returns (ITR)](https://byalance.com/#itr): ITR filing for individuals, proprietors, and small businesses
-- [ROC & MCA Compliance](https://byalance.com/#roc): Annual filings, director KYC, company annual returns for Pvt Ltd companies
-- [CA White-Label Service](https://byalance.com/#ca-partners): Back-office execution for home-based CAs — Byalance handles the work, CA retains the client
+- [Employer of Record (EOR) India](https://byalance.in/services/eor-services-india): Compliant talent onboarding, INR salary disbursement, statutory EPF, ESIC, Professional Tax, and TDS filings under Byalance corporate codes
+- [GST Filing & Compliance](https://byalance.in/#gst): Monthly/quarterly GST return filing (GSTR-1, GSTR-3B), GST registration, GST notices
+- [TDS Compliance](https://byalance.in/#tds): TDS deduction, challan payment, quarterly TDS returns (Form 24Q, 26Q)
+- [Bookkeeping](https://byalance.in/#bookkeeping): Monthly ledger management, bank reconciliation, P&L and Balance Sheet preparation
+- [Payroll Processing](https://byalance.in/#payroll): Monthly payroll, salary slips, PF/ESI compliance, Form 16 issuance
+- [Income Tax Returns (ITR)](https://byalance.in/#itr): ITR filing for individuals, proprietors, and small businesses
+- [ROC & MCA Compliance](https://byalance.in/#roc): Annual filings, director KYC, company annual returns for Pvt Ltd companies
+- [CA White-Label Service](https://byalance.in/#ca-partners): Back-office execution for home-based CAs — Byalance handles the work, CA retains the client
 
 ## Pricing Summary
 

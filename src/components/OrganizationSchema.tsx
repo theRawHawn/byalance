@@ -10,8 +10,8 @@ interface OrganizationSchemaProps {
 
 export default function OrganizationSchema({
   name = 'Byalance',
-  url = 'https://byalance.com',
-  logo = 'https://byalance.com/brandlogo%20(1).svg',
+  url = 'https://byalance.in',
+  logo = 'https://byalance.in/brandlogo%20(1).svg',
   sameAs = [
     'https://www.facebook.com/byalance',
     'https://twitter.com/byalance',

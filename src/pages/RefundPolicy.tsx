@@ -7,7 +7,7 @@ export default function RefundPolicyPage() {
       <SEO 
         title="Refund & Cancellation Policy | Byalance Remote Accounting & Tax"
         description="Read our Refund and Cancellation Policy to understand your cancellation rights, refund eligibility, and subscription terms for Byalance remote accounting services."
-        canonical="https://byalance.com/refund-policy"
+        canonical="https://byalance.in/refund-policy"
         keywords="refund policy, cancellation policy, subscription refund, accounting service refund India, refund eligibility Byalance"
       />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -34,7 +34,7 @@ export default function RefundPolicyPage() {
 
             <h2 className="text-2xl font-semibold text-blue-600 mt-8 mb-4">2. Cancellation by the Client</h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
-              <li>You may cancel your engagement with Byalance at any time by providing <strong>written notice</strong> (via email to <a href="mailto:support@byalance.com" className="text-blue-600 hover:underline">support@byalance.com</a> or WhatsApp) at least <strong>15 days before your next billing cycle</strong>.</li>
+              <li>You may cancel your engagement with Byalance at any time by providing <strong>written notice</strong> (via email to <a href="mailto:contact@byalance.in" className="text-blue-600 hover:underline">contact@byalance.in</a> or WhatsApp) at least <strong>15 days before your next billing cycle</strong>.</li>
               <li>Cancellation requests received after a billing cycle has started will take effect from the <strong>following cycle</strong>; the current cycle&apos;s fee is not refunded, as work for that period has already commenced or been scheduled.</li>
               <li>Upon cancellation, we will share all data, records, and working files relevant to your business that are in our possession, within a reasonable timeframe.</li>
             </ul>
@@ -108,7 +108,7 @@ export default function RefundPolicyPage() {
 
             <h2 className="text-2xl font-semibold text-blue-600 mt-8 mb-4">5. Service Quality Disputes</h2>
             <p className="text-gray-700">
-              If you&apos;re unsatisfied with the quality or delivery of a service, please reach out to us within <strong>7 days</strong> of the issue at <a href="mailto:support@byalance.com" className="text-blue-600 hover:underline">support@byalance.com</a>. We will review the matter and, where we determine an error or delay was on our part, we may offer a corrective fix, partial credit toward your next billing cycle, or a partial refund — at our discretion, based on the specifics of the case.
+              If you&apos;re unsatisfied with the quality or delivery of a service, please reach out to us within <strong>7 days</strong> of the issue at <a href="mailto:contact@byalance.in" className="text-blue-600 hover:underline">contact@byalance.in</a>. We will review the matter and, where we determine an error or delay was on our part, we may offer a corrective fix, partial credit toward your next billing cycle, or a partial refund — at our discretion, based on the specifics of the case.
             </p>
 
             <h2 className="text-2xl font-semibold text-blue-600 mt-8 mb-4">6. Annual Subscription Plans</h2>
@@ -148,7 +148,7 @@ export default function RefundPolicyPage() {
               For any cancellation or refund requests, please contact:
             </p>
             <p className="text-gray-700 mt-2">
-              <strong>Email:</strong> <a href="mailto:support@byalance.com" className="text-blue-600 hover:underline">support@byalance.com</a>
+              <strong>Email:</strong> <a href="mailto:contact@byalance.in" className="text-blue-600 hover:underline">contact@byalance.in</a>
               <br />
               <strong>WhatsApp / Mobile:</strong> <a href="https://wa.me/917406296116" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">+91 74062 96116</a>
             </p>

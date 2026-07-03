@@ -218,7 +218,7 @@ const Accounting = () => {
         title={`${data.title} | Byalance`}
         description={data.desc}
         keywords="accounting services India, bookkeeping services Bengaluru, Remote accounting firm, small business accounting India, Tally bookkeeping, Zoho Books accountant, bank reconciliation, P&L statement India, balance sheet preparation, accounting for startups India"
-        canonical="https://byalance.com/services/accounting-bookkeeping"
+        canonical="https://byalance.in/services/accounting-bookkeeping"
         ogType="article"
       />
       <BreadcrumbSchema

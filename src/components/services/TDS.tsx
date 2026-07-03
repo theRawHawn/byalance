@@ -201,7 +201,7 @@ const TDS = () => {
         title="TDS Filing & Compliance Services India | Form 24Q 26Q | Byalance"
         description="Expert TDS compliance services for Indian businesses — TAN registration, Form 24Q/26Q filing, Form 16/16A generation, and default resolution. Never miss a TDS deadline with Byalance."
         keywords="TDS services India, TDS filing Bengaluru, Form 24Q 26Q filing, TAN registration, Form 16 Form 16A, TDS default resolution, TRACES TDS, TDS on rent, TDS on contractor payment, TDS compliance India"
-        canonical="https://byalance.com/services/tds-services"
+        canonical="https://byalance.in/services/tds-services"
         ogType="article"
       />
       <BreadcrumbSchema

@@ -25,6 +25,6 @@ User-agent: *
 Allow: /
 
 # AI and Sitemap file declarations
-Sitemap: https://byalance.com/sitemap.xml
-LLMs: https://byalance.com/llms.txt
-LLMs-Full: https://byalance.com/llm-full.txt
+Sitemap: https://byalance.in/sitemap.xml
+LLMs: https://byalance.in/llms.txt
+LLMs-Full: https://byalance.in/llm-full.txt

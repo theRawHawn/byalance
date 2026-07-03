@@ -8,7 +8,7 @@ export default function PrivacyPolicyPage() {
       <SEO 
         title="Privacy Policy | Byalance Remote Accounting & Tax"
         description="Byalance is committed to protecting the privacy of our clients and website visitors. Read our Privacy Policy to understand how we collect, use, and process personal and financial data."
-        canonical="https://byalance.com/privacy-policy"
+        canonical="https://byalance.in/privacy-policy"
         keywords="privacy policy, data privacy, compliance confidentiality, professional accountant privacy, tax consultation privacy India"
       />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-gray-700">
               <strong>Contact:</strong>
               <br />
-              Email: info@byalance.com
+              Email: contact@byalance.in
               <br />
               Phone: +91 74062 96116
               <br />
@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
             </ul>
             <h3 className="text-xl font-semibold text-blue-600 mt-6 mb-3">2.2 Information We Collect Automatically</h3>
             <ul className="list-disc list-inside text-gray-700">
-              <li>Browser type, device type, IP address, and pages visited on our website (byalance.com)</li>
+              <li>Browser type, device type, IP address, and pages visited on our website (byalance.in)</li>
               <li>Cookies and session data for website analytics (no advertising cookies are used)</li>
             </ul>
             <h3 className="text-xl font-semibold text-blue-600 mt-6 mb-3">2.3 Information from Third Parties</h3>
@@ -99,7 +99,7 @@ export default function PrivacyPolicyPage() {
               <li><strong>Erasure</strong> — request deletion of your data, subject to legal retention requirements</li>
               <li><strong>Grievance Redressal</strong> — raise a complaint if you believe your data has been mishandled</li>
             </ul>
-            <p className="text-gray-700 mt-4">To exercise any of these rights, email us at <strong>info@byalance.com</strong> with your registered name and business name. We will respond within 15 business days.</p>
+            <p className="text-gray-700 mt-4">To exercise any of these rights, email us at <strong>contact@byalance.in</strong> with your registered name and business name. We will respond within 15 business days.</p>
 
             <h2 className="text-2xl font-semibold text-blue-600 mt-8 mb-4">8. Cookies</h2>
             <p className="text-gray-700">Our website uses minimal cookies strictly for website functionality and anonymous analytics. We do not use cookies for advertising or tracking across other websites. You can disable cookies in your browser settings without affecting your ability to use our services.</p>
@@ -114,7 +114,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-gray-700">This Privacy Policy is governed by the laws of India, including the Information Technology Act, 2000, the Digital Personal Data Protection Act, 2023, and all other applicable regulations.</p>
 
             <p className="text-gray-700 mt-8">
-              <em>For any privacy-related queries or concerns, contact us at info@byalance.com</em>
+              <em>For any privacy-related queries or concerns, contact us at contact@byalance.in</em>
             </p>
           </div>
         </div>

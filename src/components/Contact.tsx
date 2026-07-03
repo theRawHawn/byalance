@@ -19,7 +19,7 @@ export default function Contact() {
 
   const contactInfo = [
     { icon: Phone, title: t.contact.phone, text: '+91 74062 96116, +91 96111 93492' },
-    { icon: Mail, title: t.contact.email, text: 'info@byalance.com' },
+    { icon: Mail, title: t.contact.email, text: 'contact@byalance.in' },
     { icon: MapPin, title: t.contact.location, text: '4th Phase, JP Nagar, Bengaluru, KA 560078' },
     { icon: Clock, title: t.common.businessHours, text: 'Mon – Sat, 9:00 AM – 5:30 PM' },
   ];

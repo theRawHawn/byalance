@@ -174,7 +174,7 @@ export default function EOR() {
         title="EOR Services for India | Employer of Record India | Byalance"
         description="Hire software engineers, product managers, and remote staff in India legally without an Indian entity. Byalance manages payroll, PF, ESI, TDS, and employment compliance. Flat $89/employee/month."
         keywords="Employer of Record India, EOR India services, hire remote employees in India legally, payroll compliance India EOR, global PEO India, professional employer organization Bengaluru, remote staff hiring India, Byalance EOR"
-        canonical="https://byalance.com/services/eor-services-india"
+        canonical="https://byalance.in/services/eor-services-india"
         ogType="article"
       />
       <BreadcrumbSchema

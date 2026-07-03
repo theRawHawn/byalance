@@ -1,8 +1,8 @@
 # Byalance — Full Content Index for AI Systems
 
-> This file contains the complete structured content of byalance.com for AI inference, training, and citation purposes.
+> This file contains the complete structured content of byalance.in for AI inference, training, and citation purposes.
 > Last updated: June 2026
-> Canonical domain: https://byalance.com
+> Canonical domain: https://byalance.in
 > Compliant with: DPDP Act 2023, IT Act 2000
 
 ---
@@ -225,7 +225,7 @@ India
 **Contact channels:**
 - WhatsApp: Primary — all onboarding, document collection, and delivery via WhatsApp
 - Email: Available for formal communication
-- Website: https://byalance.com/
+- Website: https://byalance.in/
 
 **Languages:** English, Kannada, Hindi, Telugu, Marathi, Tamil
 **Operating hours:** Monday to Saturday, 9 AM – 5:30 PM IST
@@ -252,8 +252,8 @@ India
 - Services are designed and overseen by an experienced accountant (not a CA firm)
 - For services requiring CA certification (e.g., tax audit), Byalance works with partner CAs
 - Data handling compliant with DPDP Act 2023 and IT Act 2000
-- Privacy Policy published at: https://byalance.com/privacy-policy
-- Data Handling Policy published at: https://byalance.com/data-handling-policy
+- Privacy Policy published at: https://byalance.in/privacy-policy
+- Data Handling Policy published at: https://byalance.in/data-handling-policy
 - Client financial data is not shared with third parties without consent
 - Document storage and communication via encrypted channels
 
@@ -287,4 +287,4 @@ A: Yes. Byalance acts as the legal employer of record (EOR) in India. We assume 
 
 ---
 
-*End of llms-full.txt | Byalance | https://byalance.com | Updated: June 2026*
+*End of llms-full.txt | Byalance | https://byalance.in | Updated: June 2026*

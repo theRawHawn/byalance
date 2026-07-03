@@ -161,7 +161,7 @@ export default function DataHandlingPage() {
               <li><strong>Request transfer</strong> of your data to another service provider</li>
               <li><strong>Raise a grievance</strong> if you believe this policy has been violated</li>
             </ul>
-            <p className="text-gray-700 mt-4">All requests must be sent to <strong>info@byalance.com</strong> with your registered business name. We will acknowledge within 3 business days and resolve within 15 business days.</p>
+            <p className="text-gray-700 mt-4">All requests must be sent to <strong>contact@byalance.in</strong> with your registered business name. We will acknowledge within 3 business days and resolve within 15 business days.</p>
 
             <h2 className="text-2xl font-semibold text-blue-600 mt-8 mb-4">9. Compliance Framework</h2>
             <p className="text-gray-700">Byalance&apos;s data handling practices are aligned with:</p>
@@ -176,7 +176,7 @@ export default function DataHandlingPage() {
             <p className="text-gray-700">
               <strong>Data Handling Queries:</strong>
               <br />
-              Email: info@byalance.com
+              Email: contact@byalance.in
               <br />
               Phone: +91 74062 96116
               <br />

@@ -55,7 +55,7 @@ const LandingPage = () => (
       title="Byalance: Accounting, GST, TDS & Payroll Services"
       description="Byalance provides comprehensive accounting, GST, TDS, and payroll services for businesses of all sizes. Simplify your finances and stay compliant with our expert team."
       keywords="accounting services for small business, bookkeeping services for small business, gst filing services, tds return filing services, payroll processing, financial services, business compliance"
-      canonical="https://byalance.com/"
+      canonical="https://byalance.in/"
       ogType="website"
     />
     <OrganizationSchema />

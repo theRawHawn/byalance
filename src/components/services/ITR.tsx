@@ -237,7 +237,7 @@ const ITR = () => {
         title="ITR Filing Services in India | Income Tax Return | Byalance"
         description="File your Income Tax Return accurately and on time with Byalance. Expert ITR filing for salaried individuals, freelancers, businesses, and companies across India. Starting ₹999."
         keywords="ITR filing India, income tax return filing, ITR services Bengaluru, file ITR online, ITR for salaried, ITR for freelancers, Form 26AS, income tax notice response, Section 80C deductions, old vs new tax regime"
-        canonical="https://byalance.com/services/itr-services"
+        canonical="https://byalance.in/services/itr-services"
         ogType="article"
       />
       <BreadcrumbSchema

@@ -8,7 +8,7 @@ interface WebSiteSchemaProps {
 
 export default function WebSiteSchema({
   name = 'Byalance',
-  url = 'https://byalance.com',
+  url = 'https://byalance.in',
 }: WebSiteSchemaProps) {
   const jsonLd = {
     '@context': 'https://schema.org',

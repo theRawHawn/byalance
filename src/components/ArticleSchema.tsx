@@ -15,7 +15,7 @@ export default function ArticleSchema({
   authorName = 'Byalance Experts',
   datePublished,
   dateModified,
-  image = 'https://byalance.com/brandlogo%20(1).svg',
+  image = 'https://byalance.in/brandlogo%20(1).svg',
   description,
 }: ArticleSchemaProps) {
   const jsonLd = {
@@ -28,14 +28,14 @@ export default function ArticleSchema({
     'author': {
       '@type': 'Organization',
       'name': authorName,
-      'url': 'https://byalance.com'
+      'url': 'https://byalance.in'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'Byalance',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://byalance.com/brandlogo%20(1).svg'
+        'url': 'https://byalance.in/brandlogo%20(1).svg'
       }
     },
     'description': description

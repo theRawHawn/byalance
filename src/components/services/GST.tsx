@@ -220,7 +220,7 @@ const GST = () => {
         title="GST Services in India | GST Filing & Compliance | Byalance"
         description="Complete GST compliance for Indian businesses — registration, GSTR-1, GSTR-3B, GSTR-9 filing, ITC reconciliation, e-invoicing, and notice resolution. Expert GST services in Bengaluru and across India."
         keywords="GST services India, GST filing Bengaluru, GSTR-1 GSTR-3B filing, GST registration India, input tax credit reconciliation, e-invoicing setup, GST annual return GSTR-9, GST notice response, GST compliance Karnataka, Remote GST consultant India"
-        canonical="https://byalance.com/services/gst-services"
+        canonical="https://byalance.in/services/gst-services"
         ogType="article"
       />
       <BreadcrumbSchema

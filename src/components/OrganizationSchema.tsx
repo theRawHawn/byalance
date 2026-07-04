@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from 'vike-react/Head';
+import { Helmet } from 'react-helmet-async';
 
 interface OrganizationSchemaProps {
   name?: string;
@@ -29,7 +29,7 @@ export default function OrganizationSchema({
     'contactPoint': [
       {
         '@type': 'ContactPoint',
-        'telephone': '+91-XXXXXXXXXX',
+        'telephone': '+91-7406296116',
         'contactType': 'customer service',
         'areaServed': 'IN',
         'availableLanguage': ['en', 'hi']
@@ -38,10 +38,10 @@ export default function OrganizationSchema({
   };
 
   return (
-    <Head>
+    <Helmet>
       <script type="application/ld+json">
         {JSON.stringify(jsonLd)}
       </script>
-    </Head>
+    </Helmet>
   );
 }

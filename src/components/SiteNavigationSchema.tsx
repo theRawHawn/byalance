@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from 'vike-react/Head';
+import { Helmet } from 'react-helmet-async';
 
 export default function SiteNavigationSchema() {
   const jsonLd = {
@@ -47,10 +47,10 @@ export default function SiteNavigationSchema() {
   };
 
   return (
-    <Head>
+    <Helmet>
       <script type="application/ld+json">
         {JSON.stringify(jsonLd)}
       </script>
-    </Head>
+    </Helmet>
   );
 }

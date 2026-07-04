@@ -44,6 +44,8 @@
     "wrangler": "^4.94.0"
   },
   "devDependencies": {
-    "esbuild": "^0.28.1"
+    "esbuild": "^0.28.1",
+    "puppeteer": "^25.3.0",
+    "serve-handler": "^6.1.7"
   }
 }

@@ -206,7 +206,7 @@ const Payroll = () => {
   return (
     <>
       <SEO
-        title="Payroll Processing Services India | PF ESI PT Compliance | Byalance"
+        title="Payroll Processing Services India | PF, ESI, PT | Byalance"
         description="Outsource your payroll to Byalance — accurate salary processing, PF/ESI/PT return filing, Form 16 generation, and full statutory compliance for businesses across India. Starting ₹7,499/month."
         keywords="payroll processing India, payroll services Bengaluru, PF ESI filing, professional tax Karnataka, salary processing outsourcing, payroll compliance MSME, EPF return filing, ESI return filing, Form 16 generation, payroll for startups India"
         canonical="https://byalance.in/services/payroll-processing"

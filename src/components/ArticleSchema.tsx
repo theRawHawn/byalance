@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from 'vike-react/Head';
+import { Helmet } from 'react-helmet-async';
 
 interface ArticleSchemaProps {
   headline: string;
@@ -42,10 +42,10 @@ export default function ArticleSchema({
   };
 
   return (
-    <Head>
+    <Helmet>
       <script type="application/ld+json">
         {JSON.stringify(jsonLd)}
       </script>
-    </Head>
+    </Helmet>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Head } from 'vike-react/Head';
+import { Helmet } from 'react-helmet-async';
 
 interface SEOProps {
   title: string;
@@ -23,7 +23,7 @@ export default function SEO({
   noindex = false,
 }: SEOProps) {
   return (
-    <Head>
+    <Helmet>
       {/* Favicon */}
       <link rel="icon" type="image/svg+xml" href="/favicon_logo.svg" />
 
@@ -56,9 +56,7 @@ export default function SEO({
       <meta name="twitter:description" content={description} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
-      {/* Search Engine Verification Tags */}
-      <meta name="google-site-verification" content="GOOGLE_VERIFICATION_TOKEN_PLACEHOLDER" />
-      <meta name="msvalidate.01" content="BING_VERIFICATION_TOKEN_PLACEHOLDER" />
+      {/* Search Engine Verification Tags: handled statically in index.html so they don't depend on JS execution */}
 
       {/*
         ========================================================================
@@ -81,7 +79,7 @@ export default function SEO({
         4. JSON-LD schemas in OrganizationSchema.tsx, WebSiteSchema.tsx, FAQSchema.tsx.
         ========================================================================
       */}
-    </Head>
+    </Helmet>
   );
 }
 

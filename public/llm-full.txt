@@ -287,4 +287,4 @@ A: Yes. Byalance acts as the legal employer of record (EOR) in India. We assume 
 
 ---
 
-*End of llms-full.txt | Byalance | https://byalance.in | Updated: June 2026*
+*End of llm-full.txt | Byalance | https://byalance.in | Updated: June 2026*

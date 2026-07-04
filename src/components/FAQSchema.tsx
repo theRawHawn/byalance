@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Head } from 'vike-react/Head';
+import { Helmet } from 'react-helmet-async';
 
 interface FAQItem {
   question: string;
@@ -88,11 +88,11 @@ export default function FAQSchema({ faqs, title = 'Frequently Asked Questions' }
   return (
     <div style={styles.container} itemScope itemType="https://schema.org/FAQPage">
       {/* Schema Injection */}
-      <Head>
+      <Helmet>
         <script type="application/ld+json">
           {JSON.stringify(jsonLd)}
         </script>
-      </Head>
+      </Helmet>
 
       {title && <h2 style={styles.title}>{title}</h2>}
 

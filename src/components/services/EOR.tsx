@@ -7,6 +7,7 @@ import { eorFAQs } from '../../data/faqData';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import BreadcrumbSchema from '../BreadcrumbSchema';
+import { ServiceBackgroundDoodle } from '../ServiceBackgroundDoodle';
 
 function EORIllustration() {
   const [activeStep, setActiveStep] = useState(0);
@@ -187,8 +188,9 @@ export default function EOR() {
       <div className="min-h-screen bg-slate-50/50 pt-20">
         
         {/* HERO HEADER */}
-        <section className="bg-gradient-to-b from-blue-50/70 via-white to-slate-50/50 pt-8 pb-16 md:pt-10 md:pb-24 border-b border-slate-100">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative overflow-hidden bg-gradient-to-b from-blue-50/70 via-white to-slate-50/50 pt-8 pb-16 md:pt-10 md:pb-24 border-b border-slate-100">
+          <ServiceBackgroundDoodle service="eor" />
+          <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-4 md:mb-5">
               <Link
                 to="/#services"

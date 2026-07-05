@@ -28,16 +28,15 @@ import WebSiteSchema from './components/WebSiteSchema';
 import SiteNavigationSchema from './components/SiteNavigationSchema';
 import ToolCompatibility from './components/ToolCompatibility';
 
-// Lazy-loaded route components
-const Accounting = lazy(() => import('./components/services/Accounting'));
-const GST = lazy(() => import('./components/services/GST'));
-const ITR = lazy(() => import('./components/services/ITR'));
-const Payroll = lazy(() => import('./components/services/Payroll'));
-const TDS = lazy(() => import('./components/services/TDS'));
-const EOR = lazy(() => import('./components/services/EOR'));
-const PrivacyPolicyPage = lazy(() => import('./pages/PrivacyPolicy'));
-const DataHandlingPage = lazy(() => import('./pages/DataHandling'));
-const RefundPolicyPage = lazy(() => import('./pages/RefundPolicy'));
+import Accounting from './components/services/Accounting';
+import GST from './components/services/GST';
+import ITR from './components/services/ITR';
+import Payroll from './components/services/Payroll';
+import TDS from './components/services/TDS';
+import EOR from './components/services/EOR';
+import PrivacyPolicyPage from './pages/PrivacyPolicy';
+import DataHandlingPage from './pages/DataHandling';
+import RefundPolicyPage from './pages/RefundPolicy';
 
 // A clean, beautiful, themed loading indicator for Suspense fallback
 const LoadingFallback = () => (

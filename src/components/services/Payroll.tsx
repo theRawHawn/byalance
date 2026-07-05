@@ -7,6 +7,7 @@ import { payrollFAQs } from '../../data/faqData';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import BreadcrumbSchema from '../BreadcrumbSchema';
+import { ServiceBackgroundDoodle } from '../ServiceBackgroundDoodle';
 
 function PayrollIllustration() {
   const [activeSlide, setActiveSlide] = React.useState(0);
@@ -219,8 +220,9 @@ const Payroll = () => {
         ]}
       />
       <div className="min-h-screen bg-gray-50 pt-20">
-        <section className="bg-gradient-to-br from-blue-50 to-white py-12 md:py-16">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 to-white py-12 md:py-16">
+          <ServiceBackgroundDoodle service="payroll" />
+          <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-6 md:mb-8">
               <Link
                 to="/#payroll-processing"

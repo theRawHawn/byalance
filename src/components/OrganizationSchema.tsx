@@ -14,9 +14,7 @@ export default function OrganizationSchema({
   logo = 'https://byalance.in/brandlogo%20(1).svg',
   sameAs = [
     'https://www.facebook.com/byalance',
-    'https://twitter.com/byalance',
-    'https://www.linkedin.com/company/byalance',
-    'https://www.instagram.com/byalance'
+    'https://www.linkedin.com/company/byalance'
   ],
 }: OrganizationSchemaProps) {
   const jsonLd = {

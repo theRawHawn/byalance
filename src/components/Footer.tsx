@@ -2,6 +2,14 @@ import { useState } from 'react';
 import { Instagram, Twitter, Linkedin, Facebook, ArrowUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
+// 👇 EDIT THESE 4 LINKS with your real social profile URLs
+const socialLinks = [
+  { Icon: Instagram, href: '#', label: 'Instagram' },
+  { Icon: Facebook, href: 'https://www.facebook.com/byalance', label: 'Facebook' },
+  { Icon: Linkedin, href: 'https://www.linkedin.com/company/byalance', label: 'LinkedIn' },
+  { Icon: Twitter, href: '#', label: 'Twitter' },
+];
+
 export default function Footer() {
   const { t } = useLanguage();
   const [logoSrc, setLogoSrc] = useState('/brandlogowhite_opt.webp');
@@ -51,8 +59,15 @@ export default function Footer() {
               {t.footer.about}
             </p>
             <div className="flex gap-3">
-              {[Instagram, Facebook, Linkedin, Twitter].map((Icon, i) => (
-                <a key={i} href="#" className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:bg-indigo-600 hover:border-indigo-600 transition-all">
+              {socialLinks.map(({ Icon, href, label }) => (
+                
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-white hover:bg-indigo-600 hover:border-indigo-600 transition-all"
+                >
                   <Icon size={14} />
                 </a>
               ))}

@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Instagram, Twitter, Linkedin, Facebook, ArrowUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
-// 👇 EDIT THESE 4 LINKS with your real social profile URLs
 const socialLinks = [
   { Icon: Instagram, href: 'https://www.instagram.com/byalance.in', label: 'Instagram' },
   { Icon: Facebook, href: 'https://www.facebook.com/byalance', label: 'Facebook' },

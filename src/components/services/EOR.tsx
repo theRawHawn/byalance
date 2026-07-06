@@ -520,7 +520,7 @@ export default function EOR() {
               </a>
             </div>
             <p className="text-slate-500 text-[10px] uppercase font-bold tracking-widest mt-6">
-              ★ NO INITIAL OBLIGATION • CHAT DIRECTLY WITH A CHARTERED ACCOUNTANT
+              ★ NO INITIAL OBLIGATION • CHAT DIRECTLY WITH A ACCOUNTANT
             </p>
           </div>
         </section>

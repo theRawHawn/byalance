@@ -218,7 +218,7 @@ const Accounting = () => {
       <SEO
         title="Accounting & Bookkeeping Services India | Byalance"
         description={data.desc}
-        keywords="accounting services India, bookkeeping services Bengaluru, Remote accounting firm, small business accounting India, Tally bookkeeping, Zoho Books accountant, bank reconciliation, P&L statement India, balance sheet preparation, accounting for startups India"
+        keywords="accounting services India, bookkeeping services Bengaluru, Remote accounting firm, small business accounting India, Tally bookkeeping services for SMEs, Zoho Books accountant, bank reconciliation, accounting services for startups India"
         canonical="https://byalance.in/services/accounting-bookkeeping"
         ogType="article"
       />

@@ -51,7 +51,7 @@ const LoadingFallback = () => (
 const LandingPage = () => (
   <>
     <SEO 
-      title="Byalance: Accounting, GST, TDS & Payroll Services"
+      title="Byalance | Accounting, GST, TDS & Payroll Services"
       description="Byalance provides comprehensive accounting, GST, TDS, and payroll services for businesses of all sizes. Simplify your finances and stay compliant with our expert team."
       keywords="accounting services for small business, bookkeeping services for small business, gst filing services, tds return filing services, payroll management services startups, financial services, business compliance"
       canonical="https://byalance.in/"

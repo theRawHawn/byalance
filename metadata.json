@@ -1,5 +1,5 @@
 {
-  "name": "Byalance Pro",
+  "name": "Byalance",
   "description": "Professional accounting, GST, ITR, and TDS filing services for small and medium businesses in India.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

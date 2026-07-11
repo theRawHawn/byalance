@@ -20,6 +20,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import { LanguageProvider } from './context/LanguageContext';
 import SEO from './components/SEO';
+import ScarcityPopup from './components/ScarcityPopup';
 import FAQSchema from './components/FAQSchema';
 import { homeFAQs } from './data/faqData';
 import OrganizationSchema from './components/OrganizationSchema';
@@ -87,6 +88,7 @@ export default function App() {
       <div className="relative overflow-x-hidden">
         <Navbar />
         <FloatingWhatsApp />
+        <ScarcityPopup />
         <AnimatePresence mode="wait">
           <Suspense fallback={<LoadingFallback />}>
             <Routes>

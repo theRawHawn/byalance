@@ -1,9 +1,8 @@
 /**
  * FAQ DATA — SEO + AEO + GEO Optimized
  * =====================================
- * All questions are phrased as real Google/voice searches.
- * Answers are structured: direct answer first, then explanation.
- * Each set feeds into <FAQSchema> (JSON-LD) AND <FAQSection> (visible UI accordion).
+ * All questions are phrased as real search queries.
+ * Structured for Schema.org (JSON-LD) and visual Accordion UI.
  *
  * Pages using this data:
  *  - Homepage       → homeFAQs
@@ -12,6 +11,8 @@
  *  - TDS Services   → tdsFAQs
  *  - Payroll        → payrollFAQs
  *  - Accounting     → accountingFAQs
+ *  - EOR Services   → eorFAQs
+ *  - Procurement    → procurementFAQs
  */
 
 export interface FAQItem {
@@ -26,37 +27,47 @@ export const homeFAQs: FAQItem[] = [
   {
     question: 'What services does Byalance offer?',
     answer:
-      'Byalance offers end-to-end remote accounting and compliance services for Indian businesses — including Accounting & Bookkeeping, GST Filing, TDS Management, Income Tax Return (ITR) Filing, and Payroll Processing. We serve startups, MSMEs, freelancers, and growing businesses across India from our base in Bengaluru, Karnataka.',
+      'Byalance offers end-to-end remote accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises. Our core solutions include Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India), and Global Procurement & Import Compliance. We serve clients across India and globally from our base in Bengaluru, Karnataka.',
   },
   {
     question: 'How much does Byalance charge per month?',
     answer:
-      'Byalance pricing starts at ₹1,999/month (Starter Plan) covering GST returns and basic bookkeeping. The Growth Plan (₹7,499–₹14,999/month) adds TDS, full accounting, and financial reports. The Pro Plan (₹15,499–₹20,000+/month) includes payroll, advanced reports, and priority support. Custom pricing is also available for complex requirements.',
+      'Byalance pricing is transparent: Starter Plan starts at ₹1,999/month (GST & basic bookkeeping), Growth Plan ranges from ₹7,499–₹14,999/month (GST, TDS, full accounting & financial reports), and Pro Plan is ₹15,499–₹20,000+/month (GST, TDS, payroll & dedicated priority support). EOR India service is a flat $89/employee/month. Global Procurement offers itemized landed cost quotes in INR with 100% GST Tax Invoice pass-through.',
   },
   {
-    question: 'Is Byalance a Remote accounting firm?',
+    question: 'Is Byalance a remote accounting firm?',
     answer:
-      'Yes. Byalance is a fully Remote accounting firm. All services are delivered remotely — you share documents via WhatsApp, email, or a secure folder, and our certified accountants handle filings, reconciliations, and reports. You get big-firm quality at MSME-friendly pricing, with no need to visit a physical office.',
+      'Yes. Byalance is a fully remote accounting and business operations firm. All services are delivered online — you share documents via WhatsApp, email, or secure folder, and our certified team handles reconciliations, filings, payroll, EOR, and procurement compliance. You get enterprise-grade execution at transparent pricing without physical office visits.',
   },
   {
-    question: 'Which cities does Byalance serve?',
+    question: 'Which cities and countries does Byalance serve?',
     answer:
-      'Byalance is headquartered in JP Nagar, Bengaluru (Karnataka) but serves businesses across India. Our remote model means we can work with clients in Mumbai, Delhi, Hyderabad, Chennai, Pune, and Tier 2/3 cities with equal efficiency. All filings are done online through the GSTN, Income Tax Portal, and EPFO portals.',
+      'Headquartered in JP Nagar, Bengaluru (Karnataka), Byalance serves businesses across India (Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, and Tier 2/3 cities) as well as international clients from the US, UK, Europe, UAE, Singapore, and beyond seeking EOR or procurement in India. All filings are done online through official portals (GSTN, Income Tax Portal, EPFO, TRACES, Customs).',
   },
   {
-    question: 'Can Byalance handle accounting for my startup?',
+    question: 'Can Byalance handle accounting, payroll, and procurement for my startup?',
     answer:
-      'Absolutely. Byalance specialises in startups and early-stage businesses. We set up your books from scratch, handle GST registration, manage TDS obligations, and ensure payroll compliance from day one — so you can focus on growth instead of paperwork. Our Starter Plan is designed specifically for bootstrapped and seed-stage startups.',
+      'Absolutely. Byalance specializes in startups, hardware innovators, R&D labs, and growing SMEs. We set up your books from scratch, handle GST/TDS registrations, manage monthly payroll, hire local talent legally via EOR, and procure global parts or components with customs clearance — so you can focus on scale instead of administrative hurdles.',
   },
   {
-    question: 'How do I get started with Byalance?',
+    question: 'How does Byalance Employer of Record (EOR India) work?',
     answer:
-      'Getting started is simple. WhatsApp us at +91 74062 96116 or fill out the contact form on the website. We schedule a free 15-minute consultation to understand your business, current compliance status, and recommend the right plan. Onboarding typically takes 2–3 working days.',
+      'Byalance EOR enables foreign startups and global companies to legally hire remote employees in India without setting up a local entity. We manage employment contracts under our corporate entity, process monthly payroll in INR, deposit statutory PF, ESI, TDS, and PT, and handle HR compliance for a flat $89/employee/month fee.',
+  },
+  {
+    question: 'How does Byalance Global Procurement & Import Compliance work?',
+    answer:
+      'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number (from DigiKey, Mouser, global OEMs), and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).',
   },
   {
     question: 'Does Byalance work with Tally, Zoho, or QuickBooks?',
     answer:
-      'Yes. Byalance works with Tally Prime, Zoho Books, QuickBooks, and Excel-based accounting setups. We adapt to your existing system without disrupting your workflow. If you are not using any software yet, we help you set up the right tool for your business size and budget.',
+      'Yes. Byalance works seamlessly with Tally Prime, Zoho Books, QuickBooks Online, and Excel setups. We adapt to your current workflow or help you set up the ideal accounting software for your business size and budget at no additional charge.',
+  },
+  {
+    question: 'How do I get started with Byalance?',
+    answer:
+      'Getting started is simple. WhatsApp us at +91 74062 96116 or submit a inquiry form on the website. We schedule a free 15-minute consultation to understand your business, current compliance status, and recommend the right plan. Onboarding typically takes 2–3 working days.',
   },
 ];
 
@@ -100,9 +111,9 @@ export const gstFAQs: FAQItem[] = [
       'To switch from Composition to Regular GST, you must file Form GST CMP-04 on the GSTN portal and begin filing GSTR-1 and GSTR-3B from the next month. You will also need to reverse ITC on opening stock. Byalance manages the entire transition — filing the withdrawal application, restructuring your compliance calendar, and updating your invoice format.',
   },
   {
-    question: 'What GST services does Byalance provide in Bengaluru?',
+    question: 'What GST services does Byalance provide in Bengaluru and across India?',
     answer:
-      'Byalance provides complete GST compliance services for businesses in Bengaluru and across Karnataka — including GST registration, monthly GSTR-1 and GSTR-3B filing, GSTR-9 annual return, ITC reconciliation (2B vs books), e-invoicing setup, e-way bill management, and resolution of GST notices and demands. We serve clients in JP Nagar, Koramangala, Whitefield, HSR Layout, and all other parts of Bengaluru.',
+      'Byalance provides complete GST compliance services across India — including GST registration, monthly GSTR-1 and GSTR-3B filing, GSTR-9 annual return, ITC reconciliation (2B vs books), e-invoicing setup, e-way bill management, and resolution of GST notices and demands. We serve clients in JP Nagar, Koramangala, Whitefield, HSR Layout, Mumbai, Delhi, Hyderabad, and all parts of India.',
   },
 ];
 
@@ -131,9 +142,9 @@ export const itrFAQs: FAQItem[] = [
       'The correct ITR form depends on your income type: ITR-1 (Sahaj) for salaried individuals with income up to ₹50 lakh; ITR-2 for individuals with capital gains or foreign income; ITR-3 for business income; ITR-4 (Sugam) for presumptive taxation; ITR-5 for firms/LLPs; ITR-6 for companies; ITR-7 for trusts and political parties. Filing the wrong form results in a defective return notice. Byalance selects the correct form based on your income profile.',
   },
   {
-    question: 'What is Form 26AS and why should I check it before filing?',
+    question: 'What is Form 26AS, AIS, and TIS and why match them before filing?',
     answer:
-      'Form 26AS is a consolidated tax statement showing all TDS deducted on your income, advance tax paid, and self-assessment tax paid. The Income Tax Department matches your ITR against 26AS — any mismatch can trigger a scrutiny notice. Byalance cross-checks your Form 26AS, AIS (Annual Information Statement), and TIS (Taxpayer Information Summary) before filing to ensure your return is accurate and notice-proof.',
+      'Form 26AS is a tax statement showing TDS deducted, advance tax paid, and self-assessment tax. AIS (Annual Information Statement) and TIS (Taxpayer Information Summary) track interest, dividends, stock trades, and crypto transactions. The Income Tax Department matches your ITR against these reports — any mismatch can trigger a scrutiny notice. Byalance cross-checks all three before filing.',
   },
   {
     question: 'What deductions can I claim to reduce my income tax?',
@@ -141,9 +152,9 @@ export const itrFAQs: FAQItem[] = [
       'Key deductions include: Section 80C (up to ₹1.5 lakh for PPF, ELSS, LIC, home loan principal); Section 80D (health insurance premiums up to ₹25,000–₹50,000); Section 24(b) (home loan interest up to ₹2 lakh); HRA exemption for rent paid; Section 80G for donations. Note these are available under the old tax regime. Byalance advises on the optimal regime (old vs new) for your income profile every year.',
   },
   {
-    question: 'I received an income tax notice — what should I do?',
+    question: 'I received an income tax notice — how can Byalance help?',
     answer:
-      'Do not ignore an income tax notice. Common notices include Section 143(1) for minor mismatches, Section 139(9) for defective returns, and Section 143(2) for scrutiny. Each has a specific response deadline. Byalance reviews the notice, identifies the cause, prepares the response with supporting documents, and files it on the income tax portal within the due date.',
+      'Do not ignore an income tax notice. Common notices include Section 143(1) for minor mismatches, Section 139(9) for defective returns, and Section 143(2) for scrutiny. Byalance reviews the notice, identifies the cause, prepares the response with supporting documents, and files it on the income tax portal within the due date.',
   },
   {
     question: 'Can freelancers and self-employed professionals file ITR with Byalance?',
@@ -162,7 +173,7 @@ export const tdsFAQs: FAQItem[] = [
       'TDS (Tax Deducted at Source) is a mechanism where the payer deducts tax at specified rates before making certain payments — such as salary, rent, contractor fees, professional charges, and interest. Any business or individual whose accounts are audited, or who pays rent above ₹2.4 lakh/year, must deduct TDS. Byalance determines your exact TDS obligations and sets up a compliance system from day one.',
   },
   {
-    question: 'What is the penalty for not deducting TDS?',
+    question: 'What is the penalty for not deducting or depositing TDS?',
     answer:
       'If you fail to deduct TDS, you are liable for interest at 1% per month from the date TDS was due to be deducted. If TDS is deducted but not deposited to the government, interest is 1.5% per month. Additionally, the expense on which TDS was not deducted may be disallowed by the Income Tax Department under Section 40(a)(ia), increasing your tax liability significantly.',
   },
@@ -184,12 +195,17 @@ export const tdsFAQs: FAQItem[] = [
   {
     question: 'I have a TDS default from a previous year — can Byalance fix it?',
     answer:
-      'Yes. Byalance specialises in resolving prior TDS defaults — including unpaid interest, late filing fees under Section 234E, and demand notices from TRACES. We file correction statements, compute outstanding interest, assist with voluntary payment, and help respond to intimations from the Assessing Officer. Early resolution prevents the default from escalating into prosecution proceedings.',
+      'Yes. Byalance specialises in resolving prior TDS defaults — including unpaid interest, late filing fees under Section 234E, and demand notices from TRACES. We file correction statements, compute outstanding interest, assist with voluntary payment, and help respond to intimations from the Assessing Officer.',
   },
   {
-    question: 'What is Section 194N and does it apply to my business?',
+    question: 'What is Section 194N cash withdrawal TDS?',
     answer:
-      'Section 194N requires banks and co-operative societies to deduct TDS at 2% on cash withdrawals exceeding ₹1 crore in a financial year (or 2% on amounts above ₹20 lakh if ITR has not been filed for 3 years). This applies to all account holders — individuals, businesses, and firms. Byalance advises on managing cash withdrawal patterns and ensures your ITR filing history is up to date to avoid the higher TDS rate.',
+      'Section 194N requires banks and co-operative societies to deduct TDS at 2% on cash withdrawals exceeding ₹1 crore in a financial year (or 2% on amounts above ₹20 lakh if ITR has not been filed for 3 years). Byalance advises on managing cash withdrawal patterns and ensures your ITR filing history is up to date to avoid higher TDS rates.',
+  },
+  {
+    question: 'Can Byalance help obtain a Lower TDS Deduction Certificate under Section 197?',
+    answer:
+      'Yes. If your total income tax liability is lower than the default TDS rate, Byalance can prepare and file Form 13 on the Income Tax Portal to obtain a Lower or Nil TDS Deduction Certificate from your Assessing Officer under Section 197.',
   },
 ];
 
@@ -232,6 +248,11 @@ export const payrollFAQs: FAQItem[] = [
     answer:
       'Yes. Byalance manages payroll for all employee types — full-time, part-time, contractual, and remote workers. For contractors, we handle TDS under Section 194C on fees paid, ensuring 26Q compliance. For remote employees across states, we account for varying PT slabs and ensure PF/ESI applicability is correctly assessed for each individual.',
   },
+  {
+    question: 'How does Byalance ensure statutory compliance for monthly payroll?',
+    answer:
+      'Byalance computes all statutory deductions using automated compliance rules updated for latest government mandates. We file monthly EPF ECR returns, ESI monthly payments, PT challans, and 24Q quarterly TDS returns on time, eliminating compliance penalties for your company.',
+  },
 ];
 
 // ─────────────────────────────────────────────
@@ -271,7 +292,12 @@ export const accountingFAQs: FAQItem[] = [
   {
     question: 'Can Byalance clean up messy books from previous years?',
     answer:
-      'Yes. Byalance offers data cleanup and catch-up bookkeeping services for businesses with incomplete, incorrect, or backlogged accounts. We reconstruct entries from bank statements, invoices, and receipts, reconcile the books against filed GST and TDS returns, and bring your accounts up to date. This is often the first step for new clients onboarding from another accountant.',
+      'Yes. Byalance offers data cleanup and catch-up bookkeeping services for businesses with incomplete, incorrect, or backlogged accounts. We reconstruct entries from bank statements, invoices, and receipts, reconcile the books against filed GST and TDS returns, and bring your accounts up to date.',
+  },
+  {
+    question: 'Does Byalance assist during statutory or tax audits?',
+    answer:
+      'Yes. Byalance prepares audit-ready schedules, trial balances, fixed asset registers, and ledger reconciliations for your statutory auditor or Tax Auditor, ensuring smooth audit completion without delays.',
   },
 ];
 
@@ -279,6 +305,11 @@ export const accountingFAQs: FAQItem[] = [
 // EMPLOYER OF RECORD (EOR) FAQs
 // ─────────────────────────────────────────────
 export const eorFAQs: FAQItem[] = [
+  {
+    question: 'What is Byalance Employer of Record (EOR India)?',
+    answer:
+      'Byalance EOR is a complete legal and HR infrastructure service that allows international companies to hire, onboard, and pay remote full-time employees in India without incorporating a local legal entity. Byalance acts as the official employer of record, taking full responsibility for local employment contracts, monthly payroll, and statutory taxes.',
+  },
   {
     question: 'Why do all payments have to flow through Byalance instead of direct to the employee?',
     answer:
@@ -302,7 +333,47 @@ export const eorFAQs: FAQItem[] = [
   {
     question: 'What happens if the client\'s monthly payment is delayed?',
     answer:
-      'Because Indian labor laws mandate that salaries must be paid by the 7th of the month and PF contributions filed by the 15th, Byalance cannot delay disbursements without triggering severe penalties. In case of payment delays from the client, we utilize the refundable security deposit to cover these statutory commitments. If funding is not restored promptly, operations and employment contracts may be suspended.',
+      'Because Indian labor laws mandate that salaries must be paid by the 7th of the month and PF contributions filed by the 15th, Byalance cannot delay disbursements without triggering severe penalties. In case of payment delays from the client, we utilize the refundable security deposit to cover these statutory commitments.',
   },
 ];
 
+// ─────────────────────────────────────────────
+// PROCUREMENT & IMPORT COMPLIANCE FAQs
+// ─────────────────────────────────────────────
+export const procurementFAQs: FAQItem[] = [
+  {
+    question: 'What is Byalance Procurement & Import Compliance service?',
+    answer:
+      'Byalance acts as your outsourced global procurement and import team. We are a business operations company that helps Indian startups, R&D labs, manufacturers, and SMEs procure products from anywhere in the world (DigiKey, Mouser, global OEMs, etc.) and handles the complete import process, customs clearance, HSN classification, supplier payments, and domestic delivery with a GST tax invoice.',
+  },
+  {
+    question: 'How does the product procurement process work?',
+    answer:
+      'It works in 6 simple steps: 1. You share a product link, BOM (Bill of Materials), or part number. 2. We send you a final landed cost quote in INR. 3. You approve and pay in INR. 4. We procure globally from the supplier. 5. We handle customs clearance, HSN classification, import duty, and compliance paperwork. 6. Delivered directly to your doorstep anywhere in India with a valid GST Tax Invoice.',
+  },
+  {
+    question: 'Do I need an IEC (Import Export Code) or prior import experience?',
+    answer:
+      'No prior import experience or IEC is required. Byalance manages the entire import lifecycle under our compliant operational setup. You don\'t have to deal with customs officers, DHL/FedEx/UPS clearance desks, international wire transfers, or complicated shipping documentation. You simply send us a link and receive the product at your door.',
+  },
+  {
+    question: 'Can I claim GST Input Tax Credit (ITC) on imported products?',
+    answer:
+      'Yes! When you procure through Byalance, we provide a valid GST Tax Invoice containing all itemized details. This enables your business to claim 100% Input Tax Credit (ITC) on the GST portion of the invoice, reducing your net operational procurement costs.',
+  },
+  {
+    question: 'What platforms or suppliers can Byalance procure from?',
+    answer:
+      'We procure from global electronics and industrial platforms including DigiKey, Mouser Electronics, Arrow, Farnell, McMaster-Carr, Element14, industrial suppliers, international OEMs, and specialized global component suppliers across the US, Europe, Japan, China, Taiwan, and beyond.',
+  },
+  {
+    question: 'Who is this procurement service designed for?',
+    answer:
+      'Our procurement and import service is custom-built for Indian startups, R&D labs, robotics companies, electronics firms, manufacturers, industrial automation companies, universities, engineering teams, and MSMEs needing components, prototypes, testing gear, or specialized equipment without international procurement friction.',
+  },
+  {
+    question: 'How are customs duty, forex conversion, and shipping handled?',
+    answer:
+      'Byalance calculates exact HSN customs duty rates, handles foreign exchange conversions compliant with RBI/FEMA guidelines, manages customs documentation at Indian ports, and delivers the cleared shipment directly to your facility with full transparency.',
+  },
+];

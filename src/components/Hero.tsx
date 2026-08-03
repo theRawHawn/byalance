@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 
 const cyclingTexts = [
-  { text: "Your Personal Accountant",       lang: "English"  },
-  { text: "ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಲೆಕ್ಕಪತ್ರಗಾರ",  lang: "Kannada"  },
-  { text: "आपके व्यक्तिगत लेखाकार",         lang: "Hindi"    },
-  { text: "మీ వ్యక్తిగత అకౌంటెంట్",         lang: "Telugu"   },
-  { text: "तुमचे वैयक्तिक लेखापाल",          lang: "Marathi"  },
-  { text: "உங்கள் தனிப்பட்ட கணக்காளர்",     lang: "Tamil"    },
+  { text: "Your Compliance Partner", lang: "English" },
+  { text: "ನಿಮ್ಮ ಅನುಸರಣಾ ಪಾಲುದಾರರು", lang: "Kannada" },
+  { text: "आपके अनुपालन भागीदार", lang: "Hindi" },
+  { text: "మీ సమ్మతి భాగస్వామి", lang: "Telugu" },
+  { text: "तुमचे अनुपालन भागीदार", lang: "Marathi" },
+  { text: "உங்கள் இணக்க கூட்டாளி", lang: "Tamil" },
 ];
 
 export default function Hero() {

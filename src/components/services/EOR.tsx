@@ -335,14 +335,17 @@ export default function EOR() {
         </section>
 
         {/* WHAT YOU FUND vs WHAT WE DO */}
-        <section className="py-16 md:py-24 bg-slate-50">
+        <section id="pricing" className="py-16 md:py-24 bg-slate-50 border-t border-slate-200/80">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-100 text-blue-800 border border-blue-200 mb-3">
+                <DollarSign className="w-3.5 h-3.5 text-blue-600" /> Transparent Service Fee
+              </span>
               <h2 className="text-3xl md:text-4xl font-display font-extrabold text-slate-900 tracking-tight mb-4">
-                Transparent Cost Structure
+                EOR India Pricing & Transparent Cost Breakdown
               </h2>
               <p className="text-slate-600 max-w-2xl mx-auto text-base">
-                We make cost sharing and billing 100% clear. You pay the exact cost of your employee plus our flat service fee. No hidden margins, no markup on payroll variables.
+                Flat <span className="font-extrabold text-blue-600">$89 / employee / month</span> (billed in USD). You pay the exact cost of your employee plus our flat service fee — zero markup on salaries or statutory contributions.
               </p>
             </div>
 

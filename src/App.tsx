@@ -13,12 +13,11 @@ import Features from './components/Features';
 import About from './components/About';
 import Services from './components/Services';
 import Process from './components/Process';
-import Guarantee from './components/Guarantee';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import { LanguageProvider } from './context/LanguageContext';
+import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import SEO from './components/SEO';
 import FAQSchema from './components/FAQSchema';
 import { homeFAQs } from './data/faqData';
@@ -33,6 +32,7 @@ import ITR from './components/services/ITR';
 import Payroll from './components/services/Payroll';
 import TDS from './components/services/TDS';
 import EOR from './components/services/EOR';
+import Procurement from './components/services/Procurement';
 import PrivacyPolicyPage from './pages/PrivacyPolicy';
 import DataHandlingPage from './pages/DataHandling';
 import RefundPolicyPage from './pages/RefundPolicy';
@@ -47,38 +47,43 @@ const LoadingFallback = () => (
   </div>
 );
 
-const LandingPage = () => (
-  <>
-    <SEO 
-      title="Byalance | Accounting, GST, TDS & Payroll Services"
-      description="Byalance provides comprehensive accounting, GST, TDS, and payroll services for businesses of all sizes. Simplify your finances and stay compliant with our expert team."
-      keywords="accounting services for small business, bookkeeping services for small business, gst filing services, tds return filing services, payroll management services startups, financial services, business compliance"
-      canonical="https://byalance.in/"
-      ogType="website"
-    />
-    <OrganizationSchema />
-    <WebSiteSchema />
-    <SiteNavigationSchema />
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
-      <Hero />
-      <Features />
-      <About />
-      <Services />
-      <Process />
-      <ToolCompatibility />
-      <Guarantee />
-      <Pricing />
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-        <FAQSchema faqs={homeFAQs} title="Frequently Asked Questions — Byalance Accounting & Compliances" />
-      </div>
-      <Contact />
-    </motion.div>
-  </>
-);
+const LandingPage = () => {
+  const { t } = useLanguage();
+  const faqsToRender = (t as any).faqs?.items || homeFAQs;
+  const faqTitle = (t as any).faqs?.title || "Frequently Asked Questions — Byalance Accounting & Compliances";
+
+  return (
+    <>
+      <SEO 
+        title="Byalance | Accounting, GST, TDS & Payroll Services"
+        description="Byalance provides comprehensive accounting, GST, TDS, and payroll services for businesses of all sizes. Simplify your finances and stay compliant with our expert team."
+        keywords="accounting services for small business, bookkeeping services for small business, gst filing services, tds return filing services, payroll management services startups, financial services, business compliance"
+        canonical="https://byalance.in/"
+        ogType="website"
+      />
+      <OrganizationSchema />
+      <WebSiteSchema />
+      <SiteNavigationSchema />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        <Hero />
+        <Features />
+        <About />
+        <Services />
+        <Process />
+        <ToolCompatibility />
+        <Pricing />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <FAQSchema faqs={faqsToRender} title={faqTitle} />
+        </div>
+        <Contact />
+      </motion.div>
+    </>
+  );
+};
 
 export default function App() {
   return (
@@ -97,6 +102,7 @@ export default function App() {
               <Route path="/services/payroll-processing" element={<Payroll />} />
               <Route path="/services/tds-services" element={<TDS />} />
               <Route path="/services/eor-services-india" element={<EOR />} />
+              <Route path="/services/procurement-import-compliance" element={<Procurement />} />
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
               <Route path="/data-handling" element={<DataHandlingPage />} />
               <Route path="/refund-policy" element={<RefundPolicyPage />} />

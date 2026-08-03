@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Instagram, Twitter, Linkedin, Facebook, ArrowUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
@@ -28,6 +29,7 @@ export default function Footer() {
     { name: t.services.items[3].title, href: '/services/tds-services' },
     { name: t.services.items[4].title, href: '/services/payroll-processing' },
     { name: t.services.items[5]?.title || 'EOR Services for India', href: '/services/eor-services-india' },
+    { name: t.services.items[6]?.title || 'Procurement & Import Compliance', href: '/services/procurement-import-compliance' },
   ];
 
   const scrollToTop = () => {
@@ -91,9 +93,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {serviceLinks.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-xs text-slate-400 hover:text-indigo-400 transition-all font-medium">
+                  <Link to={link.href} className="text-xs text-slate-400 hover:text-indigo-400 transition-all font-medium">
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -114,9 +116,9 @@ export default function Footer() {
 
         <div className="pt-6 border-t border-white/5 flex flex-col items-center gap-3 text-center">
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-slate-500 text-[9px] font-bold uppercase tracking-widest">
-            <a href="/privacy-policy" className="hover:text-indigo-400 transition-all">{t.footer.privacy}</a>
-            <a href="/data-handling" className="hover:text-indigo-400 transition-all">{t.footer.data}</a>
-            <a href="/refund-policy" className="hover:text-indigo-400 transition-all">{t.footer.refund}</a>
+            <Link to="/privacy-policy" className="hover:text-indigo-400 transition-all">{t.footer.privacy}</Link>
+            <Link to="/data-handling" className="hover:text-indigo-400 transition-all">{t.footer.data}</Link>
+            <Link to="/refund-policy" className="hover:text-indigo-400 transition-all">{t.footer.refund}</Link>
           </div>
           <p className="text-slate-500 text-[11px] font-bold uppercase tracking-widest">
             {t.footer.rights}

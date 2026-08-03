@@ -20,36 +20,63 @@ export const translations = {
       contact: 'Contact',
     },
     hero: {
-      subtitle: 'Simplifying Accounting, Powering Growth.',
-      description: 'We handle your GST, TDS, Payroll, and Full Accounting — so you focus on your business.',
+      subtitle: 'Simplifying Compliance, Powering Growth.',
+      description: 'End-to-end Procurement, Accounting, Tax, Payroll & EOR Compliance for modern startups and global enterprises.',
       bookConsultation: 'Book Free Consultation',
       whatsappNow: 'WhatsApp Now',
     },
     sections: {
-      pricing: 'Transparent Pricing',
+      pricing: 'Simple, Transparent Pricing',
       pricingSubtitle: 'Choose the plan that fits your business needs. Simple, clear, and effective.',
     },
     about: {
       badge: 'Corporate Excellence',
       title: 'The Byalance Standard',
-      p1: 'Byalance is a affordable modern remote accounting firm purpose-built for the entrepreneurs, traders, and founders driving India\'s next wave of growth. from metro startup hubs to the rising commercial corridors of Tier 2 and Tier 3 cities.',
-      p2: 'We bridge the gap between traditional accounting and modern business speed, providing rigorous compliance oversight without the legacy overhead. bookkeeping, GST, TDS, and payroll, done right, without the big-firm price tag.',
+      p1: 'Byalance is a modern compliance, procurement, and accounting executive purpose-built for entrepreneurs, startups, and enterprises driving India\'s next wave of global growth — from metro innovation hubs to rising commercial corridors.',
+      p2: 'We bridge the gap between complex regulatory mandates and rapid operational execution. From global hardware procurement & import compliance to domestic bookkeeping, GST, TDS, payroll, and Employer of Record (EOR India), Byalance delivers end-to-end operational precision without legacy overhead.',
       missionBadge: 'Our Mission',
       missionTitle: 'Bridging Growth & Compliance',
-      missionText: '"Making compliance stress-free, affordable, and professional for every business in India."',
+      missionText: '"Simplifying compliance and powering growth for every forward-thinking enterprise in India and globally."',
       stats: {
         trusted: 'Trusted Partner',
-        trustedText: 'Building long-term relationships with our clients based on trust and reliability.',
+        trustedText: 'Building long-term operational partnerships based on transparency and absolute compliance.',
         growth: 'Growth Focused',
-        growthText: 'Supporting businesses at every stage of their growth journey.',
-        timely: 'Timely Service',
-        timelyText: 'Meeting all deadlines and keeping your business compliant on time.',
+        growthText: 'Supporting ventures through every scale phase, from seed prototype to multi-state enterprise.',
+        timely: 'Timely Execution',
+        timelyText: 'Meeting strict regulatory deadlines and customs clearances with zero operational friction.',
       }
     },
     services: {
-      title: 'Our Services',
-      description: 'Complete accounting solutions tailored for your business',
+      title: 'Our Executive Operations & Services',
+      description: 'End-to-end compliance, global procurement, and financial operations tailored for modern business.',
       items: [
+        { 
+          title: 'Procurement & Import Compliance', 
+          text: 'Your Outsourced Global Procurement & Import Team. We help Indian startups, R&D labs, manufacturers, and SMEs procure products worldwide with end-to-end import compliance and GST tax invoices.',
+          features: [
+            'Global Supplier Sourcing & RFQ Management',
+            'International Supplier Forex Payments',
+            'Import Documentation & HSN Classification',
+            'Customs Compliance & Duty Handling',
+            'DHL / FedEx / UPS Express Coordination',
+            'Doorstep Domestic Delivery with GST Tax Invoice'
+          ],
+          details: {
+            desc: "Byalance is NOT an electronics distributor. Byalance is a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process. Customers don't deal with DigiKey, Mouser, DHL, Customs or import paperwork. They simply send us a product link — we handle everything.",
+            whyTitle: "Why Outsource Global Procurement?",
+            whyDesc: "Importing electronics, components, or specialized equipment into India involves complex customs declarations, HSN classification, forex payments, Bill of Entry filings, and logistics friction with carriers like DHL or FedEx. Byalance operates as your dedicated import and procurement operations team, ensuring seamless clearance and delivering directly to your door with a compliant GST Tax Invoice for Input Tax Credit.",
+            whoTitle: "Who Is This For?",
+            whoItems: [
+              "Startups & Hardware Innovators",
+              "R&D Labs & Product Development Centers",
+              "Robotics & Mechatronics Companies",
+              "Electronics Manufacturers & Assemblers",
+              "Industrial Automation & Engineering Firms",
+              "Universities & Academic Research Labs",
+              "MSMEs importing prototypes or parts"
+            ]
+          }
+        },
         { 
           title: 'Accounting & Bookkeeping', 
           text: 'Comprehensive accounting services to keep your books accurate and up-to-date.',
@@ -259,7 +286,7 @@ export const translations = {
       send: 'Send Message',
     },
     footer: {
-      about: 'A premier remote accounting firm dedicated to serving the needs of high-growth startups and MSMEs across India.',
+      about: 'End-to-end Procurement, Accounting, Tax, Payroll & EOR Compliance for modern startups and global enterprises.',
       resources: 'Resources',
       expertise: 'Key Expertise',
       headquarters: 'Headquarters',
@@ -267,6 +294,47 @@ export const translations = {
       data: 'Data Handling Policy',
       refund: 'Refund & Cancellation Policy',
       rights: '© 2026 Byalance. All rights reserved.',
+    },
+    faqs: {
+      title: 'Frequently Asked Questions — Byalance Accounting & Compliances',
+      items: [
+        {
+          question: 'What services does Byalance offer?',
+          answer: 'Byalance offers end-to-end remote accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises. Our core solutions include Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India), and Global Procurement & Import Compliance. We serve clients across India and globally from our base in Bengaluru, Karnataka.'
+        },
+        {
+          question: 'How much does Byalance charge per month?',
+          answer: 'Byalance pricing is transparent: Starter Plan starts at ₹1,999/month (GST & basic bookkeeping), Growth Plan ranges from ₹7,499–₹14,999/month (GST, TDS, full accounting & financial reports), and Pro Plan is ₹15,499–₹20,000+/month (GST, TDS, payroll & dedicated priority support). EOR India service is a flat $89/employee/month. Global Procurement offers itemized landed cost quotes in INR with 100% GST Tax Invoice pass-through.'
+        },
+        {
+          question: 'Is Byalance a remote accounting firm?',
+          answer: 'Yes. Byalance is a fully remote accounting and business operations firm. All services are delivered online — you share documents via WhatsApp, email, or secure folder, and our certified team handles reconciliations, filings, payroll, EOR, and procurement compliance. You get enterprise-grade execution at transparent pricing without physical office visits.'
+        },
+        {
+          question: 'Which cities and countries does Byalance serve?',
+          answer: 'Headquartered in JP Nagar, Bengaluru (Karnataka), Byalance serves businesses across India (Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, and Tier 2/3 cities) as well as international clients from the US, UK, Europe, UAE, Singapore, and beyond seeking EOR or procurement in India. All filings are done online through official portals.'
+        },
+        {
+          question: 'Can Byalance handle accounting, payroll, and procurement for my startup?',
+          answer: 'Absolutely. Byalance specializes in startups, hardware innovators, R&D labs, and growing SMEs. We set up your books from scratch, handle GST/TDS registrations, manage monthly payroll, hire local talent legally via EOR, and procure global parts or components with customs clearance.'
+        },
+        {
+          question: 'How does Byalance Employer of Record (EOR India) work?',
+          answer: 'Byalance EOR enables foreign startups and global companies to legally hire remote employees in India without setting up a local entity. We manage employment contracts under our corporate entity, process monthly payroll in INR, deposit statutory PF, ESI, TDS, and PT, and handle HR compliance for a flat $89/employee/month fee.'
+        },
+        {
+          question: 'How does Byalance Global Procurement & Import Compliance work?',
+          answer: 'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number (from DigiKey, Mouser, global OEMs), and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).'
+        },
+        {
+          question: 'Does Byalance work with Tally, Zoho, or QuickBooks?',
+          answer: 'Yes. Byalance works seamlessly with Tally Prime, Zoho Books, QuickBooks Online, and Excel setups. We adapt to your current workflow or help you set up the ideal accounting software for your business size and budget at no additional charge.'
+        },
+        {
+          question: 'How do I get started with Byalance?',
+          answer: 'Getting started is simple. WhatsApp us at +91 74062 96116 or submit a query on the website. We schedule a free 15-minute consultation to understand your business, current compliance status, and recommend the right plan. Onboarding typically takes 2–3 working days.'
+        }
+      ]
     },
     common: {
       learnMore: 'Learn More',
@@ -433,6 +501,55 @@ export const translations = {
           "Companies requiring outsourced HR compliance",
           "Consultants with multiple staff members",
         ]
+      },
+      eor: {
+        title: "Employer of Record (EOR) India",
+        desc: "Hire remote employees in India legally without setting up a local entity. We handle payroll, PF, ESI, TDS, and employment contracts with zero permanent establishment risk.",
+        ctaDesc: "Share your hiring requirements. We will set up your compliant Indian team in just 3-5 business days.",
+        features: [
+          "100% legal compliant contracts under Byalance corporate codes",
+          "Flat $89/employee/month transparent fee (billed in USD)",
+          "Complete monthly payroll calculations & bank transfer in INR",
+          "Statutory PF, ESI, and Professional Tax monthly filings",
+          "Shield your foreign business from co-employment and permanent tax risk",
+          "Dedicated WhatsApp-based support desk for clients and employees"
+        ],
+        whyTitle: "Why Outsource Indian Hiring?",
+        whyDesc: "Setting up an Indian subsidiary takes months, thousands of dollars, and creates permanent regulatory overhead. Byalance lets you start hiring in 3 days. We take care of PF/ESI registration, monthly challans, tax deductions (TDS), and employee settlements directly through our entity.\n\nEverything is fully structured and legally isolated so you can hire without friction.",
+        whoTitle: "Who Is This For?",
+        whoItems: [
+          "Foreign startups hiring software developers in India",
+          "Remote-first global companies hiring local staff",
+          "SMBs wanting to hire 1–10 Indian employees legally",
+          "Global agencies outsourcing development or support"
+        ]
+      },
+      procurement: {
+        title: "Procurement & Import Compliance",
+        desc: "Your Outsourced Global Procurement & Import Team. Byalance is NOT an electronics distributor — we are a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process.",
+        ctaDesc: "Share your product link, BOM, or part number on WhatsApp. We'll send you a complete landed cost quote in INR.",
+        features: [
+          "Global Supplier Sourcing & RFQ Management",
+          "International Supplier Forex Payments",
+          "Import Documentation & HSN Classification",
+          "Landed Cost Estimation & Customs Compliance",
+          "DHL / FedEx / UPS Express Coordination",
+          "Import Duty Handling & Bill of Entry Management",
+          "GST Documentation & GST Tax Invoice",
+          "Doorstep Domestic Delivery Anywhere in India"
+        ],
+        whyTitle: "Why Outsource Global Procurement?",
+        whyDesc: "Importing electronics, components, or specialized equipment into India involves complex customs declarations, HSN classification, forex payments, Bill of Entry filings, and logistics friction with carriers like DHL or FedEx. Byalance operates as your dedicated import and procurement operations team, ensuring seamless clearance and delivering directly to your door with a compliant GST Tax Invoice for Input Tax Credit.",
+        whoTitle: "Who Is This For?",
+        whoItems: [
+          "Startups & Hardware Innovators",
+          "R&D Labs & Product Development Centers",
+          "Robotics & Mechatronics Companies",
+          "Electronics Manufacturers & Assemblers",
+          "Industrial Automation Companies",
+          "Universities & Engineering Teams",
+          "MSMEs & Small Manufacturers"
+        ]
       }
     }
   },
@@ -446,35 +563,47 @@ export const translations = {
     },
     hero: {
       subtitle: 'लेखांकन को सरल बनाना, विकास को शक्ति देना।',
-      description: 'हम आपके GST, TDS, Payroll और Full Accounting संभालते हैं — ताकि आप अपने व्यवसाय पर ध्यान केंद्रित कर सकें।',
+      description: 'आधुनिक स्टार्टअप्स और वैश्विक उद्यमों के लिए एंड-टू-एंड प्रोक्योरमेंट, अकाउंटिंग, टैक्स, पेरोल और ईओआर अनुपालन।',
       bookConsultation: 'नि:शुल्क परामर्श बुक करें',
       whatsappNow: 'व्हाट्सएप करें',
     },
     sections: {
-      pricing: 'पारदर्शी मूल्य निर्धारण',
+      pricing: 'साधारण, पारदर्शी मूल्य निर्धारण',
       pricingSubtitle: 'अपने व्यवसाय की जरूरतों के अनुसार योजना चुनें। सरल, स्पष्ट और प्रभावी।',
     },
     about: {
       badge: 'कॉर्पोरेट उत्कृष्टता',
       title: 'Byalance मानक',
-      p1: 'Byalance एक किफायती आधुनिक वर्चुअल अकाउंटिंग फर्म है जो भारत के विकास की अगली लहर को चलाने वाले उद्यमियों और संस्थापकों के लिए बनाई गई है।',
-      p2: 'हम पारंपरिक लेखांकन और आधुनिक व्यावसायिक गति के बीच की खाई को पाटते हैं। बुककीपिंग, जीएसटी, टीडीएस और पेरोल - सब कुछ सही कीमत पर।',
+      p1: 'Byalance एक आधुनिक अनुपालन, वैश्विक खरीद (Procurement) और लेखांकन कार्यकारी है, जो भारत की विकास लहर को आगे बढ़ाने वाले उद्यमियों, स्टार्टअप्स और उद्यमों के लिए निर्मित है।',
+      p2: 'हम जटिल विनियामक नियमों और त्वरित परिचालन निष्पादन के बीच के अंतर को पाटते हैं। वैश्विक हार्डवेयर खरीद और आयात अनुपालन से लेकर घरेलू बहीखाता पद्धति, जीएसटी, टीडीएस, पेरोल और एम्प्लॉयर ऑफ रिकॉर्ड (EOR India) तक — Byalance बिना किसी अतिरिक्त लागत के संपूर्ण परिचालन सटीकता प्रदान करता है।',
       missionBadge: 'हमारा मिशन',
       missionTitle: 'विकास और अनुपालन को जोड़ना',
-      missionText: '"भारत में हर व्यवसाय के लिए अनुपालन को तनाव मुक्त, किफायती और व्यावसायिक बनाना।।',
+      missionText: '"भारत और विश्व स्तर पर हर दूरदर्शी उद्यम के लिए अनुपालन को सरल बनाना और विकास को सशक्त बनाना। "',
       stats: {
         trusted: 'विश्वसनीय भागीदार',
-        trustedText: 'विश्वास और विश्वसनीयता के आधार पर अपने ग्राहकों के साथ दीर्घकालिक संबंध बनाना।',
+        trustedText: 'विश्वास और पारदर्शिता के आधार पर अपने ग्राहकों के साथ दीर्घकालिक परिचालन साझेदारी का निर्माण करना।',
         growth: 'विकास केंद्रित',
-        growthText: 'व्यवसायों को उनके विकास के हर चरण में समर्थन देना।',
-        timely: 'समय पर सेवा',
-        timelyText: 'सभी समय सीमा को पूरा करना और आपके व्यवसाय को समय पर अनुपालन में रखना।',
+        growthText: 'प्रारंभिक प्रोटोटाइप से लेकर बहु-राज्य उद्यमों तक, विकास के हर चरण में व्यवसायों का समर्थन करना।',
+        timely: 'समय पर निष्पादन',
+        timelyText: 'शून्य परिचालन बाधाओं के साथ सख्त विनियामक समय सीमा और सीमा शुल्क निकासी को पूरा करना।',
       }
     },
     services: {
       title: 'हमारी सेवाएं',
       description: 'आपके व्यवसाय के लिए विशेष रूप से तैयार पूर्ण लेखांकन समाधान',
       items: [
+        { 
+          title: 'खरीद एवं आयात अनुपालन (Procurement & Import Compliance)', 
+          text: 'आपकी आउटसोर्स की गई वैश्विक खरीद और आयात टीम। हम भारतीय स्टार्ट-अप, आरएंडडी प्रयोगशालाओं, निर्माताओं और एमएसएमई को एंड-टू-एंड आयात अनुपालन और जीएसटी टैक्स चालान के साथ दुनिया भर में उत्पाद खरीदने में मदद करते हैं।',
+          features: [
+            'वैश्विक आपूर्तिकर्ता सोर्सिंग और आरएफक्यू प्रबंधन',
+            'अंतर्राष्ट्रीय आपूर्तिकर्ता विदेशी मुद्रा (Forex) भुगतान',
+            'आयात दस्तावेज़ीकरण और HSN वर्गीकरण',
+            'सीमा शुल्क (Customs) अनुपालन एवं ड्यूटी प्रबंधन',
+            'DHL / FedEx / UPS एक्सप्रेस समन्वय',
+            'जीएसटी टैक्स चालान के साथ डोरस्टेप डिलीवरी'
+          ]
+        },
         { 
           title: 'अकाउंटिंग और बुककीपिंग', 
           text: 'आपके खातों को सटीक और अद्यतित रखने के लिए व्यापक लेखांकन सेवाएं।',
@@ -608,7 +737,7 @@ export const translations = {
       send: 'संदेश भेजें',
     },
     footer: {
-      about: 'एक प्रमुख वर्चुअल अकाउंटिंग फर्म जो पूरे भारत में उच्च-विकास वाले स्टार्टअप और MSME की जरूरतों को पूरा करने के लिए समर्पित है।',
+      about: 'आधुनिक स्टार्टअप्स और वैश्विक उद्यमों के लिए एंड-टू-एंड प्रोक्योरमेंट, अकाउंटिंग, टैक्स, पेरोल और ईओआर अनुपालन।',
       resources: 'संसाधन',
       expertise: 'प्रमुख विशेषज्ञता',
       headquarters: 'मुख्यालय',
@@ -777,6 +906,55 @@ export const translations = {
           "आउटसोर्स एचआर अनुपालन की आवश्यकता वाली कंपनियां",
           "कई कर्मचारियों वाले सलाहकार",
         ]
+      },
+      eor: {
+        title: "Employer of Record (EOR) India",
+        desc: "स्थानीय इकाई स्थापित किए बिना भारत में रिमोट कर्मचारियों को कानूनी रूप से काम पर रखें। हम शून्य स्थायी संस्थागत जोखिम के साथ पेरोल, पीएफ, ईएसआई, टीडीएस और रोजगार अनुबंध संभालते हैं।",
+        ctaDesc: "अपनी काम पर रखने की आवश्यकताएं साझा करें। हम केवल 3-5 व्यावसायिक दिनों में आपकी अनुपालित भारतीय टीम स्थापित करेंगे।",
+        features: [
+          "Byalance कॉर्पोरेट कोड के तहत 100% कानूनी रूप से अनुपालन अनुबंध",
+          "सपाट $89/कर्मचारी/माह पारदर्शी शुल्क (USD में बिल किया गया)",
+          "पूर्ण मासिक पेरोल गणना और INR में बैंक हस्तांतरण",
+          "वैधानिक पीएफ, ईएसआई और व्यावसायिक कर मासिक फाइलिंग",
+          "अपने विदेशी व्यवसाय को सह-रोजगार और कर जोखिमों से बचाएं",
+          "ग्राहकों और कर्मचारियों के लिए समर्पित व्हाट्सएप-आधारित सहायता डेस्क"
+        ],
+        whyTitle: "भारतीय नियुक्ति को आउटसोर्स क्यों करें?",
+        whyDesc: "एक भारतीय सहायक कंपनी स्थापित करने में महीनों लगते हैं और हजारों डॉलर खर्च होते हैं। बायलेंस आपको 3 दिनों में नियुक्ति शुरू करने की अनुमति देता है। हम अपनी संस्था के माध्यम से पीएफ/ईएसआई पंजीकरण, मासिक चालान और कर कटौती को सीधे संभालते हैं।",
+        whoTitle: "यह किसके लिए है?",
+        whoItems: [
+          "भारत में सॉफ्टवेयर डेवलपर्स को काम पर रखने वाले विदेशी स्टार्टअप",
+          "स्थानीय कर्मचारियों को काम पर रखने वाली रिमोट-फर्स्ट वैश्विक कंपनियां",
+          "कानूनी रूप से 1-10 भारतीय कर्मचारियों को नियुक्त करने वाले छोटे व्यवसाय",
+          "विकास या सहायता को आउटसोर्स करने वाली वैश्विक एजेंसियां"
+        ]
+      },
+      procurement: {
+        title: "खरीद एवं आयात अनुपालन (Procurement & Import Compliance)",
+        desc: "आपकी आउटसोर्स की गई वैश्विक खरीद और आयात टीम। बायलेंस इलेक्ट्रॉनिक्स डिस्ट्रीब्यूटर नहीं है — हम एक व्यवसाय संचालन कंपनी हैं जो भारतीय स्टार्टअप, आरएंडडी प्रयोगशालाओं, निर्माताओं और एमएसएमई को आयात प्रक्रिया संभालते हुए दुनिया भर से उत्पाद खरीदने में मदद करती है।",
+        ctaDesc: "व्हाट्सएप पर अपना उत्पाद लिंक, बीओएम या पार्ट नंबर साझा करें। हम आपको आईएनआर में एक संपूर्ण लैंडेड लागत उद्धरण भेजेंगे।",
+        features: [
+          "वैश्विक आपूर्तिकर्ता सोर्सिंग और आरएफक्यू प्रबंधन",
+          "अंतर्राष्ट्रीय आपूर्तिकर्ता विदेशी मुद्रा (Forex) भुगतान",
+          "आयात दस्तावेज़ीकरण और HSN वर्गीकरण",
+          "लैंडेड लागत अनुमान और सीमा शुल्क अनुपालन",
+          "DHL / FedEx / UPS एक्सप्रेस समन्वय",
+          "सीमा शुल्क और बिल ऑफ एंट्री प्रबंधन",
+          "जीएसटी दस्तावेज़ीकरण और जीएसटी टैक्स चालान",
+          "भारत में कहीं भी डोरस्टेप डिलीवरी"
+        ],
+        whyTitle: "वैश्विक खरीद आउटसोर्स क्यों करें?",
+        whyDesc: "भारत में इलेक्ट्रॉनिक्स या विशेष उपकरणों का आयात करने में जटिल सीमा शुल्क घोषणाएं, HSN वर्गीकरण, फॉरेक्स भुगतान और लॉजिस्टिक्स संबंधी समस्याएं शामिल हैं। बायलेंस आपकी समर्पित आयात टीम के रूप में काम करता है और इनपुट टैक्स क्रेडिट के लिए मान्य जीएसटी चालान के साथ सीधे आपके दरवाजे तक सामान पहुंचाता है।",
+        whoTitle: "यह किसके लिए है?",
+        whoItems: [
+          "स्टार्टअप और हार्डवेयर इनोवेटर्स",
+          "आरएंडडी लैब्स और उत्पाद विकास केंद्र",
+          "रोबोटिक्स और मेकाट्रॉनिक्स कंपनियां",
+          "इलेक्ट्रॉनिक्स निर्माता और असेंबलर",
+          "औद्योगिक स्वचालन कंपनियां",
+          "विश्वविद्यालय और इंजीनियरिंग टीमें",
+          "एमएसएमई और छोटे निर्माता"
+        ]
       }
     }
   },
@@ -790,35 +968,47 @@ export const translations = {
     },
     hero: {
       subtitle: 'ಲೆಕ್ಕಪತ್ರ ನಿರ್ವಹಣೆಯನ್ನು ಸರಳಗೊಳಿಸುವುದು, ಬೆಳವಣಿಗೆಗೆ ಶಕ್ತಿ ನೀಡುವುದು.',
-      description: 'ನಾವು ನಿಮ್ಮ GST, TDS, Payroll ಮತ್ತು ಸಂಪೂರ್ಣ Accounting ಅನ್ನು ನಿರ್ವಹಿಸುತ್ತೇವೆ — ಆದ್ದರಿಂದ ನೀವು ನಿಮ್ಮ ವ್ಯವಹಾರದ ಮೇಲೆ ಗಮನ ಹರಿಸಬಹುದು.',
+      description: 'ಆಧುನಿಕ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು ಮತ್ತು ಜಾಗತಿಕ ಉದ್ಯಮಗಳಿಗೆ ಎಂಡ್-ಟು-ಎಂಡ್ ಖರೀದಿ, ಅಕೌಂಟಿಂಗ್, ತೆರಿಗೆ, ಪೇರೋಲ್ ಮತ್ತು EOR ಅನುಸರಣೆ.',
       bookConsultation: 'ಉಚಿತ ಸಮಾಲೋಚನೆ ಪಡೆಯಿರಿ',
       whatsappNow: 'ಈಗಲೇ ವಾಟ್ಸಾಪ್ ಮಾಡಿ',
     },
     sections: {
-      pricing: 'ಪಾರದರ್ಶಕ ದರ ಪಟ್ಟಿ',
+      pricing: 'ಸರಳ, ಪಾರದರ್ಶಕ ದರ ಪಟ್ಟಿ',
       pricingSubtitle: 'ನಿಮ್ಮ ವ್ಯವಹಾರದ ಅಗತ್ಯಗಳಿಗೆ ಸರಿಹೊಂದುವ ಯೋಜನೆಯನ್ನು ಆರಿಸಿ. ಸರಳ, ಸ್ಪಷ್ಟ ಮತ್ತು ಪರಿಣಾಮಕಾರಿ.',
     },
     about: {
       badge: 'ಕಾರ್ಪೊರೇಟ್ ಶ್ರೇಷ್ಠತೆ',
       title: 'Byalance ಮಾನದಂಡ',
-      p1: 'Byalance ಒಂದು ಕೈಗೆಟುಕುವ ಆಧುನಿಕ ವರ್ಚುವಲ್ ಅಕೌಂಟಿಂಗ್ ಸಂಸ್ಥೆಯಾಗಿದ್ದು, ಭಾರತದ ಮುಂದಿನ ಬೆಳವಣಿಗೆಯ ಅಲೆಯನ್ನು ನಡೆಸುತ್ತಿರುವ ಉದ್ಯಮಿಗಳು ಮತ್ತು ಸಂಸ್ಥಾಪಕರಿಗಾಗಿ ನಿರ್ಮಿಸಲಾಗಿದೆ.',
-      p2: 'ನಾವು ಸಾಂಪ್ರದಾಯಿಕ ಅಕೌಂಟಿಂಗ್ ಮತ್ತು ಆಧುನಿಕ ವ್ಯವಹಾರ ವೇಗದ ನಡುವಿನ ಅಂತರವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತೇವೆ. ಬುಕ್‌ಕೀಪಿಂಗ್, ಜಿಎಸ್‌ಟಿ, ಟಿಡಿಎಸ್ ಮತ್ತು ಪೇರೋಲ್ ಅನ್ನು ಸರಿಯಾದ ರೀತಿಯಲ್ಲಿ ವೃತ್ತಿಪರ ಗುಣಮಟ್ಟದೊಂದಿಗೆ ಮಾಡುತ್ತೇವೆ.',
+      p1: 'Byalance ಎಂಬುದು ಭಾರತದ ಜಾಗತಿಕ ಬೆಳವಣಿಗೆಯ ಹೊಸ ಅಲೆಯನ್ನು ಮುನ್ನಡೆಸುತ್ತಿರುವ ಉದ್ಯಮಿಗಳು, ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು ಮತ್ತು ಉದ್ಯಮಗಳಿಗಾಗಿ ನಿರ್ಮಿಸಲಾದ ಆಧುನಿಕ ಕಂಪ್ಲೈಯನ್ಸ್, ಗ್ಲೋಬಲ್ ಪ್ರೊಕ್ಯೂರ್‌ಮೆಂಟ್ ಮತ್ತು ಅಕೌಂಟಿಂಗ್ ಸಂಸ್ಥೆಯಾಗಿದೆ.',
+      p2: 'ನಾವು ಸಂಕೀರ್ಣ ನಿಯಂತ್ರಕ ನಿಯಮಗಳು ಮತ್ತು ಹರಿತವಾದ ಕಾರ್ಯಾಚರಣೆಯ ನಡುವಿನ ಅಂತರವನ್ನು ಸೇತುವೆಯಂತೆ ಬೆಸೆಯುತ್ತೇವೆ. ಜಾಗತಿಕ ಹಾರ್ಡ್‌ವೇರ್ ಖರೀದಿ ಮತ್ತು ಆಮದು ಅನುಸರಣೆಯಿಂದ ಹಿಡಿದು ಬುಕ್‌ಕೀಪಿಂಗ್, ಜಿಎಸ್‌ಟಿ, ಟಿಡಿಎಸ್, ಪೇರೋಲ್ ಮತ್ತು ಎಂಪ್ಲಾಯರ್ ಆಫ್ ರೆಕಾರ್ಡ್ (EOR India) ವರೆಗೆ, Byalance ಸಂಪೂರ್ಣ ಕಾರ್ಯಾಚರಣೆಯ ನಿಖರತೆಯನ್ನು ನೀಡುತ್ತದೆ.',
       missionBadge: 'ನಮ್ಮ ಮಿಷನ್',
       missionTitle: 'ಬೆಳವಣಿಗೆ ಮತ್ತು ಅನುಸರಣೆಯನ್ನು ಬೆಸೆಯುವುದು',
-      missionText: '"ಭಾರತದ ಪ್ರತಿಯೊಂದು ವ್ಯವಹಾರಕ್ಕೂ ನಿಯಮಗಳ ಪಾಲನೆಯನ್ನು ಒತ್ತಡ ಮುಕ್ತ, ಕೈಗೆಟುಕುವ ಮತ್ತು ವೃತ್ತಿಪರವನ್ನಾಗಿ ಮಾಡುವುದು."',
+      missionText: '"ಭಾರತದಲ್ಲಿ ಮತ್ತು ಜಾಗತಿಕವಾಗಿ ಪ್ರತಿಯೊಂದು ಉದ್ಯಮಕ್ಕೂ ನಿಯಮಗಳ ಪಾಲನೆಯನ್ನು ಸರಳಗೊಳಿಸುವುದು ಮತ್ತು ಬೆಳವಣಿಗೆಗೆ ಶಕ್ತಿ ನೀಡುವುದು."',
       stats: {
         trusted: 'ವಿಶ್ವಾಸಾರ್ಹ ಪಾಲುದಾರ',
-        trustedText: 'ನಂಬಿಕೆ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹತೆಯ ಆಧಾರದ ಮೇಲೆ ನಮ್ಮ ಗ್ರಾಹಕರೊಂದಿಗೆ ದೀರ್ಘಕಾಲದ ಸಂಬಂಧವನ್ನು ನಿರ್ಮಿಸುವುದು.',
+        trustedText: 'ಪಾರದರ್ಶಕತೆ ಮತ್ತು ಪೂರ್ಣ ಶಾಸನಬದ್ಧ ಅನುಸರಣೆಯ ಆಧಾರದ ಮೇಲೆ ನಮ್ಮ ಗ್ರಾಹಕರೊಂದಿಗೆ ದೀರ್ಘಕಾಲದ ಕಾರ್ಯಾಚರಣೆಯ ಪಾಲುದಾರಿಕೆಯನ್ನು ನಿರ್ಮಿಸುವುದು.',
         growth: 'ಬೆಳವಣಿಗೆ ಕೇಂದ್ರಿತ',
-        growthText: 'ವ್ಯವಹಾರಗಳ ಬೆಳವಣಿಗೆಯ ಪ್ರತಿ ಹಂತದಲ್ಲೂ ಬೆಂಬಲ ನೀಡುವುದು.',
-        timely: 'ಸಮಯೋಚಿತ ಸೇವೆ',
-        timelyText: 'ಎಲ್ಲಾ ಗಡುವುಗಳನ್ನು ಪೂರೈಸುವುದು ಮತ್ತು ನಿಮ್ಮ ವ್ಯವಹಾರವನ್ನು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ನಿಯಮಗಳ ಪಾಲನೆಯಲ್ಲಿಡುವುದು.',
+        growthText: 'ಪ್ರಾರಂಭಿಕ ಪ್ರೊಟೊಟೈಪ್‌ನಿಂದ ಹಿಡಿದು ಬಹು-ರಾಜ್ಯ ಉದ್ಯಮಗಳವರೆಗೆ, ವ್ಯವಹಾರಗಳ ಬೆಳವಣಿಗೆಯ ಪ್ರತಿ ಹಂತದಲ್ಲೂ ಬೆಂಬಲ ನೀಡುವುದು.',
+        timely: 'ಸಮಯೋಚಿತ ಕಾರ್ಯಗತಗೊಳಿಸುವಿಕೆ',
+        timelyText: 'ಯಾವುದೇ ಕಾರ್ಯಾಚರಣೆಯ ಅಡೆತಡೆಗಳಿಲ್ಲದೆ ಎಲ್ಲಾ ಕಡ್ಡಾಯ ಗಡುವುಗಳನ್ನು ಮತ್ತು ಕಸ್ಟಮ್ಸ್ ಕ್ಲಿಯರೆನ್ಸ್‌ಗಳನ್ನು ಪೂರೈಸುವುದು.',
       }
     },
     services: {
       title: 'ನಮ್ಮ ಸೇವೆಗಳು',
       description: 'ನಿಮ್ಮ ವ್ಯವಹಾರಕ್ಕಾಗಿ ವಿಶೇಷವಾಗಿ ವಿನ್ಯಾಸಗೊಳಿಸಲಾದ ಸಂಪೂರ್ಣ ಅಕೌಂಟಿಂಗ್ ಪರಿಹಾರಗಳು',
       items: [
+        { 
+          title: 'ಖರೀದಿ ಮತ್ತು ಆಮದು ಅನುಸರಣೆ (Procurement & Import Compliance)', 
+          text: 'ನಿಮ್ಮ ಜಾಗತಿಕ ಖರೀದಿ ಮತ್ತು ಆಮದು ಕಾರ್ಯಾಚರಣೆಯ ತಂಡ. ಎಂಡ್-ಟು-ಎಂಡ್ ಆಮದು ಅನುಸರಣೆ ಮತ್ತು ಜಿಎಸ್‌ಟಿ ತೆರಿಗೆ ಇನ್‌ವಾಯ್ಸ್‌ನೊಂದಿಗೆ ಪ್ರಪಂಚದಾದ್ಯಂತ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಲು ನಾವು ಭಾರತೀಯ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು, ಆರ್‌ಎಂಡಿ ಲ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಸಣ್ಣ ಉದ್ಯಮಗಳಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತೇವೆ.',
+          features: [
+            'ಜಾಗತಿಕ ಪೂರೈಕೆದಾರರ ಮೂಲ ಮತ್ತು RFQ ನಿರ್ವಹಣೆ',
+            'ಅಂತರರಾಷ್ಟ್ರೀಯ ಪೂರೈಕೆದಾರರ ವಿದೇಶಿ ವಿನಿಮಯ (Forex) ಪಾವತಿಗಳು',
+            'ಆಮದು ದಾಖಲೆಗಳು ಮತ್ತು HSN ವರ್ಗೀಕರಣ',
+            'ಕಸ್ಟಮ್ಸ್ ಅನುಸರಣೆ ಮತ್ತು ಸುಂಕ ನಿರ್ವಹಣೆ',
+            'DHL / FedEx / UPS ಎಕ್ಸ್‌ಪ್ರೆಸ್ ಸಮನ್ವಯ',
+            'ಜಿಎಸ್‌ಟಿ ತೆರಿಗೆ ಇನ್‌ವಾಯ್ಸ್‌ನೊಂದಿಗೆ ಡೋರ್‌ಸ್ಟೆಪ್ ವಿತರಣೆ'
+          ]
+        },
         { 
           title: 'ಅಕೌಂಟಿಂಗ್ ಮತ್ತು ಬುಕ್ಕೀಪಿಂಗ್', 
           text: 'ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ನಿಖರವಾಗಿ ಮತ್ತು ನವೀಕೃತವಾಗಿರಿಸಲು ಸಮಗ್ರ ಅಕೌಂಟಿಂಗ್ ಸೇವೆಗಳು.',
@@ -952,7 +1142,7 @@ export const translations = {
       send: 'ಸಂದೇಶ ಕಳುಹಿಸಿ',
     },
     footer: {
-      about: 'ಭಾರತದಾದ್ಯಂತ ಹೈ-ಗ್ರೋತ್ ಸ್ಟಾರ್ಟ್ಅಪ್‌ಗಳು ಮತ್ತು ಎಂಎಸ್‌ಎಂಇಗಳಿಗೆ ಸೇವೆ ಸಲ್ಲಿಸಲು ಮೀಸಲಾಗಿರುವ ಪ್ರಮುಖ ವರ್ಚುವಲ್ ಅಕೌಂಟಿಂಗ್ ಸಂಸ್ಥೆ.',
+      about: 'ಆಧುನಿಕ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು ಮತ್ತು ಜಾಗತಿಕ ಉದ್ಯಮಗಳಿಗೆ ಎಂಡ್-ಟು-ಎಂಡ್ ಖರೀದಿ, ಅಕೌಂಟಿಂಗ್, ತೆರಿಗೆ, ಪೇರೋಲ್ ಮತ್ತು EOR ಅನುಸರಣೆ.',
       resources: 'ಸಂಪನ್ಮೂಲಗಳು',
       expertise: 'ನಮ್ಮ ಪರಿಣತಿ',
       headquarters: 'ಪ್ರಧಾನ ಕಚೇರಿ',
@@ -1130,6 +1320,55 @@ export const translations = {
           "PF/ESI ಶಾಸನಬದ್ಧ ಅನುಸರಣೆ ಅಗತ್ಯವಿರುವ ಕಂಪನಿಗಳು",
           "ವೃತ್ತಿಪರ ತೆರಿಗೆ ರಾಜ್ಯಗಳಲ್ಲಿರುವ ವ್ಯವಹಾರಗಳು (KA, MH, TN, ಇತ್ಯಾದಿ)",
         ]
+      },
+      eor: {
+        title: "Employer of Record (EOR) India",
+        desc: "ಸ್ಥಳೀಯ ಸಂಸ್ಥೆಯನ್ನು ಸ್ಥಾಪಿಸದೆ ಭಾರತದಲ್ಲಿ ಉದ್ಯೋಗಿಗಳನ್ನು ಕಾನೂನುಬದ್ಧವಾಗಿ ನೇಮಿಸಿಕೊಳ್ಳಿ. ನಾವು ಪೇರೋಲ್, PF, ESI, TDS ಮತ್ತು ಉದ್ಯೋಗ ಒಪ್ಪಂದಗಳನ್ನು ನಿರ್ವಹಿಸುತ್ತೇವೆ.",
+        ctaDesc: "ನಿಮ್ಮ ನೇಮಕಾತಿ ಅಗತ್ಯಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ. 3-5 ಕೆಲಸದ ದಿನಗಳಲ್ಲಿ ನಾವು ನಿಮ್ಮ ತಂಡವನ್ನು ಸಿದ್ಧಪಡಿಸುತ್ತೇವೆ.",
+        features: [
+          "Byalance ಕಾರ್ಪೊರೇಟ್ ಕೋಡ್‌ಗಳ ಅಡಿಯಲ್ಲಿ 100% ಕಾನೂನುಬದ್ಧ ಒಪ್ಪಂದಗಳು",
+          "ತಿಂಗಳಿಗೆ $89/ಉದ್ಯೋಗಿ ನಿಗದಿತ ಪಾರದರ್ಶಕ ಶುಲ್ಕ (USD ನಲ್ಲಿ)",
+          "ಮಾಸಿಕ ಪೇರೋಲ್ ಲೆಕ್ಕಾಚಾರಗಳು ಮತ್ತು INR ನಲ್ಲಿ ಬ್ಯಾಂಕ್ ವರ್ಗಾವಣೆ",
+          "ಶಾಸನಬದ್ಧ PF, ESI ಮತ್ತು ವೃತ್ತಿಪರ ತೆರಿಗೆ ಮಾಸಿಕ ಫೈಲಿಂಗ್‌ಗಳು",
+          "ನಿಮ್ಮ ವಿದೇಶಿ ಉದ್ಯಮವನ್ನು ತೆರಿಗೆ ಅಪಾಯಗಳಿಂದ ರಕ್ಷಿಸಿ",
+          "ಗ್ರಾಹಕರು ಮತ್ತು ಉದ್ಯೋಗಿಗಳಿಗೆ ವಾಟ್ಸಾಪ್ ಬೆಂಬಲ"
+        ],
+        whyTitle: "ಭಾರತೀಯ ನೇಮಕಾತಿಯನ್ನು ಹೊರಗುತ್ತಿಗೆ ಏಕೆ ನೀಡಬೇಕು?",
+        whyDesc: "ಭಾರತೀಯ ಅಂಗಸಂಸ್ಥೆಯನ್ನು ಸ್ಥಾಪಿಸಲು ತಿಂಗಳುಗಳು ಮತ್ತು ಸಾವಿರಾರು ಡಾಲರ್‌ಗಳು ಬೇಕಾಗುತ್ತವೆ. Byalance 3 ದಿನಗಳಲ್ಲಿ ನೇಮಕಾತಿ ಪ್ರಾರಂಭಿಸಲು ನಿಮಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ. ನಾವು ಎಲ್ಲಾ ಮಾಸಿಕ ಚಲನ್‌ಗಳು ಮತ್ತು ತೆರಿಗೆ ಕಡಿತಗಳನ್ನು ನೇರವಾಗಿ ನಿರ್ವಹಿಸುತ್ತೇವೆ.",
+        whoTitle: "ಇದು ಯಾರಿಗೆ?",
+        whoItems: [
+          "ಭಾರತದಲ್ಲಿ ಸಾಫ್ಟ್‌ವೇರ್ ಡೆವಲಪರ್‌ಗಳನ್ನು ನೇಮಿಸಿಕೊಳ್ಳುವ ವಿದೇಶಿ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು",
+          "ಸ್ಥಳೀಯ ಸಿಬ್ಬಂದಿಯನ್ನು ನೇಮಿಸಿಕೊಳ್ಳುವ ಜಾಗತಿಕ ಕಂಪನಿಗಳು",
+          "1-10 ಭಾರತೀಯ ಉದ್ಯೋಗಿಗಳನ್ನು ನೇಮಿಸಿಕೊಳ್ಳಲು ಬಯಸುವ ಸಣ್ಣ ಉದ್ದಿಮೆಗಳು",
+          "ಡೆವಲಪ್‌ಮೆಂಟ್ ಹೊರಗುತ್ತಿಗೆ ನೀಡುವ ಜಾಗತಿಕ ಏಜೆನ್ಸಿಗಳು"
+        ]
+      },
+      procurement: {
+        title: "ಖರೀದಿ ಮತ್ತು ಆಮದು ಅನುಸರಣೆ (Procurement & Import Compliance)",
+        desc: "ನಿಮ್ಮ ಜಾಗತಿಕ ಖರೀದಿ ಮತ್ತು ಆಮದು ಕಾರ್ಯಾಚರಣೆಯ ತಂಡ. Byalance ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ವಿತರಕರಲ್ಲ — ಸಂಪೂರ್ಣ ಆಮದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿರ್ವಹಿಸುವಾಗ ಪ್ರಪಂಚದಾದ್ಯಂತ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಲು ಭಾರತೀಯ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು, ಆರ್‌ಎಂಡಿ ಲ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಸಣ್ಣ ಉದ್ಯಮಗಳಿಗೆ ಸಹಾಯ ಮಾಡುವ ಕಾರ್ಯಾಚರಣೆಯ ಸಂಸ್ಥೆಯಾಗಿದೆ.",
+        ctaDesc: "ವಾಟ್ಸಾಪ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಉತ್ಪನ್ನದ ಲಿಂಕ್ ಅಥವಾ BOM ಅನ್ನು ಹಂಚಿಕೊಳ್ಳಿ. ನಾವು ನಿಮಗೆ INR ನಲ್ಲಿ ಸಂಪೂರ್ಣ ಲ್ಯಾಂಡೆಡ್ ವೆಚ್ಚದ ಕೋಟ್ ಕಳುಹಿಸುತ್ತೇವೆ.",
+        features: [
+          "ಜಾಗತಿಕ ಪೂರೈಕೆದಾರರ ಮೂಲ ಮತ್ತು RFQ ನಿರ್ವಹಣೆ",
+          "ಅಂತರರಾಷ್ಟ್ರೀಯ ಪೂರೈಕೆದಾರರ ಫೊರೆಕ್ಸ್ (Forex) ಪಾವತಿಗಳು",
+          "ಆಮದು ದಾಖಲೆಗಳು ಮತ್ತು HSN ವರ್ಗೀಕರಣ",
+          "ಲ್ಯಾಂಡೆಡ್ ವೆಚ್ಚದ ಅಂದಾಜು ಮತ್ತು ಕಸ್ಟಮ್ಸ್ ಅನುಸರಣೆ",
+          "DHL / FedEx / UPS ಎಕ್ಸ್‌ಪ್ರೆಸ್ ಸಮನ್ವಯ",
+          "ಸುಂಕ ನಿರ್ವಹಣೆ ಮತ್ತು ಬಿಲ್ ಆಫ್ ಎಂಟ್ರಿ ನಿರ್ವಹಣೆ",
+          "ಜಿಎಸ್‌ಟಿ ದಾಖಲೆಗಳು ಮತ್ತು ಜಿಎಸ್‌ಟಿ ತೆರಿಗೆ ಇನ್‌ವಾಯ್ಸ್",
+          "ಭಾರತದಾದ್ಯಂತ ಮನೆಬಾಗಿಲಿಗೆ ವಿತರಣೆ"
+        ],
+        whyTitle: "ಜಾಗತಿಕ ಖರೀದಿಯನ್ನು ಹೊರಗುತ್ತಿಗೆ ಏಕೆ ನೀಡಬೇಕು?",
+        whyDesc: "ಭಾರತಕ್ಕೆ ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ಅಥವಾ ಉಪಕರಣಗಳನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳುವುದು ಸಂಕೀರ್ಣ ಕಸ್ಟಮ್ಸ್ ಘೋಷಣೆಗಳು, HSN ವರ್ಗೀಕರಣ ಮತ್ತು ಸಾರಿಗೆ ಸಮಸ್ಯೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ. Byalance ನಿಮ್ಮ ನಿರ್ದಿಷ್ಟ ಆಮದು ತಂಡವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಜಿಎಸ್‌ಟಿ ಇನ್‌ವಾಯ್ಸ್‌ನೊಂದಿಗೆ ನೇರವಾಗಿ ನಿಮ್ಮ ಬಾಗಿಲಿಗೆ ತಲುಪಿಸುತ್ತದೆ.",
+        whoTitle: "ಇದು ಯಾರಿಗೆ?",
+        whoItems: [
+          "ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು ಮತ್ತು ಹಾರ್ಡ್‌ವೇರ್ ನಾವೀನ್ಯಕಾರರು",
+          "ಆರ್‌ಎಂಡಿ ಲ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಉತ್ಪನ್ನ ಅಭಿವೃದ್ಧಿ ಕೇಂದ್ರಗಳು",
+          "ರೋಬೋಟಿಕ್ಸ್ ಮತ್ತು ಮೆಕಾಟ್ರಾನಿಕ್ಸ್ ಕಂಪನಿಗಳು",
+          "ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ತಯಾರಕರು ಮತ್ತು ಅಸೆಂಬ್ಲರ್‌ಗಳು",
+          "ಔದ್ಯೋಗಿಕ ಆಟೊಮೇಷನ್ ಕಂಪನಿಗಳು",
+          "ವಿಶ್ವವಿದ್ಯಾನಿಲಯಗಳು ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ತಂಡಗಳು",
+          "ಸಣ್ಣ ಮತ್ತು ಮಧ್ಯಮ ಉದ್ಯಮಗಳು (MSMEs)"
+        ]
       }
     }
   },
@@ -1143,35 +1382,47 @@ export const translations = {
     },
     hero: {
       subtitle: 'అకౌంటింగ్‌ను సరళీకృతం చేయడం, వృద్ధిని పెంచడం.',
-      description: 'మేము మీ GST, TDS, Payroll మరియు Full Accounting ను నిర్వహిస్తాము — తద్వారా మీరు మీ వ్యాపారంపై దృష్టి పెట్టవచ్చు.',
+      description: 'ఆధునిక స్టార్టప్‌లు మరియు గ్లోబల్ ఎంటర్‌ప్రైజెస్‌ల కోసం ఎండ్-టు-ఎండ్ ప్రొక్యూర్మెంట్, అకౌంటింగ్, టాక్స్, పేరోల్ మరియు EOR సమ్మతి.',
       bookConsultation: 'ఉచిత సంప్రదింపు బుక్ చేయండి',
       whatsappNow: 'వాట్సాప్ చేయండి',
     },
     sections: {
-      pricing: 'పారదర్శక ధరలు',
+      pricing: 'సాధారణ, పారదర్శక ధరలు',
       pricingSubtitle: 'మీ వ్యాపార అవసరాలకు సరిపోయే ప్లాన్‌ను ఎంచుకోండి. సరళమైనది, స్పష్టమైనది మరియు సమర్థవంతమైనది.',
     },
     about: {
       badge: 'కార్పొరేట్ ఎక్సలెన్స్',
       title: 'Byalance ప్రమాణం',
-      p1: 'Byalance అనేది భారతదేశపు తదుపరి వృద్ధి తరంగాలను నడిపించే వ్యవస్థాపకులు మరియు వ్యాపారుల కోసం నిర్మించబడిన సరసమైన ఆధునిక వర్చువల్ అకౌంటింగ్ సంస్థ.',
-      p2: 'మేము సాంప్రదాయ అకౌంటింగ్ మరియు ఆధునిక వ్యాపార వేగం మధ్య అంతరాన్ని తగ్గిస్తాము. బుక్ కీపింగ్, జీఎస్టీ, టీడీఎస్ మరియు పేరోల్ - అన్నీ సరైన ధరలో.',
+      p1: 'Byalance అనేది భారతదేశపు తదుపరి గ్లోబల్ వృద్ధి తరంగాలను నడిపించే వ్యవస్థాపకులు, స్టార్టప్‌లు మరియు ఎంటర్‌ప్రైజెస్ కోసం నిర్మించబడిన ఆధునిక కంప్లైయన్స్, గ్లోబల్ ప్రోక్యూర్మెంట్ మరియు అకౌంటింగ్ ఎగ్జిక్యూటివ్.',
+      p2: 'మేము సంక్లిష్టమైన నియంత్రణ నిబంధనలు మరియు వేగవంతమైన ఆపరేషన్ల మధ్య అంతరాన్ని తొలగిస్తాము. గ్లోబల్ హార్డ్‌వేర్ ప్రోక్యూర్మెంట్ & దిగుమతి కంప్లైయన్స్ నుండి బుక్ కీపింగ్, జీఎస్టీ, టీడీఎస్, పేరోల్ మరియు ఎంప్లాయర్ ఆఫ్ రికార్డ్ (EOR India) వరకు — Byalance పూర్తి కార్యాచరణ ఖచ్చితత్వాన్ని అందిస్తుంది.',
       missionBadge: 'మా మిషన్',
       missionTitle: 'వృద్ధి మరియు కంప్లైన్స్‌ను అనుసంధానించడం',
-      missionText: '"భారతదేశంలోని ప్రతి వ్యాపారానికి కంప్లైన్స్‌ను ఒత్తిడి లేనిదిగా, సరసమైనదిగా మరియు వృత్తిపరమైనదిగా మార్చడం."',
+      missionText: '"భారతదేశంలో మరియు ప్రపంచవ్యాప్తంగా ప్రతి వ్యాపారానికి కంప్లైన్స్‌ను సరళీకృతం చేయడం మరియు వృద్ధికి శక్తినివ్వడం."',
       stats: {
         trusted: 'నమ్మకమైన భాగస్వామి',
-        trustedText: 'నమ్మకం మరియు విశ్వసనీయత ఆధారంగా మా ఖాతాదారులతో దీర్ఘకాలిక సంబంధాలను నిర్మించడం.',
+        trustedText: 'పారదర్శకత మరియు సంపూర్ణ నియంత్రణ కంప్లైయన్స్ ఆధారంగా మా క్లయింట్లతో దీర్ఘకాలిక భాగస్వామ్యాలను నిర్మించడం.',
         growth: 'వృద్ధి కేంద్రిత',
-        growthText: 'వ్యాపారాలకు వారి వృద్ధిలోని ప్రతి దశలో మద్దతు ఇవ్వడం.',
-        timely: 'సమయానుకూల సేవ',
-        timelyText: 'అన్ని గడువులను పూర్తి చేయడం మరియు మీ వ్యాపారాన్ని సమయానికి కంప్లైన్స్‌లో ఉంచడం.',
+        growthText: 'ప్రారంభ ప్రోటోటైప్ నుండి బహుళ-రాష్ట్ర ఎంటర్‌ప్రైజెస్ వరకు ప్రతి దశలోనూ వ్యాపారాలకు మద్దతు ఇవ్వడం.',
+        timely: 'సమయానుకూల నిర్వహణ',
+        timelyText: 'ఎలాంటి ఆపరేషనల్ అంతరాయాలు లేకుండా కస్టమ్స్ క్లియరెన్స్‌లు మరియు అన్ని రకాల నిబంధనల గడువులను పూర్తి చేయడం.',
       }
     },
     services: {
       title: 'మా సేవలు',
       description: 'మీ వ్యాపారం కోసం ప్రత్యేకంగా రూపొందించబడిన పూర్తి అకౌంటింగ్ పరిష్కారాలు',
       items: [
+        { 
+          title: 'కొనుగోలు & దిగుమతి నిబంధనల పాటింపు (Procurement & Import Compliance)', 
+          text: 'మీ అవుట్‌సోర్స్ గ్లోబల్ ప్రోక్యూర్మెంట్ & ఇంపోర్ట్ టీమ్. ఎండ్-టు-ఎండ్ ఇంపోర్ట్ కంప్లయన్స్ మరియు జీఎస్టీ టాక్స్ ఇన్వాయిస్‌తో ప్రపంచవ్యాప్తంగా ఉత్పత్తులను కొనుగోలు చేయడానికి మేము భారతీయ స్టార్టప్‌లు, ఆర్ అండ్ డి ల్యాబ్‌లు మరియు సంస్థలకు సహాయం చేస్తాము.',
+          features: [
+            'గ్లోబల్ సప్లయర్ సోర్సింగ్ & RFQ మేనేజ్‌మెంట్',
+            'అంతర్జాతీయ సరఫరాదారుల ఫారెక్స్ (Forex) చెల్లింపులు',
+            'దిగుమతి డాక్యుమెంటేషన్ & HSN వర్గీకరణ',
+            'కస్టమ్స్ క్లియరెన్స్ & డ్యూటీ నిర్వహణ',
+            'DHL / FedEx / UPS ఎక్స్‌ప్రెస్ కోఆర్డినేషన్',
+            'జీఎస్టీ టాక్స్ ఇన్వాయిస్‌తో డోర్‌స్టెప్ డెలివరీ'
+          ]
+        },
         { 
           title: 'అకౌంటింగ్ & బుక్ కీపింగ్', 
           text: 'మీ రికార్డులను ఖచ్చితంగా మరియు తాజాగా ఉంచడానికి సమగ్ర అకౌంటింగ్ సేవలు.',
@@ -1305,7 +1556,7 @@ export const translations = {
       send: 'సంప్రదించండి',
     },
     footer: {
-      about: 'భారతదేశవ్యాప్తంగా హై-గ్రోత్ స్టార్టప్ మరియు ఎంఎస్ఎంఈలకు సేవ చేయడానికి అంకితమైన ఒక అగ్రశ్రేణి వర్చువల్ అకౌంటింగ్ సంస్థ.',
+      about: 'ఆధునిక స్టార్టప్‌లు మరియు గ్లోబల్ ఎంటర్‌ప్రైజెస్‌ల కోసం ఎండ్-టు-ఎండ్ ప్రొక్యూర్మెంట్, అకౌంటింగ్, టాక్స్, పేరోల్ మరియు EOR సమ్మతి.',
       resources: 'వనరులు',
       expertise: 'ముఖ్య నైపుణ్యం',
       headquarters: 'ప్రధాన కార్యాలయం',
@@ -1482,6 +1733,55 @@ export const translations = {
           "PF/ESI చట్టబద్ధమైన కంప్లైన్స్ అవసరమైన కంపెనీలు",
           "వృత్తి పన్ను (PT) ఉన్న రాష్ట్రాల్లోని వ్యాపారాలు (KA, MH, TN, etc.)",
         ]
+      },
+      eor: {
+        title: "Employer of Record (EOR) India",
+        desc: "స్థానిక సంస్థను ఏర్పాటు చేయకుండా భారతదేశంలో ఉద్యోగులను చట్టబద్ధంగా నియమించుకోండి. మేము పేరోల్, PF, ESI, TDS మరియు ఉపాధి ఒప్పందాలను నిర్వహిస్తాము.",
+        ctaDesc: "మీ నియామక అవసరాలను పంచుకోండి. 3-5 పని దినాలలో మేము మీ బృందాన్ని సిద్ధం చేస్తాము.",
+        features: [
+          "Byalance కార్పొరేట్ కోడ్‌ల కింద 100% చట్టబద్ధమైన ఒప్పందాలు",
+          "నెలకు $89/ఉద్యోగి పారదర్శక రుసుము (USD లో)",
+          "నెలవారీ పేరోల్ లెక్కింపులు మరియు INR లో బ్యాంక్ బదిలీ",
+          "చట్టబద్ధమైన PF, ESI మరియు ప్రొఫెషనల్ టాక్స్ ఫైలింగ్‌లు",
+          "మీ విదేశీ వ్యాపారాన్ని పన్ను ప్రమాదాల నుండి రక్షించండి",
+          "క్లయింట్లు మరియు ఉద్యోగుల కోసం వాట్సాప్ మద్దతు"
+        ],
+        whyTitle: "భారతీయ నియామకాలను ఎందుకు అవుట్‌సోర్స్ చేయాలి?",
+        whyDesc: "భారతీయ సబ్సిడీని ఏర్పాటు చేయడానికి నెలల సమయం పడుతుంది. Byalance మీకు 3 రోజుల్లో నియామకాలను ప్రారంభించడానికి అనుమతిస్తుంది. మేము అన్ని నెలవారీ చలానాలు మరియు పన్ను మినహాయింపులను నేరుగా నిర్వహిస్తాము.",
+        whoTitle: "ఇది ఎవరి కోసం?",
+        whoItems: [
+          "భారతదేశంలో సాఫ్ట్‌వేర్ డెవలపర్‌లను నియమించుకునే విదేశీ స్టార్టప్‌లు",
+          "స్థానిక సిబ్బందిని నియమించుకునే గ్లోబల్ కంపెనీలు",
+          "1-10 మంది భారతీయ ఉద్యోగులను నియమించుకోవాలనుకునే చిన్న వ్యాపారాలు",
+          "అవుట్‌సోర్సింగ్ చేసే గ్లోబల్ ఏజెన్సీలు"
+        ]
+      },
+      procurement: {
+        title: "ప్రొక్యూర్మెంట్ & దిగుమతి సమ్మతి (Procurement & Import Compliance)",
+        desc: "మీ గ్లోబల్ ప్రొక్యూర్మెంట్ మరియు దిగుమతి బృందం. Byalance ఎలక్ట్రానిక్స్ డిస్ట్రిబ్యూటర్ కాదు — పూర్తి దిగుమతి ప్రక్రియను నిర్వహిస్తూ ప్రపంచంలో ఎక్కడి నుంచైనా ఉత్పత్తులను కొనుగోలు చేయడంలో భారతీయ స్టార్టప్‌లు, R&D ల్యాబ్‌లు మరియు చిన్న పరిశ్రమలకు సహాయపడే కార్యాచరణ సంస్థ.",
+        ctaDesc: "వాట్సాప్‌లో మీ ప్రొడక్ట్ లింక్ లేదా BOM ను షేర్ చేయండి. మేము మీకు INR లో సంపూర్ణ కోట్ పంపుతాము.",
+        features: [
+          "గ్లోబల్ సప్లయర్ సోర్సింగ్ & RFQ నిర్వహణ",
+          "అంతర్జాతీయ సప్లయర్ ఫారెక్స్ (Forex) చెల్లింపులు",
+          "దిగుమతి డాక్యుమెంటేషన్ & HSN వర్గీకరణ",
+          "కస్టమ్స్ నిబంధనల పాటింపు & సుంకాల నిర్వహణ",
+          "DHL / FedEx / UPS ఎక్స్‌ప్రెస్ సమన్వయం",
+          "బిల్ ఆఫ్ ఎంట్రీ & కస్టమ్స్ క్లియరెన్స్",
+          "GST డాక్యుమెంటేషన్ & GST టాక్స్ ఇన్వాయిస్",
+          "భారతదేశం అంతటా ఇంటింటికీ డెలివరీ"
+        ],
+        whyTitle: "గ్లోబల్ ప్రొక్యూర్మెంట్‌ను ఎందుకు అవుట్‌సోర్స్ చేయాలి?",
+        whyDesc: "భారతదేశంలోకి ఎలక్ట్రానిక్స్ లేదా ప్రత్యేక పరికరాలను దిగుమతి చేసుకోవడం అనేది సంక్లిష్టమైన కస్టమ్స్ డిక్లరేషన్లు మరియు విదేశీ మారకం చెల్లింపులతో కూడుకున్నది. Byalance మీ అంకితమైన దిగుమతి బృందంగా పనిచేస్తుంది మరియు చెల్లుబాటు అయ్యే GST ఇన్వాయిస్‌తో నేరుగా మీ వద్దకు డెలివరీ చేస్తుంది.",
+        whoTitle: "ఇది ఎవరి కోసం?",
+        whoItems: [
+          "స్టార్టప్‌లు & హార్డ్‌వేర్ ఆవిష్కర్తలు",
+          "R&D ల్యాబ్‌లు & ప్రోడక్ట్ డెవలప్‌మెంట్ సెంటర్‌లు",
+          "రోబోటిక్స్ & మెకాట్రానిక్స్ కంపెనీలు",
+          "ఎలక్ಟ್ರానిక్స్ తయారీదారులు & అసెంబ్లర్లు",
+          "ఇండస్ట్రియల్ ఆటోమేషన్ కంపెనీలు",
+          "యూనివర్సిటీలు & ఇంజనీరింగ్ బృందాలు",
+          "MSME లు & చిన్న తయారీదారులు"
+        ]
       }
     }
   },
@@ -1495,35 +1795,47 @@ export const translations = {
     },
     hero: {
       subtitle: 'लेखांकन सुलभ करणे, विकासाला चालना देणे.',
-      description: 'आम्ही तुमचे GST, TDS, Payroll आणि Full Accounting हाताळतो — जेणेकरून तुम्ही तुमच्या व्यवसायावर लक्ष केंद्रित करू शकाल.',
+      description: 'आधुनिक स्टार्टअप्लस आणि जागतिक उद्योगांसाठी एंड-टू-एंड प्रोक्युअरमेंट, अकाउंटिंग, टॅक्स, पेरोल आणि EOR अनुपालन।',
       bookConsultation: 'मोफत सल्ला घ्या',
       whatsappNow: 'व्हॉट्सॲप करा',
     },
     sections: {
-      pricing: 'पारदर्शक दर',
+      pricing: 'सोपे, पारदर्शक दर',
       pricingSubtitle: 'तुमच्या व्यवसायाच्या गरजा पूर्ण करणारी योजना निवडा. साधी, स्पष्ट आणि प्रभावी.',
     },
     about: {
       badge: 'कॉर्पोरेट एक्सलन्स',
       title: 'Byalance मानक',
-      p1: 'Byalance ही एक स्वस्त आधुनिक व्हर्च्युअल अकाउंटिंग फर्म आहे जी उद्योजक, व्यापारी आणि संस्थापकांसाठी तयार केली गेली आहे.',
-      p2: 'आम्ही पारंपारिक लेखांकन आणि आधुनिक व्यवसाय गती यांच्यातील दरी सांधतो. बुककीपिंग, जीएसटी, टीडीएस आणि पेरोल - सर्व काही योग्य दरात.',
+      p1: 'Byalance ही एक आधुनिक अनुपालन, जागतिक खरेदी (Procurement) आणि लेखांकन एक्झिक्युटिव्ह संस्था आहे, जी भारताच्या जागतिक विकासाला गती देणाऱ्या उद्योजक, स्टार्टअप्स आणि उद्योगांसाठी तयार केली आहे.',
+      p2: 'आम्ही गुंतागुंतीचे नियम आणि जलद व्यवसाय अंमलबजावणी यातील दरी सांधतो. जागतिक हार्डवेअर खरेदी व आयात अनुपालनापासून ते बुककीपिंग, जीएसटी, टीडीएस, पेरोल आणि एम्प्लॉयर ऑफ रेकॉर्ड (EOR India) पर्यंत — Byalance पूर्ण अचूकता प्रदान करते.',
       missionBadge: 'आमचे ध्येय',
       missionTitle: 'विकास आणि कंप्लायन्स जोडणे',
-      missionText: '"भारतातील प्रत्येक व्यवसायासाठी कंप्लायन्स तणावमुक्त, स्वस्त और व्यावसायिक बनवणे."',
+      missionText: '"भारतात आणि जागतिक स्तरावर प्रत्येक उद्योगासाठी कंप्लायन्स सुलभ करणे आणि विकासाला गती देणे."',
       stats: {
         trusted: 'विश्वसनीय भागीदार',
-        trustedText: 'नंबिका आणि विश्वासार्हतेवर आधारित आमच्या ग्राहकांशी दीर्घकालीन संबंध निर्माण करणे.',
+        trustedText: 'पारदर्शकता आणि पूर्ण वैधानिक अनुपालनावर आधारित आमच्या ग्राहकांशी दीर्घकालीन व्यावसायिक भागीदारी निर्माण करणे.',
         growth: 'विकास केंद्रित',
-        growthText: 'व्यवसायांना त्यांच्या विकासाच्या प्रत्येक टप्प्यावर पाठबळ देणे.',
-        timely: 'वेळेवर सेवा',
-        timelyText: 'सर्व मुदती पाळणे आणि तुमचा व्यवसाय वेळेवर कंप्लायन्समध्ये ठेवणे.',
+        growthText: 'प्रारंभिक प्रोटोटाइपपासून ते बहु-राज्य उद्योगांपर्यंत, विकासाच्या प्रत्येक टप्प्यावर व्यवसायांना पाठबळ देणे.',
+        timely: 'वेळेवर अंमलबजावणी',
+        timelyText: 'सर्व वैधानिक मुदती आणि कस्टम्स क्लिअरन्स वेळेत व सुरळीतपणे पूर्ण करणे.',
       }
     },
     services: {
       title: 'आमच्या सेवा',
       description: 'तुमच्या व्यवसायासाठी विशेषतः तयार केलेले पूर्ण लेखांकन समाधान',
       items: [
+        { 
+          title: 'खरेदी आणि आयात अनुपालन (Procurement & Import Compliance)', 
+          text: 'तुमची आउटसोर्स केलेली जागतिक खरेदी आणि आयात टीम। आम्ही भारतीय स्टार्टअप्स, आर अँड डी लॅब्स, उत्पादक आणि एमएसएमईंना पूर्ण आयात अनुपालन आणि जीएसटी टॅक्स इनव्हॉइससह जगभरातून उत्पादने खरेदी करण्यात मदत करतो।',
+          features: [
+            'जागतिक पुरवठादार सोर्सिंग आणि RFQ व्यवस्थापन',
+            'आंतरराष्ट्रीय पुरवठादार परकीय चलन (Forex) देयके',
+            'आयात दस्तऐवजीकरण आणि HSN वर्गीकरण',
+            'सीमा शुल्क (Customs) अनुपालन आणि कर्तव्य हाताळणी',
+            'DHL / FedEx / UPS एक्सप्रेस समन्वय',
+            'जीएसटी टॅक्स इनव्हॉइससह डोअरस्टेप डिलिव्हरी'
+          ]
+        },
         { 
           title: 'अकाउंटिंग आणि बुककीपिंग', 
           text: 'तुमची खाती अचूक आणि अद्ययावत ठेवण्यासाठी व्यापक लेखांकन सेवा.',
@@ -1657,7 +1969,7 @@ export const translations = {
       send: 'संदेश पाठवा',
     },
     footer: {
-      about: 'संपूर्ण भारतातील स्टार्टअप्स आणि एमएसएमईच्या गरजा पूर्ण करण्यासाठी समर्पित एक आघाडीची व्हर्च्युअल अकाउंटिंग फर्म.',
+      about: 'आधुनिक स्टार्टअप्लस आणि जागतिक उद्योगांसाठी एंड-टू-एंड प्रोक्युअरमेंट, अकाउंटिंग, टॅक्स, पेरोल आणि EOR अनुपालन।',
       resources: 'संसाधन',
       expertise: 'मुख्य कौशल्य',
       headquarters: 'मुख्यालय',
@@ -1834,6 +2146,55 @@ export const translations = {
           "PF/ESI वैधानिक पालन आवश्यक असणाऱ्या कंपन्या",
           "प्रोफेशनल टॅक्स लागू असलेल्या राज्यांमधील व्यवसाय",
         ]
+      },
+      eor: {
+        title: "Employer of Record (EOR) India",
+        desc: "स्थानिक अस्तित्व स्थापन न करता भारतात कर्मचाऱ्यांना कायदेशीररित्या कामावर घ्या. आम्ही पेरोल, पीएफ, ईएसआय, टीडीएस आणि रोजगार करार हाताळतो.",
+        ctaDesc: "तुमच्या भरती आवश्यकता शेअर करा. आम्ही ३-५ दिवसांत तुमची भारतीय टीम तयार करू.",
+        features: [
+          "Byalance कॉर्पोरेट कोड अंतर्गत १००% कायदेशीर करार",
+          "फ्लॅट $८९/कर्मचारी/महिना पारदर्शक शुल्क (USD मध्ये)",
+          "मासिक पेरोल गणना आणि INR मध्ये बँक ट्रान्सफर",
+          "वैधानिक पीएफ, ईएसआय आणि प्रोफेशनल टॅक्स फाइलिंग",
+          "तुमचा परदेशी व्यवसाय कर धोक्यांपासून सुरक्षित ठेवा",
+          "ग्राहक आणि कर्मचाऱ्यांसाठी समर्पित व्हॉट्सॲप सपोर्ट"
+        ],
+        whyTitle: "भारतीय भरती आउटसोर्स का करावी?",
+        whyDesc: "भारतीय उपकंपनी सुरू करण्यासाठी महिने लागतात. Byalance तुम्हाला ३ दिवसांत भरती सुरू करण्याची परवानगी देते. आम्ही सर्व वैधानिक टॅक्स फाइलिंग आणि पेरोल थेट हाताळतो.",
+        whoTitle: "हे कोणासाठी आहे?",
+        whoItems: [
+          "भारतात सॉफ्टवेअर डेव्हलपर्सना कामावर घेणारे परदेशी स्टार्टअप्स",
+          "स्थानिक कर्मचाऱ्यांना कामावर घेणाऱ्या जागतिक कंपन्या",
+          "१-१० भारतीय कर्मचाऱ्यांना कायदेशीररित्या कामावर घेऊ इच्छिणारे लघु उद्योग",
+          "डेव्हलपमेंट किंवा सपोर्ट आउटसोर्स करणाऱ्या एजन्सी"
+        ]
+      },
+      procurement: {
+        title: "खरेदी आणि आयात अनुपालन (Procurement & Import Compliance)",
+        desc: "तुमची आउटसोर्स केलेली जागतिक खरेदी आणि आयात टीम. Byalance इलेक्ट्रॉनिक्स वितरक नाही — आम्ही एक व्यवसाय ऑपरेशन्स कंपनी आहोत जी भारतीय स्टार्टअप्स, R&D लॅब्स आणि लघु उद्योगांना जगभरातून उत्पादने खरेदी करण्यात मदत करते.",
+        ctaDesc: "व्हॉट्सॲपवर तुमची उत्पादन लिंक किंवा BOM शेअर करा. आम्ही तुम्हाला INR मध्ये संपूर्ण कोटेशन पाठवू.",
+        features: [
+          "जागतिक पुरवठादार सोर्सिंग आणि RFQ व्यवस्थापन",
+          "आंतरराष्ट्रीय पुरवठादार परदेशी चलनातील (Forex) देयके",
+          "आयात दस्तऐवजीकरण आणि HSN वर्गीकरण",
+          "कस्टम्स अनुपालन आणि शुल्क हाताळणी",
+          "DHL / FedEx / UPS एक्सप्रेस समन्वय",
+          "बिल ऑफ एंट्री आणि सीमा शुल्क क्लिअरन्स",
+          "जीएसटी दस्तऐवजीकरण आणि जीएसटी टॅक्स इनव्हॉइस",
+          "भारतात कुठेही दारात डिलिव्हरी"
+        ],
+        whyTitle: "जागतिक खरेदी आउटसोर्स का करावी?",
+        whyDesc: "भारतात इलेक्ट्रॉनिक्स किंवा उपकरणे आयात करताना जटिल सीमा शुल्क घोषणा आणि फॉरेक्स देयके समाविष्ट असतात. Byalance तुमची समर्पित आयात टीम म्हणून कार्य करते आणि जीएसटी इनव्हॉइससह थेट तुमच्या दारापर्यंत उत्पादने पोहोचवते.",
+        whoTitle: "हे कोणासाठी आहे?",
+        whoItems: [
+          "स्टार्टअप्स आणि हार्डवेअर इनोव्हेटर्स",
+          "R&D लॅब्स आणि उत्पादन विकास केंद्रे",
+          "रोबोटिक्स आणि मेकॅट्रॉनिक्स कंपन्या",
+          "इलेक्ट्रॉनिक्स उत्पादक आणि असेंबलर्स",
+          "औद्योगिक ऑटोमーション कंपन्या",
+          "विद्यापीठे आणि अभियांत्रिकी टीम्स",
+          "लघु आणि मध्यम उद्योग (MSMEs)"
+        ]
       }
     }
   },
@@ -1847,35 +2208,47 @@ export const translations = {
     },
     hero: {
       subtitle: 'கணக்கியலை எளிதாக்குவது, வளர்ச்சியைத் தூண்டுவது.',
-      description: 'நாங்கள் உங்கள் GST, TDS, Payroll மற்றும் Full Accounting ஆகியவற்றைக் கையாளுகிறோம் — எனவே நீங்கள் உங்கள் வணிகத்தில் கவனம் செலுத்தலாம்.',
+      description: 'நவீன ஸ்டார்ட்அப்கள் மற்றும் உலகளாவிய நிறுவனங்களுக்கான என்ட்-டு-என்ட் கொள்முதல், கணக்கியல், வரி, பேரோல் மற்றும் EOR இணக்கம்.',
       bookConsultation: 'இலவச ஆலோசனை பெறவும்',
       whatsappNow: 'வாட்ஸ்அப் செய்யவும்',
     },
     sections: {
-      pricing: 'வெளிப்படையான விலை',
+      pricing: 'எளிமையான, வெளிப்படையான விலை',
       pricingSubtitle: 'உங்கள் வணிகத் தேவைகளுக்குப் பொருந்தும் திட்டத்தைத் தேர்ந்தெடுக்கவும். எளிமையானது, தெளிவானது மற்றும் பயனுள்ளது.',
     },
     about: {
       badge: 'கார்ப்பரேட் சிறப்பு',
       title: 'Byalance தரம்',
-      p1: 'Byalance என்பது இந்தியாவின் அடுத்த கட்ட வளர்ச்சியை இயக்கும் தொழில்முனைவோர் மற்றும் நிறுவனர்களுக்காக உருவாக்கப்பட்ட ஒரு மலிவு விலை நவீன கணக்கியல் நிறுவனம்.',
-      p2: 'பாரம்பரிய கணக்கியல் மற்றும் நவீன வணிக வேகத்திற்கு இடையிலான இடைவெளியை நாங்கள் குறைக்கிறோம். கணக்குப்பதிவு, ஜிஎஸ்டி, டிடிஎஸ் மற்றும் ஊதியப்பட்டியல் - அனைத்தும் சரியான விலையில்.',
+      p1: 'Byalance என்பது இந்தியாவின் அடுத்த கட்ட உலகளாவிய வளர்ச்சியை இயக்கும் தொழில்முனைவோர், ஸ்டார்ட்அப்கள் மற்றும் நிறுவனங்களுக்காக உருவாக்கப்பட்ட ஒரு நவீன இணக்கம், கொள்முதல் (Procurement) மற்றும் கணக்கியல் நிர்வாக நிறுவனமாகும்.',
+      p2: 'சிக்கலான அரசாங்க விதிகளுக்கும் விரைவான செயல்பாடுகளுக்கும் இடையிலான இடைவெளியை நாங்கள் நிரப்புகிறோம். உலகளாவிய வன்பொருள் கொள்முதல் மற்றும் இறக்குமதி இணக்கம் முதல் கணக்குப்பதிவு, ஜிஎஸ்டி, டிடிஎஸ், ஊதியப்பட்டியல் மற்றும் ஈஓஆர் (EOR India) வரை Byalance துல்லியமான சேவையை வழங்குகிறது.',
       missionBadge: 'எங்கள் நோக்கம்',
       missionTitle: 'வளர்ச்சி மற்றும் இணக்கத்தை இணைத்தல்',
-      missionText: '"இந்தியாவில் உள்ள ஒவ்வொரு வணிகத்திற்கும் இணக்கத்தை மன அழுத்தம் இல்லாததாகவும், மலிவானதாகவும், தொழில்முறை ரீதியாகவும் மாற்றுவது."',
+      missionText: '"இந்தியாவிலும் உலகளவிலும் உள்ள ஒவ்வொரு வணிகத்திற்கும் இணக்கத்தை எளிதாக்குவது மற்றும் வளர்ச்சியைத் தூண்டுவது."',
       stats: {
         trusted: 'நம்பகமான கூட்டாளர்',
-        trustedText: 'நம்பிக்கை மற்றும் நம்பகத்தன்மையின் அடிப்படையில் எங்கள் வாடிக்கையாளர்களுடன் நீண்டகால உறவுகளை உருவாக்குதல்.',
+        trustedText: 'வெளிப்படைத்தன்மை மற்றும் முழுமையான சட்ட இணக்கத்தின் அடிப்படையில் எங்கள் வாடிக்கையாளர்களுடன் நீண்டகால கூட்டாண்மையை உருவாக்குதல்.',
         growth: 'வளர்ச்சி சார்ந்த',
-        growthText: 'வணிகங்களின் வளர்ச்சியின் ஒவ்வொரு கட்டத்திலும் ஆதரவளித்தல்.',
-        timely: 'சரியான நேர சேவை',
-        timelyText: 'அனைத்து காலக்கெடுவையும் பூர்த்தி செய்தல் மற்றும் உங்கள் வணிகத்தை சரியான நேரத்தில் இணக்கத்தில் வைத்திருத்தல்.',
+        growthText: 'ஆரம்ப கட்ட மாதிரி முதல் பல மாநில நிறுவனங்கள் வரை வளர்ச்சியின் ஒவ்வொரு கட்டத்திலும் வணிகங்களுக்கு ஆதரவளித்தல்.',
+        timely: 'துல்லியமான செயல்பாடுகள்',
+        timelyText: 'எந்தவித தடங்கலுமின்றி அனைத்து காலக்கெடுவையும் சுங்க அனுமதிகளையும் சரியாக நிறைவு செய்தல்.',
       }
     },
     services: {
       title: 'எங்கள் சேவைகள்',
       description: 'உங்கள் வணிகத்திற்காக பிரத்யேகமாக வடிவமைக்கப்பட்ட முழுமையான கணக்கியல் தீர்வுகள்',
       items: [
+        { 
+          title: 'கொள்முதல் மற்றும் இறக்குமதி இணக்கம் (Procurement & Import Compliance)', 
+          text: 'உங்கள் உலகளாவிய கொள்முதல் மற்றும் இறக்குமதி குழு. முழுமையான இறக்குமதி இணக்கம் மற்றும் ஜிஎஸ்டி வரி இன்வாய்ஸுடன் உலகம் முழுவதிலும் இருந்து தயாரிப்புகளை பெற இந்திய ஸ்டார்ட்அப்கள், ஆர் அண்ட் டி ஆய்வகங்கள் மற்றும் சிறு தொழில்களுக்கு நாங்கள் உதவுகிறோம்.',
+          features: [
+            'உலகளாவிய விநியோகஸ்தர் ஆதாரம் மற்றும் RFQ நிர்வாகம்',
+            'சர்வதேச விநியோகஸ்தர் அந்நிய செலாவணி (Forex) கொடுப்பனவுகள்',
+            'இறக்குமதி ஆவணங்கள் மற்றும் HSN வகைப்பாடு',
+            'சுங்க இணக்கம் மற்றும் தீர்வு நிர்வாகம்',
+            'DHL / FedEx / UPS எக்ஸ்பிரஸ் ஒருங்கிணைப்பு',
+            'ஜிஎஸ்டி வரி இன்வாய்ஸுடன் வீட்டு விநியோகம்'
+          ]
+        },
         { 
           title: 'கணக்கியல் மற்றும் கணக்குப்பதிவு', 
           text: 'உங்கள் கணக்குகளை துல்லியமாகவும் புதுப்பித்த நிலையிலும் வைத்திருக்க விரிவான கணக்கியல் சேவைகள்.',
@@ -2009,7 +2382,7 @@ export const translations = {
       send: 'செய்தி அனுப்பு',
     },
     footer: {
-      about: 'இந்தியா முழுவதும் உள்ள உயர்மட்ட ஸ்டார்ட்அப்கள் மற்றும் சிறு நடுத்தர நிறுவனங்களுக்குச் சேவை செய்ய அர்ப்பணிக்கப்பட்ட ஒரு முன்னணி கணக்கியல் நிறுவனம்.',
+      about: 'நவீன ஸ்டார்ட்அப்கள் மற்றும் உலகளாவிய நிறுவனங்களுக்கான என்ட்-டு-என்ட் கொள்முதல், கணக்கியல், வரி, பேரோல் மற்றும் EOR இணக்கம்.',
       resources: 'ஆதாரங்கள்',
       expertise: 'முக்கிய நிபுணத்துவம்',
       headquarters: 'தலைமையகம்',
@@ -2189,15 +2562,121 @@ export const translations = {
           "PF/ESI சட்டரீதியான இணக்கம் தேவைப்படும் நிறுவனங்கள்",
           "PT மாநிலங்களில் உள்ள வணிகங்கள் (KA, MH, TN போன்றவை)",
         ]
+      },
+      eor: {
+        title: "Employer of Record (EOR) India",
+        desc: "இந்தியாவில் ஒரு நிறுவனத்தை உருவாக்காமல் சட்டப்பூர்வமாக பணியாளர்களை நியமிக்கவும். ஊதியப்பட்டியல், PF, ESI, TDS மற்றும் வேலைவாய்ப்பு ஒப்பந்தங்களை நாங்கள் கையாளுவோம்.",
+        ctaDesc: "உங்கள் ஆட்சேர்ப்பு தேவைகளைப் பகிரவும். 3-5 வேலை நாட்களில் உங்கள் குழுவை தயார் செய்வோம்.",
+        features: [
+          "Byalance கார்ப்பரேட் குறியீடுகளின் கீழ் 100% சட்டப்பூர்வ ஒப்பந்தங்கள்",
+          "மாதத்திற்கு $89/பணியாளர் வெளிப்படையான கட்டணம் (USD இல்)",
+          "மாதாந்திர ஊதியக் கணக்கீடுகள் & INR இல் வங்கிப் பரிமாற்றம்",
+          "சட்டப்பூர்வ PF, ESI மற்றும் தொழில்முறை வரித் தாக்கல்கள்",
+          "உங்கள் வெளிநாட்டு வணிகத்தை வரி அபாயங்களிலிருந்து பாதுகாக்கவும்",
+          "வாடிக்கையாளர்கள் மற்றும் ஊழியர்களுக்கான வாட்ஸ்அப் உதவி"
+        ],
+        whyTitle: "இந்திய ஆட்சேர்ப்பை ஏன் அவுட்சோர்ஸ் செய்ய வேண்டும்?",
+        whyDesc: "இந்தியாவில் கிளை நிறுவனத்தைத் தொடங்குவதற்கு மாதக் கணக்காகும். Byalance 3 நாட்களில் பணியமர்த்தலைத் தொடங்க உங்களை அனுமதிக்கிறது. மாதாந்திர வரித் தாக்கல்கள் மற்றும் சட்டப்பூர்வக் கொடுப்பனவுகளை நாங்கள் நேரடியாகக் கையாளுவோம்.",
+        whoTitle: "இது யாருக்கானது?",
+        whoItems: [
+          "இந்தியாவில் மென்பொருள் உருவாக்குநர்களை நியமிக்கும் வெளிநாட்டு ஸ்டார்ட்அப்கள்",
+          "உள்ளூர் ஊழியர்களை நியமிக்கும் உலகளாவிய நிறுவனங்கள்",
+          "1-10 இந்திய ஊழியர்களை சட்டப்பூர்வமாக நியமிக்க விரும்பும் சிறு தொழில்கள்",
+          "வளர்ச்சியை அவுட்சோர்ஸ் செய்யும் உலகளாவிய முகமைகள்"
+        ]
+      },
+      procurement: {
+        title: "கொள்முதல் மற்றும் இறக்குமதி இணக்கம் (Procurement & Import Compliance)",
+        desc: "உங்கள் உலகளாவிய கொள்முதல் மற்றும் இறக்குமதி குழு. Byalance எலக்ட்ரானிக்ஸ் விநியோகஸ்தர் அல்ல — இறக்குமதி செயல்முறையை முழுமையாகக் கையாண்டு உலகம் முழுவதிலும் இருந்து தயாரிப்புகளை வாங்க இந்திய ஸ்டார்ட்அப்கள் மற்றும் நிறுவனங்களுக்கு உதவும் ஒரு செயல்பாட்டு நிறுவனம்.",
+        ctaDesc: "வாட்ஸ்அப்பில் உங்கள் தயாரிப்பு லிங்க் அல்லது BOM ஐப் பகிரவும். INR இல் முழுமையான கட்டண விவரங்களை நாங்கள் அனுப்புவோம்.",
+        features: [
+          "உலகளாவிய விநியோகஸ்தர் ஆதாரம் & RFQ நிர்வாகம்",
+          "சர்வதேச அந்நிய செலாவணி (Forex) கொடுப்பனவுகள்",
+          "இறக்குமதி ஆவணங்கள் & HSN வகைப்பாடு",
+          "சுங்க இணக்கம் & தீர்வு நிர்வாகம்",
+          "DHL / FedEx / UPS எக்ஸ்பிரஸ் ஒருங்கிணைப்பு",
+          "சுங்க அனுமதி & பில் ஆஃப் என்ட்ரி நிர்வாகம்",
+          "ஜிஎஸ்டி ஆவணங்கள் & ஜிஎஸ்டி வரி இன்வாய்ஸ்",
+          "இந்தியா முழுவதும் வீட்டு வாசலில் டெலிவரி"
+        ],
+        whyTitle: "உலகளாவிய கொள்முதலை ஏன் அவுட்சோர்ஸ் செய்ய வேண்டும்?",
+        whyDesc: "இந்தியாவில் எலக்ட்ரானிக்ஸ் அல்லது உபகரணங்களை இறக்குமதி செய்வது சிக்கலான சுங்க அறிவிப்புகள் மற்றும் செலாவணி பணப்பரிமாற்றங்களை உள்ளடக்கியது. Byalance உங்கள் பிரத்யேக இறக்குமதி குழுவாக செயல்பட்டு ஜிஎஸ்டி இன்வாய்ஸுடன் நேரடியாக டெலிவரி செய்கிறது.",
+        whoTitle: "இது யாருக்கானது?",
+        whoItems: [
+          "ஸ்டார்ட்அப்கள் & வன்பொருள் கண்டுபிடிப்பாளர்கள்",
+          "ஆராய்ச்சி ஆய்வகங்கள் & தயாரிப்பு மேம்பாட்டு மையங்கள்",
+          "ரோபாட்டிக்ஸ் & மெகாட்ரானிக்ஸ் நிறுவனங்கள்",
+          "எலக்ட்ரானிக்ஸ் உற்பத்தியாளர்கள்",
+          "தொழில்துறை ஆட்டோமேஷன் நிறுவனங்கள்",
+          "பல்கலைக்கழகங்கள் & பொறியியல் குழுக்கள்",
+          "சிறு மற்றும் நடுத்தர தொழில்கள் (MSMEs)"
+        ]
       }
     }
   },
 };
 
-export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
+function deepMergeFallback<T>(base: T, target: any): T {
+  if (!target) return base;
+  if (Array.isArray(base)) {
+    if (!Array.isArray(target)) return base;
+    return base.map((item, index) => {
+      if (target[index] !== undefined) {
+        if (typeof item === 'object' && item !== null) {
+          return deepMergeFallback(item, target[index]);
+        }
+        return target[index];
+      }
+      return item;
+    }) as any;
+  }
+  if (typeof base === 'object' && base !== null) {
+    const result: any = { ...base };
+    for (const key of Object.keys(base)) {
+      if (target[key] !== undefined) {
+        if (typeof (base as any)[key] === 'object' && (base as any)[key] !== null) {
+          result[key] = deepMergeFallback((base as any)[key], target[key]);
+        } else {
+          result[key] = target[key];
+        }
+      }
+    }
+    return result;
+  }
+  return target;
+}
 
-  const t = translations[language];
+export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [language, setLanguageState] = useState<Language>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem('byalance_language');
+        if (saved && ['en', 'hi', 'kn', 'te', 'mr', 'ta'].includes(saved)) {
+          return saved as Language;
+        }
+      } catch (e) {
+        console.warn('Unable to access localStorage for language preference:', e);
+      }
+    }
+    return 'en';
+  });
+
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang);
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem('byalance_language', lang);
+      } catch (e) {
+        console.warn('Unable to save language preference to localStorage:', e);
+      }
+    }
+  };
+
+  const t = React.useMemo(() => {
+    if (language === 'en') return translations.en;
+    const langObj = (translations as any)[language];
+    return deepMergeFallback(translations.en, langObj);
+  }, [language]);
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, t }}>

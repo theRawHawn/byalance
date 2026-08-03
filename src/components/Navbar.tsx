@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Phone, Globe, ChevronDown } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
@@ -52,7 +52,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container-custom flex items-center justify-between">
-        <a href="/" className="flex items-center ml-1">
+        <Link to="/" className="flex items-center ml-1">
           <img 
             src={logoSrc} 
             alt="Byalance Primary Corporate Logo" 
@@ -69,7 +69,7 @@ export default function Navbar() {
               }
             }}
           />
-        </a>
+        </Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-4 lg:gap-8 text-sm font-semibold tracking-tight">

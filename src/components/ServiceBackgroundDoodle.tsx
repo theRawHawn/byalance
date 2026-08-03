@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface ServiceBackgroundDoodleProps {
-  service: 'accounting' | 'gst' | 'itr' | 'payroll' | 'tds' | 'eor';
+  service: 'accounting' | 'gst' | 'itr' | 'payroll' | 'tds' | 'eor' | 'procurement';
 }
 
 export const ServiceBackgroundDoodle: React.FC<ServiceBackgroundDoodleProps> = ({ service }) => {
@@ -199,6 +199,34 @@ export const ServiceBackgroundDoodle: React.FC<ServiceBackgroundDoodleProps> = (
               <rect x="110" y="110" width="50" height="40" rx="4" fill="#FFFFFF" stroke="currentColor" strokeWidth="1" />
               <path d="M 120 125 L 125 130 L 135 120" strokeWidth="1.5" />
               <path d="M 120 137 L 125 142 L 135 132" strokeWidth="1.5" />
+            </svg>
+          </div>
+        </div>
+      );
+
+    case 'procurement':
+      return (
+        <div className="absolute inset-0 pointer-events-none overflow-hidden select-none z-0">
+          {/* Cargo Ship, Plane & Package Box vectors */}
+          <div className="absolute right-4 top-10 w-96 h-96 opacity-[0.03] md:opacity-[0.05] transform translate-x-12 -translate-y-8">
+            <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="1" className="text-blue-900 w-full h-full">
+              {/* Shipping Container / Package */}
+              <rect x="40" y="50" width="120" height="90" rx="8" strokeWidth="2" />
+              <line x1="100" y1="50" x2="100" y2="140" strokeWidth="1.5" />
+              <path d="M 40 80 L 160 80" strokeWidth="1.5" />
+              <path d="M 60 50 L 100 20 L 140 50" strokeWidth="1.5" />
+              <path d="M 100 20 L 100 50" strokeWidth="1.5" />
+              {/* Airplane flight path */}
+              <path d="M 20 170 Q 100 120 180 30" strokeDasharray="4 4" strokeWidth="1.5" />
+              <polygon points="180,30 170,32 175,42" fill="currentColor" />
+            </svg>
+          </div>
+          <div className="absolute left-6 bottom-10 w-80 h-80 opacity-[0.03] md:opacity-[0.04] transform -translate-x-16 translate-y-12">
+            <svg viewBox="0 0 200 200" fill="none" stroke="currentColor" strokeWidth="1" className="text-blue-900 w-full h-full">
+              {/* Customs Stamp & Globe */}
+              <circle cx="100" cy="100" r="60" strokeWidth="2" strokeDasharray="6 3" />
+              <rect x="70" y="85" width="60" height="30" rx="4" fill="#FFFFFF" stroke="currentColor" strokeWidth="2" />
+              <text x="100" y="104" fontSize="10" fill="currentColor" textAnchor="middle" fontWeight="black">CLEARED</text>
             </svg>
           </div>
         </div>

@@ -18,6 +18,8 @@ export default function OrganizationSchema({
     'https://www.instagram.com/byalance.in',
     'https://www.linkedin.com/company/byalance'
   ],
+  founderName = 'Rohan Kulakarni',
+  founderUrl = 'https://www.linkedin.com/in/rohann-kulakarni/', // Replace with Rohan's exact LinkedIn URL
 }: OrganizationSchemaProps) {
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -25,6 +27,12 @@ export default function OrganizationSchema({
     'name': name,
     'url': url,
     'logo': logo,
+    'founder': {
+      '@type': 'Person',
+      'name': founderName,
+      'jobTitle': 'Founder',
+      'sameAs': [founderUrl]
+    },
     'sameAs': sameAs,
     'contactPoint': [
       {

@@ -27,7 +27,7 @@ export const homeFAQs: FAQItem[] = [
   {
     question: 'What services does Byalance offer?',
     answer:
-      'Byalance offers end-to-end remote accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises. Our core solutions include Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India), and Global Procurement & Import Compliance. We serve clients across India and globally from our base in Bengaluru, Karnataka.',
+      'Byalance offers end-to-end Global Procurement & Import Compliance, accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises. Our core solutions include Procurement, Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India). We serve clients across India and globally from our base in Bengaluru, Karnataka.',
   },
   {
     question: 'How much does Byalance charge per month?',
@@ -35,14 +35,14 @@ export const homeFAQs: FAQItem[] = [
       'Byalance pricing is transparent: Starter Plan starts at ₹1,999/month (GST & basic bookkeeping), Growth Plan ranges from ₹7,499–₹14,999/month (GST, TDS, full accounting & financial reports), and Pro Plan is ₹15,499–₹20,000+/month (GST, TDS, payroll & dedicated priority support). EOR India service is a flat $89/employee/month. Global Procurement offers itemized landed cost quotes in INR with 100% GST Tax Invoice pass-through.',
   },
   {
-    question: 'Is Byalance a remote accounting firm?',
+    question: 'Is Byalance a accounting firm?',
     answer:
-      'Yes. Byalance is a fully remote accounting and business operations firm. All services are delivered online — you share documents via WhatsApp, email, or secure folder, and our certified team handles reconciliations, filings, payroll, EOR, and procurement compliance. You get enterprise-grade execution at transparent pricing without physical office visits.',
+      'Yes. Byalance is a accounting and business operations firm. All services are delivered online — you share documents via WhatsApp, email, or secure folder, and our certified team handles reconciliations, filings, payroll, EOR, and procurement compliance. You get enterprise-grade execution at transparent pricing without physical office visits.',
   },
   {
     question: 'Which cities and countries does Byalance serve?',
     answer:
-      'Headquartered in JP Nagar, Bengaluru (Karnataka), Byalance serves businesses across India (Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, and Tier 2/3 cities) as well as international clients from the US, UK, Europe, UAE, Singapore, and beyond seeking EOR or procurement in India. All filings are done online through official portals (GSTN, Income Tax Portal, EPFO, TRACES, Customs).',
+      'Headquartered in Bengaluru (Karnataka), Byalance serves businesses across India (Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, and Tier 2/3 cities) as well as international clients from the US, UK, Europe, UAE, Singapore, and beyond seeking EOR or procurement in India. All filings are done online through official portals (GSTN, Income Tax Portal, EPFO, TRACES, Customs).',
   },
   {
     question: 'Can Byalance handle accounting, payroll, and procurement for my startup?',

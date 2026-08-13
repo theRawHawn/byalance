@@ -1072,7 +1072,7 @@ export default function Procurement() {
       <SEO
         title="Procurement & Import Compliance | Your Outsourced Global Procurement Team | Byalance"
         description="Byalance helps Indian startups, R&D labs, manufacturers & SMEs procure products globally (DigiKey, Mouser, OEMs) with complete import compliance, customs clearance, and GST tax invoices."
-        keywords="global procurement India, import compliance India, procure from DigiKey India, Mouser import India, customs clearance electronics India, outsourced import operations, GST tax invoice import, landed cost quote INR, Byalance procurement"
+        keywords="procurement services, procurement outsourcing, procurement services for SMEs, global procurement India, import compliance India, procurement services for startups, procure from DigiKey India, Mouser import India, customs clearance electronics India, outsourced import operations, end-to-end procurement services, Byalance procurement"
         canonical="https://byalance.in/services/procurement-import-compliance"
         ogType="article"
       />

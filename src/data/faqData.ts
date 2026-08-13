@@ -27,7 +27,7 @@ export const homeFAQs: FAQItem[] = [
   {
     question: 'What services does Byalance offer?',
     answer:
-      'Byalance offers end-to-end Global Procurement & Import Compliance, accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises. Our core solutions include Procurement, Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India). We serve clients across India and globally from our base in Bengaluru, Karnataka.',
+      'Byalance offers end-to-end Global Procurement & Import Compliance, accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises(EOR India Only). Our core solutions include Procurement, Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India). We serve clients across India and globally from our base in Bengaluru, Karnataka.',
   },
   {
     question: 'How much does Byalance charge per month?',

@@ -15,7 +15,7 @@ interface SEOProps {
 export default function SEO({
   title,
   description,
-  keywords = 'accounting services, gst services, tds services, payroll processing, eor services india, tax filing, professional accounting firm India',
+  keywords = 'procurement services, procurement services for SMEs, accounting services, gst services, tds services, payroll processing, eor services india, tax filing, professional accounting firm India',
   canonical,
   ogImage = 'https://byalance.in/brandlogo%20(1).svg',
   ogType = 'website',

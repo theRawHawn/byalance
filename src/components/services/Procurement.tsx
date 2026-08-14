@@ -7,6 +7,7 @@ import { procurementFAQs } from '../../data/faqData';
 import { Link } from 'react-router-dom';
 import BreadcrumbSchema from '../BreadcrumbSchema';
 import { ServiceBackgroundDoodle } from '../ServiceBackgroundDoodle';
+import LandedCostTeardown from './LandedCostTeardown';
 
 const procurementI18n: Record<Language, {
   backToServices: string;
@@ -1175,6 +1176,8 @@ export default function Procurement() {
             </div>
           </div>
         </section>
+
+        <LandedCostTeardown />
 
         {/* SERVICES INCLUDED GRID */}
         <section className="py-16 md:py-24 bg-white">

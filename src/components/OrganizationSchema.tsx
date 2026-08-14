@@ -6,6 +6,8 @@ interface OrganizationSchemaProps {
   url?: string;
   logo?: string;
   sameAs?: string[];
+  founderName?: string;
+  founderUrl?: string;
 }
 
 export default function OrganizationSchema({

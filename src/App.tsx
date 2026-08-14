@@ -36,6 +36,7 @@ import Procurement from './components/services/Procurement';
 import PrivacyPolicyPage from './pages/PrivacyPolicy';
 import DataHandlingPage from './pages/DataHandling';
 import RefundPolicyPage from './pages/RefundPolicy';
+import { isProcureSubdomain } from './utils/subdomain';
 
 // A clean, beautiful, themed loading indicator for Suspense fallback
 const LoadingFallback = () => (
@@ -86,6 +87,8 @@ const LandingPage = () => {
 };
 
 export default function App() {
+  const isProcure = isProcureSubdomain();
+
   return (
     <LanguageProvider>
       <ScrollToTop />
@@ -95,7 +98,8 @@ export default function App() {
         <AnimatePresence mode="wait">
           <Suspense fallback={<LoadingFallback />}>
             <Routes>
-              <Route path="/" element={<LandingPage />} />
+              {/* If accessed via procure.byalance.in, render Procurement directly at '/' */}
+              <Route path="/" element={isProcure ? <Procurement /> : <LandingPage />} />
               <Route path="/services/accounting-bookkeeping" element={<Accounting />} />
               <Route path="/services/gst-services" element={<GST />} />
               <Route path="/services/itr-services" element={<ITR />} />
@@ -107,7 +111,7 @@ export default function App() {
               <Route path="/data-handling" element={<DataHandlingPage />} />
               <Route path="/refund-policy" element={<RefundPolicyPage />} />
               {/* Fallback for other routes */}
-              <Route path="*" element={<LandingPage />} />
+              <Route path="*" element={isProcure ? <Procurement /> : <LandingPage />} />
             </Routes>
           </Suspense>
         </AnimatePresence>

@@ -9,6 +9,7 @@ import BreadcrumbSchema from '../BreadcrumbSchema';
 import { ServiceBackgroundDoodle } from '../ServiceBackgroundDoodle';
 import LandedCostTeardown from './LandedCostTeardown';
 import ImportCategories from './ImportCategories';
+import { isProcureSubdomain } from '../../utils/subdomain';
 
 const procurementI18n: Record<Language, {
   backToServices: string;
@@ -1062,6 +1063,7 @@ export default function Procurement() {
   const { language } = useLanguage();
   const currentLang = (language as Language) in procurementI18n ? (language as Language) : 'en';
   const data = procurementI18n[currentLang];
+  const isProcure = isProcureSubdomain();
 
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
 
@@ -1075,13 +1077,13 @@ export default function Procurement() {
         title="Procurement & Import Compliance | Your Outsourced Global Procurement Team | Byalance"
         description="Byalance helps Indian startups, R&D labs, manufacturers & SMEs procure products globally from trusted suppliers with complete import compliance, customs clearance, and GST tax invoices."
         keywords="procurement services, procurement outsourcing, procurement services for SMEs, global procurement India, import compliance India, procurement services for startups, global supplier sourcing India, international vendor procurement India, customs clearance electronics India, outsourced import operations, end-to-end procurement services, Byalance procurement"
-        canonical="https://byalance.in/services/procurement-import-compliance"
+        canonical={isProcure ? "https://procure.byalance.in/" : "https://byalance.in/services/procurement-import-compliance"}
         ogType="article"
       />
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "/" },
-          { name: "Procurement & Import Compliance", url: "/services/procurement-import-compliance" }
+          { name: "Home", url: isProcure ? "https://byalance.in" : "/" },
+          { name: "Procurement & Import Compliance", url: isProcure ? "https://procure.byalance.in" : "/services/procurement-import-compliance" }
         ]}
       />
       
@@ -1092,14 +1094,24 @@ export default function Procurement() {
           <ServiceBackgroundDoodle service="procurement" />
           <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="mb-4 md:mb-5">
-              <Link
-                to="/#services"
-                className="inline-flex items-center justify-center w-10 h-10 text-amber-600 hover:text-amber-700 bg-white border border-slate-100 hover:bg-slate-50 rounded-xl transition-all shadow-sm hover:shadow-md"
-                aria-label={data.backToServices}
-                title={data.backToServices}
-              >
-                <ArrowLeft className="w-5 h-5" />
-              </Link>
+              {isProcure ? (
+                <a
+                  href="https://byalance.in"
+                  className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 text-xs font-bold text-slate-700 hover:text-amber-700 bg-white border border-slate-200 hover:bg-slate-50 rounded-xl transition-all shadow-sm hover:shadow-md"
+                  aria-label="Visit Byalance Main Site"
+                >
+                  <ArrowLeft className="w-3.5 h-3.5" /> Byalance Main Website
+                </a>
+              ) : (
+                <Link
+                  to="/#services"
+                  className="inline-flex items-center justify-center w-10 h-10 text-amber-600 hover:text-amber-700 bg-white border border-slate-100 hover:bg-slate-50 rounded-xl transition-all shadow-sm hover:shadow-md"
+                  aria-label={data.backToServices}
+                  title={data.backToServices}
+                >
+                  <ArrowLeft className="w-5 h-5" />
+                </Link>
+              )}
             </div>
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -1217,7 +1229,7 @@ export default function Procurement() {
         </section>
 
         {/* HOW IT WORKS */}
-        <section className="py-16 md:py-24 bg-slate-50/70 border-y border-slate-100">
+        <section id="how-it-works" className="py-16 md:py-24 bg-slate-50/70 border-y border-slate-100">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 border border-amber-200 mb-3">
               {data.howItWorks.badge}
@@ -1410,7 +1422,7 @@ export default function Procurement() {
         </section>
 
         {/* FAQS */}
-        <section className="py-16 md:py-24 bg-slate-50 border-t border-slate-200/80">
+        <section id="faqs" className="py-16 md:py-24 bg-slate-50 border-t border-slate-200/80">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12 md:mb-16">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200 mb-3">

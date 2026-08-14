@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Twitter, Linkedin, Facebook, ArrowUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { isProcureSubdomain } from '../utils/subdomain';
 
 const socialLinks = [
   { Icon: Instagram, href: 'https://www.instagram.com/byalance.in', label: 'Instagram' },
@@ -13,8 +14,17 @@ const socialLinks = [
 export default function Footer() {
   const { t } = useLanguage();
   const [logoSrc, setLogoSrc] = useState('/brandlogowhite_opt.webp');
+  const isProcure = isProcureSubdomain();
 
-  const quickLinks = [
+  const quickLinks = isProcure ? [
+    { name: "Overview", href: '#' },
+    { name: "What We Import", href: '#import-categories' },
+    { name: "Landed Cost Breakdown", href: '#landed-cost-teardown' },
+    { name: "How It Works", href: '#how-it-works' },
+    { name: "Pricing", href: '#pricing' },
+    { name: "FAQs", href: '#faqs' },
+    { name: "Main Website", href: 'https://byalance.in' },
+  ] : [
     { name: t.nav.home, href: '/' },
     { name: t.nav.about, href: '/#about' },
     { name: t.nav.services, href: '/#services' },
@@ -22,14 +32,22 @@ export default function Footer() {
     { name: t.nav.contact, href: '/#contact' },
   ];
 
-  const serviceLinks = [
-    { name: t.services.items[0]?.title || 'Procurement & Import Compliance', href: '/services/procurement-import-compliance' },
-    { name: t.services.items[1]?.title || 'Accounting & Bookkeeping', href: '/services/accounting-bookkeeping' },
-    { name: t.services.items[2]?.title || 'ITR Services', href: '/services/itr-services' },
-    { name: t.services.items[3]?.title || 'GST Services', href: '/services/gst-services' },
-    { name: t.services.items[4]?.title || 'TDS Services', href: '/services/tds-services' },
-    { name: t.services.items[5]?.title || 'Payroll Processing', href: '/services/payroll-processing' },
-    { name: t.services.items[6]?.title || 'Employer of Record (EOR) India', href: '/services/eor-services-india' },
+  const serviceLinks = isProcure ? [
+    { name: 'Procurement & Import Compliance', href: '/', isExternal: false },
+    { name: 'Accounting & Bookkeeping', href: 'https://byalance.in/services/accounting-bookkeeping', isExternal: true },
+    { name: 'ITR Services', href: 'https://byalance.in/services/itr-services', isExternal: true },
+    { name: 'GST Services', href: 'https://byalance.in/services/gst-services', isExternal: true },
+    { name: 'TDS Services', href: 'https://byalance.in/services/tds-services', isExternal: true },
+    { name: 'Payroll Processing', href: 'https://byalance.in/services/payroll-processing', isExternal: true },
+    { name: 'Employer of Record (EOR) India', href: 'https://byalance.in/services/eor-services-india', isExternal: true },
+  ] : [
+    { name: t.services.items[0]?.title || 'Procurement & Import Compliance', href: '/services/procurement-import-compliance', isExternal: false },
+    { name: t.services.items[1]?.title || 'Accounting & Bookkeeping', href: '/services/accounting-bookkeeping', isExternal: false },
+    { name: t.services.items[2]?.title || 'ITR Services', href: '/services/itr-services', isExternal: false },
+    { name: t.services.items[3]?.title || 'GST Services', href: '/services/gst-services', isExternal: false },
+    { name: t.services.items[4]?.title || 'TDS Services', href: '/services/tds-services', isExternal: false },
+    { name: t.services.items[5]?.title || 'Payroll Processing', href: '/services/payroll-processing', isExternal: false },
+    { name: t.services.items[6]?.title || 'Employer of Record (EOR) India', href: '/services/eor-services-india', isExternal: false },
   ];
 
   const scrollToTop = () => {
@@ -93,9 +111,15 @@ export default function Footer() {
             <ul className="space-y-2">
               {serviceLinks.map((link) => (
                 <li key={link.name}>
-                  <Link to={link.href} className="text-xs text-slate-400 hover:text-indigo-400 transition-all font-medium">
-                    {link.name}
-                  </Link>
+                  {link.isExternal ? (
+                    <a href={link.href} className="text-xs text-slate-400 hover:text-indigo-400 transition-all font-medium">
+                      {link.name}
+                    </a>
+                  ) : (
+                    <Link to={link.href} className="text-xs text-slate-400 hover:text-indigo-400 transition-all font-medium">
+                      {link.name}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>

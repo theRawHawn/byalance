@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Phone, Globe, ChevronDown } from 'lucide-react';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { useLanguage, Language } from '../context/LanguageContext';
+import { isProcureSubdomain } from '../utils/subdomain';
 
 const languages: { code: Language; name: string }[] = [
   { code: 'en', name: 'English' },
@@ -22,8 +23,16 @@ export default function Navbar() {
   const { pathname } = useLocation();
   const locationPath = pathname;
   const { language, setLanguage, t } = useLanguage();
+  const isProcure = isProcureSubdomain();
 
-  const navLinks = [
+  const navLinks = isProcure ? [
+    { name: "Overview", href: "#" },
+    { name: "What We Import", href: "#import-categories" },
+    { name: "Landed Cost", href: "#landed-cost-teardown" },
+    { name: "How It Works", href: "#how-it-works" },
+    { name: "Pricing", href: "#pricing" },
+    { name: "FAQs", href: "#faqs" },
+  ] : [
     { name: t.nav.home, href: '/' },
     { name: t.nav.about, href: '/#about' },
     { name: t.nav.services, href: '/#services' },

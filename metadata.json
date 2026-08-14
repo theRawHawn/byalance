@@ -1,6 +1,6 @@
 {
   "name": "Byalance",
-  "description": "Professional accounting, GST, ITR, and TDS filing services for small and medium businesses in India.",
+  "description": "End-to-end Procurement, Accounting, Tax, Payroll & EOR Compliance for modern startups and global enterprises.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

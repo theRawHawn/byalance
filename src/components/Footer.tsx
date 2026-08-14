@@ -23,13 +23,13 @@ export default function Footer() {
   ];
 
   const serviceLinks = [
-    { name: t.services.items[0].title, href: '/services/accounting-bookkeeping' },
-    { name: t.services.items[1].title, href: '/services/itr-services' },
-    { name: t.services.items[2].title, href: '/services/gst-services' },
-    { name: t.services.items[3].title, href: '/services/tds-services' },
-    { name: t.services.items[4].title, href: '/services/payroll-processing' },
-    { name: t.services.items[5]?.title || 'EOR Services for India', href: '/services/eor-services-india' },
-    { name: t.services.items[6]?.title || 'Procurement & Import Compliance', href: '/services/procurement-import-compliance' },
+    { name: t.services.items[0]?.title || 'Procurement & Import Compliance', href: '/services/procurement-import-compliance' },
+    { name: t.services.items[1]?.title || 'Accounting & Bookkeeping', href: '/services/accounting-bookkeeping' },
+    { name: t.services.items[2]?.title || 'ITR Services', href: '/services/itr-services' },
+    { name: t.services.items[3]?.title || 'GST Services', href: '/services/gst-services' },
+    { name: t.services.items[4]?.title || 'TDS Services', href: '/services/tds-services' },
+    { name: t.services.items[5]?.title || 'Payroll Processing', href: '/services/payroll-processing' },
+    { name: t.services.items[6]?.title || 'Employer of Record (EOR) India', href: '/services/eor-services-india' },
   ];
 
   const scrollToTop = () => {

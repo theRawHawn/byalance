@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { homeFAQs } from '../data/faqData';
 
 export type Language = 'en' | 'hi' | 'kn' | 'te' | 'mr' | 'ta';
 
@@ -297,44 +298,7 @@ export const translations = {
     },
     faqs: {
       title: 'Frequently Asked Questions — Byalance Accounting & Compliances',
-      items: [
-        {
-          question: 'What services does Byalance offer?',
-          answer: 'Byalance offers end-to-end remote accounting, tax compliance, and business operations services for Indian startups, MSMEs, and global enterprises. Our core solutions include Accounting & Bookkeeping, GST Filing & Compliance, TDS Management, Income Tax Return (ITR) Filing, Payroll Processing, Employer of Record (EOR India), and Global Procurement & Import Compliance. We serve clients across India and globally from our base in Bengaluru, Karnataka.'
-        },
-        {
-          question: 'How much does Byalance charge per month?',
-          answer: 'Byalance pricing is transparent: Starter Plan starts at ₹1,999/month (GST & basic bookkeeping), Growth Plan ranges from ₹7,499–₹14,999/month (GST, TDS, full accounting & financial reports), and Pro Plan is ₹15,499–₹20,000+/month (GST, TDS, payroll & dedicated priority support). EOR India service is a flat $89/employee/month. Global Procurement offers itemized landed cost quotes in INR with 100% GST Tax Invoice pass-through.'
-        },
-        {
-          question: 'Is Byalance a remote accounting firm?',
-          answer: 'Yes. Byalance is a fully remote accounting and business operations firm. All services are delivered online — you share documents via WhatsApp, email, or secure folder, and our certified team handles reconciliations, filings, payroll, EOR, and procurement compliance. You get enterprise-grade execution at transparent pricing without physical office visits.'
-        },
-        {
-          question: 'Which cities and countries does Byalance serve?',
-          answer: 'Headquartered in JP Nagar, Bengaluru (Karnataka), Byalance serves businesses across India (Mumbai, Delhi NCR, Hyderabad, Chennai, Pune, and Tier 2/3 cities) as well as international clients from the US, UK, Europe, UAE, Singapore, and beyond seeking EOR or procurement in India. All filings are done online through official portals.'
-        },
-        {
-          question: 'Can Byalance handle accounting, payroll, and procurement for my startup?',
-          answer: 'Absolutely. Byalance specializes in startups, hardware innovators, R&D labs, and growing SMEs. We set up your books from scratch, handle GST/TDS registrations, manage monthly payroll, hire local talent legally via EOR, and procure global parts or components with customs clearance.'
-        },
-        {
-          question: 'How does Byalance Employer of Record (EOR India) work?',
-          answer: 'Byalance EOR enables foreign startups and global companies to legally hire remote employees in India without setting up a local entity. We manage employment contracts under our corporate entity, process monthly payroll in INR, deposit statutory PF, ESI, TDS, and PT, and handle HR compliance for a flat $89/employee/month fee.'
-        },
-        {
-          question: 'How does Byalance Global Procurement & Import Compliance work?',
-          answer: 'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number from any global supplier, and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).'
-        },
-        {
-          question: 'Does Byalance work with Tally, Zoho, or QuickBooks?',
-          answer: 'Yes. Byalance works seamlessly with Tally Prime, Zoho Books, QuickBooks Online, and Excel setups. We adapt to your current workflow or help you set up the ideal accounting software for your business size and budget at no additional charge.'
-        },
-        {
-          question: 'How do I get started with Byalance?',
-          answer: 'Getting started is simple. WhatsApp us at +91 74062 96116 or submit a query on the website. We schedule a free 15-minute consultation to understand your business, current compliance status, and recommend the right plan. Onboarding typically takes 2–3 working days.'
-        }
-      ]
+      items: homeFAQs
     },
     common: {
       learnMore: 'Learn More',

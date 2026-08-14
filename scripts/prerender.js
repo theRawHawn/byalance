@@ -94,7 +94,7 @@ async function runPrerender() {
   for (const url of ROUTES) {
     console.log(`➡️  Pre-rendering route: "${url}"`);
     try {
-      const { html, ssrDisabled } = await render(url);
+      const { html, ssrDisabled, helmet } = await render(url);
 
       if (ssrDisabled) {
         console.log(`⚠️  SSR is disabled for route: ${url}. Skipping.`);
@@ -102,23 +102,35 @@ async function runPrerender() {
       }
 
       // Extract SEO/meta/schema tags and clean the body markup
-      const { title, metas, links, schemas, cleanedHtml } = extractMetadata(html);
+      const { title: inlineTitle, metas, links, schemas, cleanedHtml } = extractMetadata(html);
 
       // Create a fresh HTML page based on template
       let pageHtml = templateHtml;
 
-      // Inject Custom Page Title
-      if (title) {
-        pageHtml = pageHtml.replace(/<title[^>]*>[\s\S]*?<\/title>/i, title);
+      // Extract helmet tags if available
+      const helmetTitle = helmet?.title?.toString() || '';
+      const helmetMeta = helmet?.meta?.toString() || '';
+      const helmetLink = helmet?.link?.toString() || '';
+      const helmetScript = helmet?.script?.toString() || '';
+
+      // Determine the final title
+      const finalTitle = helmetTitle || inlineTitle;
+      if (finalTitle) {
+        pageHtml = pageHtml.replace(/<title[^>]*>[\s\S]*?<\/title>/i, finalTitle);
       }
 
-      // Inject custom meta tags, canonical link, and JSON-LD schemas into <head>
-      let headTags = '';
-      if (metas.length > 0) headTags += '\n    ' + metas.join('\n    ');
-      if (links.length > 0) headTags += '\n    ' + links.join('\n    ');
-      if (schemas.length > 0) headTags += '\n    ' + schemas.join('\n    ');
+      // Collect all head tags
+      const headTagsList = [];
+      if (helmetMeta) headTagsList.push(helmetMeta);
+      if (helmetLink) headTagsList.push(helmetLink);
+      if (helmetScript) headTagsList.push(helmetScript);
+      if (metas.length > 0) headTagsList.push(metas.join('\n    '));
+      if (links.length > 0) headTagsList.push(links.join('\n    '));
+      if (schemas.length > 0) headTagsList.push(schemas.join('\n    '));
 
-      pageHtml = pageHtml.replace('</head>', `${headTags}\n  </head>`);
+      if (headTagsList.length > 0) {
+        pageHtml = pageHtml.replace('</head>', `    ${headTagsList.join('\n    ')}\n  </head>`);
+      }
 
       // Inject cleaned body html into <div id="root">
       pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">${cleanedHtml}</div>`);
@@ -129,7 +141,7 @@ async function runPrerender() {
 
       if (url !== '/') {
         // Strip leading slash and create subdirectories for clean URLs (e.g. /services/gst -> dist/services/gst/index.html)
-        destDir = path.join(DIST_PATH, url);
+        destDir = path.join(DIST_PATH, url.replace(/^\//, ''));
         destFile = 'index.html';
       }
 

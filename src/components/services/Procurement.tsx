@@ -102,7 +102,7 @@ const procurementI18n: Record<Language, {
     steps: [
       {
         title: "1. Share Link, BOM or Part No.",
-        desc: "Send us your product link (DigiKey, Mouser, OEM, etc.), part numbers, or Bill of Materials via WhatsApp or email.",
+        desc: "Send us your product link, part numbers, or Bill of Materials via WhatsApp or email.",
         stageLabel: "Stage 1: Link & Request Submission"
       },
       {
@@ -121,7 +121,7 @@ const procurementI18n: Record<Language, {
       title: "Byalance is ",
       titleNot: "NOT",
       desc: "Byalance is a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process.",
-      highlight: "Customers don't deal with DigiKey, Mouser, DHL, Customs or import paperwork. They simply send us a product link — we handle everything.",
+      highlight: "Customers don't deal with suppliers, couriers, Customs or import paperwork. They simply send us a product link — we handle everything.",
       cta: "Send Product Link"
     },
     servicesScope: {
@@ -150,7 +150,7 @@ const procurementI18n: Record<Language, {
       title: "How Global Procurement & Import Works",
       desc: "From international component selection to your Indian doorstep — completely effortless.",
       steps: [
-        { step: 1, title: "Share Product Link, BOM or Part Number", desc: "Send us links from DigiKey, Mouser, global vendors, or attach your Bill of Materials." },
+        { step: 1, title: "Share Product Link, BOM or Part Number", desc: "Send us links from global suppliers and vendors, or attach your Bill of Materials." },
         { step: 2, title: "Receive Final Quote", desc: "We calculate all landed costs (forex, duty, shipping, GST) and send a single transparent quote in INR." },
         { step: 3, title: "Approve & Pay", desc: "Approve the quote and transfer payment locally in INR to Byalance." },
         { step: 4, title: "We Procure Globally", desc: "We initiate forex payments and buy directly from international suppliers on your behalf." },
@@ -196,7 +196,7 @@ const procurementI18n: Record<Language, {
       desc: "No surprise customs duties, no forex markup fees. You receive a single transparent landed quote in INR and pay locally in India.",
       boxBadge: "All-Inclusive Landed Pricing (INR)",
       boxTitle: "Custom Landed Cost Quote",
-      boxDesc: "Simply share your product link (DigiKey, Mouser, OEM) or Bill of Materials (BOM). Byalance computes all international variables and provides a single, all-inclusive INR price before you commit.",
+      boxDesc: "Simply share your product link or Bill of Materials (BOM). Byalance computes all international variables and provides a single, all-inclusive INR price before you commit.",
       check1: "100% Compliant GST Tax Invoice issued for full Input Tax Credit (ITC) eligibility.",
       check2: "Zero Forex Friction: Pay in INR locally via RTGS/NEFT/UPI. We handle foreign wire transfers to global vendors.",
       check3: "Complete Customs Clearance: HSN classification, Bill of Entry, and carrier clearance desks handled end-to-end.",
@@ -237,7 +237,7 @@ const procurementI18n: Record<Language, {
     steps: [
       {
         title: "1. लिंक, BOM या पार्ट नंबर साझा करें",
-        desc: "हमें व्हाट्सएप या ईमेल के माध्यम से अपना उत्पाद लिंक (DigiKey, Mouser, OEM आदि), पार्ट नंबर या बिल ऑफ मटेरियल भेजें।",
+        desc: "हमें व्हाट्सएप या ईमेल के माध्यम से अपना उत्पाद लिंक, पार्ट नंबर या बिल ऑफ मटेरियल भेजें।",
         stageLabel: "चरण 1: लिंक और अनुरोध जमा करना"
       },
       {
@@ -256,7 +256,7 @@ const procurementI18n: Record<Language, {
       title: "Byalance कोई इलेक्ट्रॉनिक्स वितरक ",
       titleNot: "नहीं",
       desc: "Byalance एक व्यावसायिक परिचालन कंपनी है जो भारतीय स्टार्टअप्स, R&D प्रयोगशालाओं, निर्माताओं और MSMEs को पूरी आयात प्रक्रिया को संभालते हुए दुनिया में कहीं से भी उत्पाद खरीदने में मदद करती है।",
-      highlight: "ग्राहकों को DigiKey, Mouser, DHL, कस्टम्स या आयात कागजी कार्रवाई से निपटने की आवश्यकता नहीं है। वे केवल हमें एक उत्पाद लिंक भेजते हैं — हम सब कुछ संभालते हैं।",
+      highlight: "ग्राहकों को आपूर्तिकर्ताओं, कूरियर, कस्टम्स या आयात कागजी कार्रवाई से निपटने की आवश्यकता नहीं है। वे केवल हमें एक उत्पाद लिंक भेजते हैं — हम सब कुछ संभालते हैं।",
       cta: "उत्पाद लिंक भेजें"
     },
     servicesScope: {
@@ -285,7 +285,7 @@ const procurementI18n: Record<Language, {
       title: "वैश्विक खरीद और आयात कैसे काम करता है",
       desc: "अंतर्राष्ट्रीय घटक चयन से लेकर आपके भारतीय द्वार तक — पूरी तरह से आसान।",
       steps: [
-        { step: 1, title: "उत्पाद लिंक, BOM या पार्ट नंबर भेजें", desc: "DigiKey, Mouser, वैश्विक विक्रेताओं से लिंक भेजें, या अपना बिल ऑफ मटेरियल संलग्न करें।" },
+        { step: 1, title: "उत्पाद लिंक, BOM या पार्ट नंबर भेजें", desc: "वैश्विक आपूर्तिकर्ताओं से लिंक भेजें, या अपना बिल ऑफ मटेरियल संलग्न करें।" },
         { step: 2, title: "अंतिम उद्धरण प्राप्त करें", desc: "हम सभी लैंडेड लागतों (फॉरेक्स, ड्यूटी, शिपिंग, जीएसटी) की गणना करते हैं और INR में एक पारदर्शी उद्धरण भेजते हैं।" },
         { step: 3, title: "स्वीकृति दें और भुगतान करें", desc: "उद्धरण को मंजूरी दें और भुगतान स्थानीय रूप से INR में Byalance को स्थानांतरित करें।" },
         { step: 4, title: "हम वैश्विक स्तर पर खरीद करते हैं", desc: "हम आपकी ओर से अंतर्राष्ट्रीय आपूर्तिकर्ताओं से सीधे भुगतान और खरीद करते हैं।" },
@@ -331,7 +331,7 @@ const procurementI18n: Record<Language, {
       desc: "कोई अप्रत्याशित सीमा शुल्क नहीं, कोई विदेशी मुद्रा शुल्क नहीं। आपको INR में एक पारदर्शी मूल्य मिलता है और आप भारत में स्थानीय रूप से भुगतान करते हैं।",
       boxBadge: "सभी लागतों सहित लैंडेड मूल्य (INR)",
       boxTitle: "अनुकूलित लैंडेड लागत उद्धरण",
-      boxDesc: "बस अपना उत्पाद लिंक (DigiKey, Mouser, OEM) या बिल ऑफ मटेरियल (BOM) साझा करें। Byalance सभी अंतर्राष्ट्रीय चर की गणना करता है और ऑर्डर से पहले आपको एक स्पष्ट INR मूल्य प्रदान करता है।",
+      boxDesc: "बस अपना उत्पाद लिंक या बिल ऑफ मटेरियल (BOM) साझा करें। Byalance सभी अंतर्राष्ट्रीय चर की गणना करता है और ऑर्डर से पहले आपको एक स्पष्ट INR मूल्य प्रदान करता है।",
       check1: "पूर्ण इनपुट टैक्स क्रेडिट (ITC) पात्रता के लिए 100% अनुपालन जीएसटी टैक्स चालान जारी किया गया।",
       check2: "शून्य विदेशी मुद्रा परेशानी: RTGS/NEFT/UPI के माध्यम से स्थानीय रूप से INR में भुगतान करें। हम वैश्विक विक्रेताओं को वायर ट्रांसफर संभालते हैं।",
       check3: "पूर्ण सीमा शुल्क निकासी: HSN वर्गीकरण, बिल ऑफ एंट्री और कूरियर क्लीयरेंस डेस्क एंड-टू-एंड संचालित।",
@@ -372,7 +372,7 @@ const procurementI18n: Record<Language, {
     steps: [
       {
         title: "1. ಲಿಂಕ್ ಅಥವಾ BOM ಹಂಚಿಕೊಳ್ಳಿ",
-        desc: "DigiKey, Mouser, OEM ಲಿಂಕ್‌ಗಳು ಅಥವಾ ಭಾಗಗಳ ಪಟ್ಟಿಯನ್ನು ವಾಟ್ಸಾಪ್ ಅಥವಾ ಇಮೇಲ್ ಮೂಲಕ ನಮಗೆ ಕಳುಹಿಸಿ.",
+        desc: "ಜಾಗತಿಕ ಪೂರೈಕೆದಾರ ಲಿಂಕ್‌ಗಳು ಅಥವಾ ಭಾಗಗಳ ಪಟ್ಟಿಯನ್ನು ವಾಟ್ಸಾಪ್ ಅಥವಾ ಇಮೇಲ್ ಮೂಲಕ ನಮಗೆ ಕಳುಹಿಸಿ.",
         stageLabel: "ಹಂತ 1: ಲಿಂಕ್ ಮತ್ತು ವಿನಂತಿ ಸಲ್ಲಿಕೆ"
       },
       {
@@ -391,7 +391,7 @@ const procurementI18n: Record<Language, {
       title: "Byalance ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ವಿತರಕರಲ್ಲ, ",
       titleNot: "ಬದಲಿಗೆ ಕಾರ್ಯಾಚರಣೆ ಸಂಸ್ಥೆ",
       desc: "Byalance ಭಾರತೀಯ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು, R&D ಲ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಸಣ್ಣ ಉದ್ಯಮಗಳಿಗೆ ಪ್ರಪಂಚದಾದ್ಯಂತ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಲು ಮತ್ತು ಸಂಪೂರ್ಣ ಆಮದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
-      highlight: "ಗ್ರಾಹಕರು DigiKey, Mouser, DHL ಅಥವಾ ಕಸ್ಟಮ್ಸ್ ದಾಖಲೆಗಳೊಂದಿಗೆ ವ್ಯವಹರಿಸಬೇಕಾಗಿಲ್ಲ. ಕೇವಲ ಲಿಂಕ್ ಕಳುಹಿಸಿದರೆ ಸಾಕು — ನಾವು ಎಲ್ಲವನ್ನೂ ನಿರ್ವಹಿಸುತ್ತೇವೆ.",
+      highlight: "ಗ್ರಾಹಕರು ಪೂರೈಕೆದಾರರು, ಕೊರಿಯರ್ ಅಥವಾ ಕಸ್ಟಮ್ಸ್ ದಾಖಲೆಗಳೊಂದಿಗೆ ವ್ಯವಹರಿಸಬೇಕಾಗಿಲ್ಲ. ಕೇವಲ ಲಿಂಕ್ ಕಳುಹಿಸಿದರೆ ಸಾಕು — ನಾವು ಎಲ್ಲವನ್ನೂ ನಿರ್ವಹಿಸುತ್ತೇವೆ.",
       cta: "ಉತ್ಪನ್ನ ಲಿಂಕ್ ಕಳುಹಿಸಿ"
     },
     servicesScope: {
@@ -420,7 +420,7 @@ const procurementI18n: Record<Language, {
       title: "ಜಾಗತಿಕ ಖರೀದಿ ಮತ್ತು ಆಮದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ",
       desc: "ಉತ್ಪನ್ನ ಆಯ್ಕೆಯಿಂದ ನಿಮ್ಮ ಮನೆಬಾಗಿಲಿಗೆ ತಲುಪುವವರೆಗೆ ಅತ್ಯಂತ ಸುಲಭ ಹಂತಗಳು.",
       steps: [
-        { step: 1, title: "ಉತ್ಪನ್ನದ ಲಿಂಕ್ ಕಳುಹಿಸಿ", desc: "DigiKey, Mouser ಅಥವಾ ಜಾಗತಿಕ ಪೂರೈಕೆದಾರರ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ." },
+        { step: 1, title: "ಉತ್ಪನ್ನದ ಲಿಂಕ್ ಕಳುಹಿಸಿ", desc: "ಜಾಗತಿಕ ಪೂರೈಕೆದಾರರ ಲಿಂಕ್‌ಗಳನ್ನು ಕಳುಹಿಸಿ." },
         { step: 2, title: "ಬೆಲೆ ವಿವರ ಪಡೆಯಿರಿ", desc: "ನಾವು ಎಲ್ಲಾ ವೆಚ್ಚಗಳನ್ನು ಲೆಕ್ಕಹಾಕಿ ಸರಳ INR ಬೆಲೆಯನ್ನು ಕಳುಹಿಸುತ್ತೇವೆ." },
         { step: 3, title: "ಅನುಮೋದಿಸಿ & ಪಾವತಿಸಿ", desc: "ಬೆಲೆಯನ್ನು ಅನುಮೋದಿಸಿ ಸ್ಥಳೀಯವಾಗಿ INR ನಲ್ಲಿ ಪಾವತಿಸಿ." },
         { step: 4, title: "ನಾವು ಖರೀದಿಸುತ್ತೇವೆ", desc: "ನಾವು ಅಂತರರಾಷ್ಟ್ರೀಯ ಪೂರೈಕೆದಾರರಿಗೆ ಪಾವತಿಸಿ ಉತ್ಪನ್ನವನ್ನು ಖರೀದಿಸುತ್ತೇವೆ." },
@@ -507,7 +507,7 @@ const procurementI18n: Record<Language, {
     steps: [
       {
         title: "1. లింక్ లేదా BOM షేర్ చేయండి",
-        desc: "DigiKey, Mouser, OEM లింక్‌లు లేదా ప్రొడక్ట్ పాయింట్లను వాట్సాప్ లేదా ఈమెయిల్ ద్వారా పంపండి.",
+        desc: "గ్లోబల్ సరఫరాదారు లింక్‌లు లేదా ప్రొడక్ట్ పాయింట్లను వాట్సాప్ లేదా ఈమెయిల్ ద్వారా పంపండి.",
         stageLabel: "దశ 1: లింక్ మరియు అభ్యర్థన సమర్పణ"
       },
       {
@@ -526,7 +526,7 @@ const procurementI18n: Record<Language, {
       title: "Byalance ఎలక్ట్రానిక్స్ డిస్ట్రిబ్యూటర్ కాదు, ",
       titleNot: "ఆపరేషన్స్ సంస్థ",
       desc: "Byalance భారతీయ స్టార్టప్‌లు, R&D ల్యాబ్‌లు మరియు చిన్న పరిశ్రమలకు ప్రపంచవ్యాప్తంగా ప్రొడక్ట్స్ కొనుగోలు చేయడానికి మరియు దిగుమతి ప్రక్రియను నిర్వహించడానికి సహాయం చేస్తుంది.",
-      highlight: "కస్టమర్లు DigiKey, Mouser, DHL లేదా కస్టమ్స్ డాక్యుమెంట్లతో శ్రమపడనవసరం లేదు. కేవలం లింక్ పంపితే చాలు — మేమే అంతా చూసుకుంటాము.",
+      highlight: "కస్టమర్లు సరఫరాదారులు, కొరియర్ లేదా కస్టమ్స్ డాక్యుమెంట్లతో శ్రమపడనవసరం లేదు. కేవలం లింక్ పంపితే చాలు — మేమే అంతా చూసుకుంటాము.",
       cta: "ప్రొడక్ట్ లింక్ పంపండి"
     },
     servicesScope: {
@@ -555,7 +555,7 @@ const procurementI18n: Record<Language, {
       title: "గ్లోబల్ ప్రోక్యూర్మెంట్ ఎలా పనిచేస్తుంది",
       desc: "అంతర్జాతీయ ప్రొడక్ట్ ఎంపిక నుండి మీ ఇంటి వద్దకు చేరే వరకు సులువైన విధానం.",
       steps: [
-        { step: 1, title: "ప్రొడక్ట్ లింక్ పంపండి", desc: "DigiKey, Mouser లేదా అంతర్జాతీయ సరఫరాదారుల లింక్‌లు పంపండి." },
+        { step: 1, title: "ప్రొడక్ట్ లింక్ పంపండి", desc: "అంతర్జాతీయ సరఫరాదారుల లింక్‌లు పంపండి." },
         { step: 2, title: "ధర అంచనా పొందండి", desc: "మేము అన్ని ఖర్చులను లెక్కించి స్పష్టమైన INR ధరను పంపుతాము." },
         { step: 3, title: "ఆమోదించండి & చెల్లించండి", desc: "ధరను ఆమోదించి స్థానికంగా INR లో చెల్లించండి." },
         { step: 4, title: "మేము కొనుగోలు చేస్తాము", desc: "మేము విదేశీ సరఫరాదారులకు చెల్లించి ప్రొడక్ట్ కొనుగోలు చేస్తాము." },
@@ -642,7 +642,7 @@ const procurementI18n: Record<Language, {
     steps: [
       {
         title: "1. लिंक किंवा BOM शेअर करा",
-        desc: "DigiKey, Mouser, OEM लिंक्स किंवा पार्ट नंबर व्हॉट्सॲप किंवा ईमेलद्वारे पाठवा.",
+        desc: "जागतिक पुरवठादार लिंक्स किंवा पार्ट नंबर व्हॉट्सॲप किंवा ईमेलद्वारे पाठवा.",
         stageLabel: "टप्पा 1: लिंक व विनंती सादर करणे"
       },
       {
@@ -661,7 +661,7 @@ const procurementI18n: Record<Language, {
       title: "Byalance इलेक्ट्रॉनिक्स डिस्ट्रीब्यूटर नाही, ",
       titleNot: "तर ऑपरेशन्स कंपनी आहे",
       desc: "Byalance भारतीय स्टार्टअप्स, R&D लॅब्स आणि लहान उद्योगांना जगभरातून उत्पादने खरेदी करण्यात आणि पूर्ण आयात प्रक्रिया हाताळण्यात मदत करते.",
-      highlight: "ग्राहकांना DigiKey, Mouser, DHL किंवा कस्टम्स कागदपत्रांची चिंता करण्याची गरज नाही. फक्त लिंक पाठवा — सर्व काही आम्ही हाताळतो.",
+      highlight: "ग्राहकांना पुरवठादार, कुरियर किंवा कस्टम्स कागदपत्रांची चिंता करण्याची गरज नाही. फक्त लिंक पाठवा — सर्व काही आम्ही हाताळतो.",
       cta: "उत्पादन लिंक पाठवा"
     },
     servicesScope: {
@@ -690,7 +690,7 @@ const procurementI18n: Record<Language, {
       title: "जागतिक खरेदी आणि आयात कसे कार्य करते",
       desc: "आंतरराष्ट्रीय घटक निवडीपासून तुमच्या दारापर्यंत — अत्यंत सोपी प्रक्रिया.",
       steps: [
-        { step: 1, title: "उत्पादन लिंक पाठवा", desc: "DigiKey, Mouser किंवा जागतिक पुरवठादारांच्या लिंक्स पाठवा." },
+        { step: 1, title: "उत्पादन लिंक पाठवा", desc: "जागतिक पुरवठादारांच्या लिंक्स पाठवा." },
         { step: 2, title: "कोटेशन मिळवा", desc: "आम्ही सर्व खर्च मोजून स्पष्ट INR कोटेशन पाठवतो." },
         { step: 3, title: "मंजूर करा व भरणा करा", desc: "कोटेशन मंजूर करून स्थानिक पातळीवर INR मध्ये भरणा करा." },
         { step: 4, title: "आम्ही खरेदी करतो", desc: "आम्ही परदेशी पुरवठादारांना पेमेंट करून वस्तू खरेदी करतो." },
@@ -777,7 +777,7 @@ const procurementI18n: Record<Language, {
     steps: [
       {
         title: "1. லிங்க் அல்லது BOM அனுப்பவும்",
-        desc: "DigiKey, Mouser, OEM லிங்க்கள் அல்லது பகுதி எண்களை வாட்ஸ்அப் அல்லது மின்னஞ்சலில் அனுப்பவும்.",
+        desc: "உலகளாவிய சப்ளையர் லிங்க்கள் அல்லது பகுதி எண்களை வாட்ஸ்அப் அல்லது மின்னஞ்சலில் அனுப்பவும்.",
         stageLabel: "நிலை 1: லிங்க் சமர்ப்பித்தல்"
       },
       {
@@ -796,7 +796,7 @@ const procurementI18n: Record<Language, {
       title: "Byalance எலக்ட்ரானிக்ஸ் விநியோகஸ்தர் அல்ல, ",
       titleNot: "செயல்பாட்டு நிறுவனம்",
       desc: "Byalance இந்திய ஸ்டார்ட்அப்கள், R&D ஆய்வகங்கள் மற்றும் சிறு தொழில்களுக்கு உலகம் முழுவதிலுமிருந்து தயாரிப்புகளை வாங்கவும் இறக்குமதி செய்ய உதவவும் செயல்படுகிறது.",
-      highlight: "வாடிக்கையாளர்கள் DigiKey, Mouser, DHL அல்லது சுங்க ஆவணங்களை கையாள வேண்டியதில்லை. லிங்க் அனுப்பினால் போதும் — நாங்கள் அனைத்தையும் பார்த்துக்கொள்கிறோம்.",
+      highlight: "வாடிக்கையாளர்கள் சப்ளையர்கள், கூரியர் அல்லது சுங்க ஆவணங்களை கையாள வேண்டியதில்லை. லிங்க் அனுப்பினால் போதும் — நாங்கள் அனைத்தையும் பார்த்துக்கொள்கிறோம்.",
       cta: "தயாரிப்பு லிங்க் அனுப்பவும்"
     },
     servicesScope: {
@@ -825,7 +825,7 @@ const procurementI18n: Record<Language, {
       title: "உலகளாவிய கொள்முதல் எவ்வாறு செயல்படுகிறது",
       desc: "தயாரிப்பு தேர்வில் இருந்து உங்கள் வீட்டு வாசல் வரை — மிகவும் எளிய முறைகள்.",
       steps: [
-        { step: 1, title: "தயாரிப்பு லிங்க் அனுப்பவும்", desc: "DigiKey, Mouser அல்லது சர்வதேச விநியோகஸ்தர்களின் லிங்க்களை அனுப்பவும்." },
+        { step: 1, title: "தயாரிப்பு லிங்க் அனுப்பவும்", desc: "சர்வதேச விநியோகஸ்தர்களின் லிங்க்களை அனுப்பவும்." },
         { step: 2, title: "விலை விவரம் பெறவும்", desc: "அனைத்து செலவுகளையும் கணக்கிட்டு தெளிவான INR விலையை அனுப்புகிறோம்." },
         { step: 3, title: "ஒப்புக்கொண்டு செலுத்தவும்", desc: "விலையை ஒப்புக்கொண்டு உள்ளூர் முறையில் INR இல் செலுத்தவும்." },
         { step: 4, title: "நாங்கள் வாங்குகிறோம்", desc: "வெளிநாட்டு விநியோகஸ்தர்களுக்கு செலுத்தி தயாரிப்பை வாங்குகிறோம்." },
@@ -923,7 +923,7 @@ function ProcurementIllustration({ lang }: { lang: Language }) {
               <rect width="140" height="110" rx="8" fill="#FFFBEB" stroke="#FCD34D" />
               <text x="10" y="20" fontWeight="bold" fill="#B45309" fontSize="9">Client (Startup / R&D)</text>
               <text x="10" y="45" fill="#64748B">Shares Link or BOM:</text>
-              <text x="10" y="60" fontWeight="bold" fill="#D97706">• DigiKey / Mouser Links</text>
+              <text x="10" y="60" fontWeight="bold" fill="#D97706">• Global Supplier Links</text>
               <text x="10" y="75" fontWeight="bold" fill="#D97706">• Part Numbers / Datasheets</text>
               <text x="10" y="90" fontWeight="bold" fill="#D97706">• Target Quantities</text>
 
@@ -1072,8 +1072,8 @@ export default function Procurement() {
     <>
       <SEO
         title="Procurement & Import Compliance | Your Outsourced Global Procurement Team | Byalance"
-        description="Byalance helps Indian startups, R&D labs, manufacturers & SMEs procure products globally (DigiKey, Mouser, OEMs) with complete import compliance, customs clearance, and GST tax invoices."
-        keywords="procurement services, procurement outsourcing, procurement services for SMEs, global procurement India, import compliance India, procurement services for startups, procure from DigiKey India, Mouser import India, customs clearance electronics India, outsourced import operations, end-to-end procurement services, Byalance procurement"
+        description="Byalance helps Indian startups, R&D labs, manufacturers & SMEs procure products globally from trusted suppliers with complete import compliance, customs clearance, and GST tax invoices."
+        keywords="procurement services, procurement outsourcing, procurement services for SMEs, global procurement India, import compliance India, procurement services for startups, global supplier sourcing India, international vendor procurement India, customs clearance electronics India, outsourced import operations, end-to-end procurement services, Byalance procurement"
         canonical="https://byalance.in/services/procurement-import-compliance"
         ogType="article"
       />

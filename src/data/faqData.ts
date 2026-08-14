@@ -57,7 +57,7 @@ export const homeFAQs: FAQItem[] = [
   {
     question: 'How does Byalance Global Procurement & Import Compliance work?',
     answer:
-      'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number (from DigiKey, Mouser, global OEMs), and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).',
+      'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number from any global supplier, and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).',
   },
   {
     question: 'Does Byalance work with Tally, Zoho, or QuickBooks?',
@@ -344,7 +344,7 @@ export const procurementFAQs: FAQItem[] = [
   {
     question: 'What is Byalance Procurement & Import Compliance service?',
     answer:
-      'Byalance acts as your outsourced global procurement and import team. We are a business operations company that helps Indian startups, R&D labs, manufacturers, and SMEs procure products from anywhere in the world (DigiKey, Mouser, global OEMs, etc.) and handles the complete import process, customs clearance, HSN classification, supplier payments, and domestic delivery with a GST tax invoice.',
+      'Byalance acts as your outsourced global procurement and import team. We are a business operations company that helps Indian startups, R&D labs, manufacturers, and SMEs procure products from anywhere in the world and handles the complete import process, customs clearance, HSN classification, supplier payments, and domestic delivery with a GST tax invoice.',
   },
   {
     question: 'How does the product procurement process work?',
@@ -364,7 +364,7 @@ export const procurementFAQs: FAQItem[] = [
   {
     question: 'What platforms or suppliers can Byalance procure from?',
     answer:
-      'We procure from global electronics and industrial platforms including DigiKey, Mouser Electronics, Arrow, Farnell, McMaster-Carr, Element14, industrial suppliers, international OEMs, and specialized global component suppliers across the US, Europe, Japan, China, Taiwan, and beyond.',
+      'We procure from global electronics and industrial supplier platforms, international OEMs, and specialized global component suppliers across the US, Europe, Japan, China, Taiwan, and beyond.',
   },
   {
     question: 'Who is this procurement service designed for?',

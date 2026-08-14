@@ -19,7 +19,7 @@
 
 ## Executive Services
 
-- [Global Procurement & Import Compliance](https://byalance.in/services/procurement-import-compliance): End-to-end global product sourcing, international supplier FX payment (DigiKey, Mouser, etc.), HSN classification, customs clearance, DHL/FedEx coordination, and doorstep delivery with 100% compliant GST Tax Invoice for ITC
+- [Global Procurement & Import Compliance](https://byalance.in/services/procurement-import-compliance): End-to-end global product sourcing, international supplier FX payment, HSN classification, customs clearance, DHL/FedEx coordination, and doorstep delivery with 100% compliant GST Tax Invoice for ITC
 - [Employer of Record (EOR) India](https://byalance.in/services/eor-services-india): Compliant talent onboarding, INR salary disbursement, statutory EPF, ESIC, Professional Tax, and TDS filings under Byalance corporate codes
 - [Accounting & Bookkeeping](https://byalance.in/#bookkeeping): Monthly ledger management, bank reconciliation, P&L and Balance Sheet preparation
 - [GST Filing & Compliance](https://byalance.in/#gst): Monthly/quarterly GST return filing (GSTR-1, GSTR-3B, GSTR-9), GST registration, GST notices, e-invoicing

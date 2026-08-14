@@ -27,7 +27,7 @@ Byalance operates as your dedicated Global Procurement & Import Operations Team.
 
 **What Byalance handles:**
 - Global Supplier Sourcing & RFQ Management
-- International Supplier Forex Payments (DigiKey, Mouser, overseas OEMs)
+- International Supplier Forex Payments (global suppliers, overseas OEMs)
 - Import Documentation & HSN Classification
 - Customs Clearance & Duty Handling
 - DHL / FedEx / UPS Express Coordination

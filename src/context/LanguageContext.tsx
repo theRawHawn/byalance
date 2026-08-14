@@ -62,7 +62,7 @@ export const translations = {
             'Doorstep Domestic Delivery with GST Tax Invoice'
           ],
           details: {
-            desc: "Byalance is NOT an electronics distributor. Byalance is a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process. Customers don't deal with DigiKey, Mouser, DHL, Customs or import paperwork. They simply send us a product link — we handle everything.",
+            desc: "Byalance is NOT an electronics distributor. Byalance is a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process. Customers don't deal with suppliers, couriers, Customs or import paperwork. They simply send us a product link — we handle everything.",
             whyTitle: "Why Outsource Global Procurement?",
             whyDesc: "Importing electronics, components, or specialized equipment into India involves complex customs declarations, HSN classification, forex payments, Bill of Entry filings, and logistics friction with carriers like DHL or FedEx. Byalance operates as your dedicated import and procurement operations team, ensuring seamless clearance and delivering directly to your door with a compliant GST Tax Invoice for Input Tax Credit.",
             whoTitle: "Who Is This For?",
@@ -324,7 +324,7 @@ export const translations = {
         },
         {
           question: 'How does Byalance Global Procurement & Import Compliance work?',
-          answer: 'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number (from DigiKey, Mouser, global OEMs), and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).'
+          answer: 'Byalance acts as your outsourced global procurement operations team. Indian startups and R&D labs share a product link, BOM, or part number from any global supplier, and we provide a total landed cost quote in INR, handle international wire payments, customs clearance, HSN classification, and deliver to your doorstep with a valid GST Tax Invoice for Input Tax Credit (ITC).'
         },
         {
           question: 'Does Byalance work with Tally, Zoho, or QuickBooks?',

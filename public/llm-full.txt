@@ -33,6 +33,16 @@ Byalance operates as your dedicated Global Procurement & Import Operations Team.
 - DHL / FedEx / UPS Express Coordination
 - Doorstep Domestic Delivery with 100% compliant GST Tax Invoice for Input Tax Credit (ITC)
 
+**Import Scope & Categories (Legal Items Only):**
+- Sensors and Modules (IoT, LiDAR, IMU, ultrasonic, wireless nodes)
+- Electronics & Electronic Components (ICs, microcontrollers, semiconductors, PCBs, passives)
+- STEM Kits (Educational robotics, DIY learning sets, science & coding kits)
+- Machinery and Machinery Parts (CNC parts, motors, actuators, automation spares)
+- Robotics and AI Products (Vision systems, AI accelerator boards, robotic arms)
+- Hardware Tools (Testing instruments, oscilloscopes, soldering stations)
+- Drones & UAV Components (Flight controllers, ESCs, frames, brushless motors)
+- Strictly 100% legal, non-prohibited goods compliant with DGFT and CBIC rules.
+
 ---
 
 ### 2.2 Employer of Record (EOR) India

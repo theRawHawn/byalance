@@ -372,6 +372,11 @@ export const procurementFAQs: FAQItem[] = [
       'Our procurement and import service is custom-built for Indian startups, R&D labs, robotics companies, electronics firms, manufacturers, industrial automation companies, universities, engineering teams, and MSMEs needing components, prototypes, testing gear, or specialized equipment without international procurement friction.',
   },
   {
+    question: 'What types of products and items does Byalance import?',
+    answer:
+      'Byalance imports 100% legal, customs-compliant items only. Our core import categories include Sensors and Modules, Electronics and Electronic Components (ICs, microcontrollers, PCBs), STEM Kits (educational & maker kits), Machinery and Machinery Parts (CNC parts, motors, actuators), Robotics and AI Products (vision kits, compute boards, robotic arms), Hardware Tools (testing & calibration gear, soldering stations), and Drones & UAV components (flight controllers, ESCs, frames) adhering strictly to DGFT and Indian Customs regulations.',
+  },
+  {
     question: 'How are customs duty, forex conversion, and shipping handled?',
     answer:
       'Byalance calculates exact HSN customs duty rates, handles foreign exchange conversions compliant with RBI/FEMA guidelines, manages customs documentation at Indian ports, and delivers the cleared shipment directly to your facility with full transparency.',

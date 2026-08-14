@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import BreadcrumbSchema from '../BreadcrumbSchema';
 import { ServiceBackgroundDoodle } from '../ServiceBackgroundDoodle';
 import LandedCostTeardown from './LandedCostTeardown';
+import ImportCategories from './ImportCategories';
 
 const procurementI18n: Record<Language, {
   backToServices: string;
@@ -401,7 +402,7 @@ const procurementI18n: Record<Language, {
       items: [
         { title: "ಜಾಗತಿಕ ಪೂರೈಕೆದಾರರ ಮೂಲ", desc: "ಪ್ರಪಂಚದಾದ್ಯಂತದ ಯಾವುದೇ ಪೂರೈಕೆದಾರರಿಂದ ಭಾಗಗಳನ್ನು ಖರೀದಿಸುವುದು." },
         { title: "ಖರೀದಿ ನಿರ್ವಹಣೆ", desc: "ಲಿಂಕ್‌ನಿಂದ ಮನೆಬಾಗಿಲಿಗೆ ತಲುಪಿಸುವವರೆಗಿನ ಸಂಪೂರ್ಣ ನಿರ್ವಹಣೆ." },
-        { title: "RFQ ನಿರ್ವಹಣೆ", desc: "ಅುತ್ತಮ ಬೆಲೆ ಪಡೆಯಲು ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಮಾತುಕತೆ." },
+        { title: "RFQ ನಿರ್ವಹಣೆ", desc: "ಉತ್ತಮ ಬೆಲೆ ಪಡೆಯಲು ಪೂರೈಕೆದಾರರೊಂದಿಗೆ ಮಾತುಕತೆ." },
         { title: "ಅಂತರರಾಷ್ಟ್ರೀಯ ಪಾವತಿಗಳು", desc: "ವಿದೇಶಿ ಪೂರೈಕೆದಾರರಿಗೆ ಸರಳ ಫೊರೆಕ್ಸ್ ಪಾವತಿಗಳು." },
         { title: "ಆಮದು ದಾಖಲೆಗಳು", desc: "ಕಸ್ಟಮ್ಸ್ ಫಾರ್ಮ್‌ಗಳು ಮತ್ತು ವಾಣಿಜ್ಯ ಇನ್‌ವಾಯ್ಸ್‌ಗಳ ಸಿದ್ಧತೆ." },
         { title: "HSN ವರ್ಗೀಕರಣ", desc: "ನಿಖರವಾದ HSN ಕೋಡ್ ನಿರ್ಧಾರ ಮತ್ತು ನಿಯಮಗಳ ಪಾಲನೆ." },
@@ -719,7 +720,7 @@ const procurementI18n: Record<Language, {
       cardDesc: "भारतात सुटे भाग, सेन्सर्स आणि उपकरणे आयात करू इच्छिणाऱ्या टीम्ससाठी.",
       speakWithTeam: "खरेदी टीमशी बोला",
       items: [
-        { title: "स्टार्टअप्स", desc: "हार्डवेअर आणि डीपटेक इनो्हेटर्स" },
+        { title: "स्टार्टअप्स", desc: "हार्डवेअर आणि डीपटेक इनोव्हेटर्स" },
         { title: "R&D लॅब्स", desc: "संशोधन केंद्रे" },
         { title: "रोबोटिक्स कंपन्या", desc: "स्वायत्त प्रणाली उत्पादक" },
         { title: "इलेक्ट्रॉनिक्स कंपन्या", desc: "PCB आणि IoT प्रॉडक्ट टीम्स" },
@@ -1178,6 +1179,8 @@ export default function Procurement() {
         </section>
 
         <LandedCostTeardown />
+
+        <ImportCategories />
 
         {/* SERVICES INCLUDED GRID */}
         <section className="py-16 md:py-24 bg-white">

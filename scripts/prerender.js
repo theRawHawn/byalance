@@ -12,6 +12,7 @@ const TEMPLATE_PATH = path.resolve(DIST_PATH, 'index.html');
 // All known crawlable routes from App.tsx
 const ROUTES = [
   '/',
+  '/services/procurement-import-compliance',
   '/services/accounting-bookkeeping',
   '/services/gst-services',
   '/services/itr-services',

@@ -8,18 +8,20 @@
 ## Core Pages
 
 - [Home](https://byalance.in/): Overview of services, pricing, and interactive compliance studio
+- [Global Procurement & Import Compliance Portal](https://procure.byalance.in/): Dedicated outsourced global sourcing, supplier forex payments, customs clearance, and GST tax invoices
 - [Services](https://byalance.in/#services): Full suite of global procurement, EOR, accounting, and tax compliance services
 - [Pricing](https://byalance.in/#pricing): Differentiated pricing plans for domestic Indian compliance vs global operations (EOR & Procurement)
 - [About](https://byalance.in/#about): About Byalance, its mission, and compliance executive standard
 - [Contact](https://byalance.in/#contact): WhatsApp and email contact, office location in JP Nagar, Bengaluru
-- [Global Procurement & Import Compliance](https://byalance.in/services/procurement-import-compliance): Outsourced global sourcing, supplier forex payment, customs clearance, & GST tax invoice
+- [Global Procurement & Import Compliance (Main Site Mirror)](https://byalance.in/services/procurement-import-compliance): Outsourced global sourcing, supplier forex payment, customs clearance, & GST tax invoice
 - [Employer of Record (EOR) India](https://byalance.in/services/eor-services-india): Compliant hiring and payroll in India without setting up a local entity
 - [Privacy Policy](https://byalance.in/privacy-policy): Compliant with DPDP Act 2023 and IT Act 2000
 - [Data Handling Policy](https://byalance.in/data-handling-policy): How client financial data is stored, processed, and protected
 
 ## Executive Services
 
-- [Global Procurement & Import Compliance](https://byalance.in/services/procurement-import-compliance): End-to-end global product sourcing, international supplier FX payment, HSN classification, customs clearance, DHL/FedEx coordination, and doorstep delivery with 100% compliant GST Tax Invoice for ITC. Imports legal items only: Sensors & Modules, Electronics & Electronic Components, STEM Kits, Machinery & Machinery Parts, Robotics & AI Products, Hardware Tools, and Drones/UAVs.
+- [Global Procurement & Import Compliance](https://procure.byalance.in/): End-to-end global product sourcing, international supplier FX wire payments, HSN classification, ICEGATE customs clearance, courier clearance desk handling, and doorstep delivery across Bengaluru, Hyderabad, Pune, Chennai, Delhi-NCR, Mumbai, and all India with 100% compliant GST Tax Invoice for Input Tax Credit (ITC).
+  - Scope: Electronic Components (ICs, MCUs, PCBs), Sensors & Modules (IoT, LiDAR, IMU), R&D Lab Equipment (Oscilloscopes, Test Gear), Machinery & Spares (CNC, Actuators, Motors), Robotics & AI Hardware, Hardware Tools, and Drones/UAV Parts. Legal items only.
 - [Employer of Record (EOR) India](https://byalance.in/services/eor-services-india): Compliant talent onboarding, INR salary disbursement, statutory EPF, ESIC, Professional Tax, and TDS filings under Byalance corporate codes
 - [Accounting & Bookkeeping](https://byalance.in/#bookkeeping): Monthly ledger management, bank reconciliation, P&L and Balance Sheet preparation
 - [GST Filing & Compliance](https://byalance.in/#gst): Monthly/quarterly GST return filing (GSTR-1, GSTR-3B, GSTR-9), GST registration, GST notices, e-invoicing

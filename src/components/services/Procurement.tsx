@@ -1,8 +1,9 @@
 import SEO from '../SEO';
 import React, { useState } from 'react';
-import { Check, ArrowRight, Globe, ArrowLeft, HelpCircle, ChevronDown, Sparkles, Send, CreditCard, Box, Award } from "lucide-react";
+import { Check, ArrowRight, Globe, ArrowLeft, HelpCircle, ChevronDown, Sparkles, Send, CreditCard, Box, Award, ShieldCheck, MapPin } from "lucide-react";
 import { useLanguage, Language } from "../../context/LanguageContext";
 import FAQSchema from '../FAQSchema';
+import ServiceSchema from '../ServiceSchema';
 import { procurementFAQs } from '../../data/faqData';
 import { Link } from 'react-router-dom';
 import BreadcrumbSchema from '../BreadcrumbSchema';
@@ -1074,11 +1075,41 @@ export default function Procurement() {
   return (
     <>
       <SEO
-        title="Procurement & Import Compliance | Your Outsourced Global Procurement Team | Byalance"
-        description="Byalance helps Indian startups, R&D labs, manufacturers & SMEs procure products globally from trusted suppliers with complete import compliance, customs clearance, and GST tax invoices."
-        keywords="procurement services, procurement outsourcing, procurement services for SMEs, global procurement India, import compliance India, procurement services for startups, global supplier sourcing India, international vendor procurement India, customs clearance electronics India, outsourced import operations, end-to-end procurement services, Byalance procurement"
+        title={isProcure 
+          ? "Global Procurement & Import Compliance India | Outsourced Purchasing Team | Byalance"
+          : "Procurement & Import Compliance | Your Outsourced Global Procurement Team | Byalance"
+        }
+        description="Byalance is India's outsourced global procurement team for hardware startups, R&D labs, electronics makers & SMEs. We handle supplier sourcing, forex wire payments, HSN code classification, customs clearance, and doorstep delivery with 100% GST Tax Invoices for Input Tax Credit (ITC)."
+        keywords="procurement services, procurement outsourcing India, global procurement India, import compliance India, customs clearance electronics India, import electronic components India, sensors import Bangalore, lab equipment import compliance, robotics parts procurement India, CNC machinery parts import India, HSN code customs India, GST input tax credit imported goods, international supplier forex payment India, DGFT customs clearance India, ICEGATE bill of entry clearance, outsourced hardware procurement, hardware startups Bangalore Hyderabad Pune Chennai Delhi NCR, Byalance procurement"
         canonical={isProcure ? "https://procure.byalance.in/" : "https://byalance.in/services/procurement-import-compliance"}
-        ogType="article"
+        ogType="website"
+      />
+      <ServiceSchema
+        name="Byalance Global Procurement & Import Compliance"
+        description="End-to-end global product sourcing, international supplier forex payments, HSN classification, customs clearance at Indian air & sea ports, and doorstep delivery with GST Tax Invoices."
+        url={isProcure ? "https://procure.byalance.in/" : "https://byalance.in/services/procurement-import-compliance"}
+        serviceType="Global Procurement, Customs Clearance & Import Compliance"
+        category="Outsourced Business Operations & Global Supply Chain"
+        providerName="Byalance"
+        providerUrl="https://byalance.in"
+        areaServed="IN"
+        offers={{
+          priceCurrency: "INR",
+          price: "Custom Quote",
+          description: "All-inclusive landed cost quotation in INR including product price, international forex wire fees, customs duty, courier freight, and GST tax invoice."
+        }}
+        hasOfferCatalog={{
+          name: "Global Procurement & Import Operations Services",
+          itemListElement: [
+            { name: "Electronic Components & Semiconductor Sourcing", description: "Procurement of ICs, microcontrollers, passives, and PCBs from global authorized distributors with compliance certificates." },
+            { name: "IoT Sensors & Module Imports", description: "Global sourcing of LiDAR, IMU, ultrasonic, environmental, and wireless sensor modules with HSN classification." },
+            { name: "R&D Lab Equipment & Testing Instruments", description: "Importation of oscilloscopes, spectrum analyzers, soldering rework stations, and scientific test gear." },
+            { name: "Robotics, Automation & AI Hardware", description: "Procuring robotic arms, AI accelerator boards, vision sensors, servo actuators, and CNC spares." },
+            { name: "International Supplier Forex Payments", description: "Legally compliant foreign currency wire payments to overseas manufacturers and OEMs." },
+            { name: "Customs Clearance & Port-of-Entry Handling", description: "ICEGATE Bill of Entry filing, duty computation, and clearing agent handling at Bengaluru, Chennai, Mumbai, and Delhi ports." },
+            { name: "GST Tax Invoicing for 100% ITC", description: "Issuing compliant domestic GST invoices so Indian startups and businesses can claim full Input Tax Credit." }
+          ]
+        }}
       />
       <BreadcrumbSchema
         items={[
@@ -1116,9 +1147,14 @@ export default function Procurement() {
             
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100/80 text-amber-900 border border-amber-200 mb-5">
-                  <Sparkles className="w-3.5 h-3.5 text-amber-600" /> {data.flagshipBadge}
-                </span>
+                <div className="flex flex-wrap items-center gap-2 mb-5">
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100/80 text-amber-900 border border-amber-200">
+                    <Sparkles className="w-3.5 h-3.5 text-amber-600" /> {data.flagshipBadge}
+                  </span>
+                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
+                    <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" /> 100% ITC Eligible GST Invoices
+                  </span>
+                </div>
                 <h1 className="text-4xl md:text-5xl font-display font-black text-slate-900 tracking-tight leading-none mb-4">
                   {data.heroTitle} <br />
                   <span className="text-amber-600">{data.heroTitleHighlight}</span>
@@ -1130,7 +1166,7 @@ export default function Procurement() {
                   {data.heroDesc}
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4 items-stretch max-w-xl">
+                <div className="flex flex-col sm:flex-row gap-4 items-stretch max-w-xl mb-6">
                   <a
                     href="https://wa.me/917406296116?text=Hi%20Byalance%2C%20I%20have%20a%20product%20link/BOM%20I%20would%20like%20to%20procure%20and%20import."
                     target="_blank"
@@ -1145,6 +1181,11 @@ export default function Procurement() {
                   >
                     {data.requestQuote}
                   </a>
+                </div>
+
+                <div className="flex items-center gap-2 text-xs font-medium text-slate-500 pt-2">
+                  <MapPin className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+                  <span>Trusted by startups & labs in <strong>Bengaluru, Hyderabad, Pune, Chennai, Delhi-NCR, Mumbai</strong> & nationwide.</span>
                 </div>
               </div>
               

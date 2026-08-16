@@ -19,7 +19,6 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [showLanguages, setShowLanguages] = useState(false);
-  const [logoSrc, setLogoSrc] = useState('/brandlogo_opt.webp');
   const { pathname } = useLocation();
   const locationPath = pathname;
   const { language, setLanguage, t } = useLanguage();
@@ -61,22 +60,16 @@ export default function Navbar() {
       }`}
     >
       <div className="container-custom flex items-center justify-between">
-        <Link to="/" className="flex items-center ml-1">
+        <Link to="/" className="flex items-center ml-1" aria-label="Byalance Home">
           <img 
-            src={logoSrc} 
-            alt="Byalance Primary Corporate Logo" 
-            className="h-10 transform-gpu will-change-transform" 
+            src="/brandlogo.svg" 
+            alt="Byalance" 
+            className="h-10 w-auto object-contain block" 
             loading="eager"
             fetchPriority="high"
-            width={150}
+            decoding="sync"
+            width={152}
             height={40}
-            onError={() => {
-              if (logoSrc === '/brandlogo_opt.webp') {
-                setLogoSrc('/brandlogo_opt.png');
-              } else if (logoSrc === '/brandlogo_opt.png') {
-                setLogoSrc('/brandlogo%20(1).svg');
-              }
-            }}
           />
         </Link>
 

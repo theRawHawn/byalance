@@ -48,7 +48,7 @@ export default function ServiceSchema({
       '@type': 'Organization',
       'name': providerName,
       'url': providerUrl,
-      'logo': `${providerUrl}/brandlogowhite_opt.webp`,
+      'logo': `${providerUrl}/brandlogo_opt.png`,
       'sameAs': [
         'https://www.linkedin.com/company/byalance',
         'https://x.com/byalance_in',

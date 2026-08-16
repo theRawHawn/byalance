@@ -13,7 +13,6 @@ const socialLinks = [
 
 export default function Footer() {
   const { t } = useLanguage();
-  const [logoSrc, setLogoSrc] = useState('/brandlogowhite_opt.webp');
   const isProcure = isProcureSubdomain();
 
   const quickLinks = isProcure ? [
@@ -59,21 +58,17 @@ export default function Footer() {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-6 mb-6">
           <div className="lg:col-span-1">
-            <img 
-              src={logoSrc} 
-              alt="Byalance White Brand Logo" 
-              className="h-12 mb-4" 
-              loading="lazy"
-              width={180}
-              height={48}
-              onError={() => {
-                if (logoSrc === '/brandlogowhite_opt.webp') {
-                  setLogoSrc('/brandlogowhite_opt.png');
-                } else if (logoSrc === '/brandlogowhite_opt.png') {
-                  setLogoSrc('/brandlogowhite%20(1).svg');
-                }
-              }}
-            />
+            <Link to="/" className="inline-block" aria-label="Byalance Home">
+              <img 
+                src="/brandlogowhite.svg" 
+                alt="Byalance" 
+                className="h-12 w-auto object-contain mb-4 block" 
+                loading="lazy"
+                decoding="async"
+                width={182}
+                height={48}
+              />
+            </Link>
             <p className="text-slate-400 text-xs leading-relaxed mb-4 max-w-xs font-medium">
               {t.footer.about}
             </p>

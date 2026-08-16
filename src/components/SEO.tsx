@@ -17,15 +17,21 @@ export default function SEO({
   description,
   keywords = 'procurement services, procurement services for SMEs, accounting services, gst services, tds services, payroll processing, eor services india, tax filing, professional accounting firm India',
   canonical,
-  ogImage = 'https://byalance.in/brandlogo%20(1).svg',
+  ogImage = 'https://byalance.in/brandlogo_opt.png',
   ogType = 'website',
   twitterCard = 'summary_large_image',
   noindex = false,
 }: SEOProps) {
   return (
     <Helmet>
-      {/* Favicon */}
+      {/* Favicons & Icons */}
+      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="icon" type="image/svg+xml" href="/favicon_logo.svg" />
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
       {/* Basic Meta Tags */}
       <title>{title}</title>

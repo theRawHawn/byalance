@@ -144,10 +144,10 @@ const procurementI18n: Record<Language, {
       }
     ],
     positioning: {
-      badge: "Our Strategic Positioning",
+      badge: "What Byalance Is",
       title: "Byalance is ",
-      titleNot: "NOT",
-      desc: "Byalance is a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process.",
+      titleHighlight: "Your Outsourced Global Procurement Division",
+      desc: "Byalance is a business operations company that helps Indian startups, R&D labs, manufacturers and SMEs procure products from anywhere in the world while handling the complete import process. We are not a distributor adding retail markups — we are your hands-on operations team.",
       highlight: "Customers don't deal with suppliers, couriers, Customs or import paperwork. They simply send us a product link — we handle everything.",
       cta: "Send Product Link"
     },
@@ -279,10 +279,10 @@ const procurementI18n: Record<Language, {
       }
     ],
     positioning: {
-      badge: "हमारी रणनीतिक स्थिति",
-      title: "Byalance कोई इलेक्ट्रॉनिक्स वितरक ",
-      titleNot: "नहीं",
-      desc: "Byalance एक व्यावसायिक परिचालन कंपनी है जो भारतीय स्टार्टअप्स, R&D प्रयोगशालाओं, निर्माताओं और MSMEs को पूरी आयात प्रक्रिया को संभालते हुए दुनिया में कहीं से भी उत्पाद खरीदने में मदद करती है।",
+      badge: "हम क्या करते हैं",
+      title: "Byalance है ",
+      titleHighlight: "आपकी समर्पित वैश्विक खरीद और आयात टीम",
+      desc: "Byalance एक व्यावसायिक परिचालन कंपनी है जो भारतीय स्टार्टअप्स, R&D प्रयोगशालाओं, निर्माताओं और MSMEs को पूरी आयात प्रक्रिया को संभालते हुए दुनिया में कहीं से भी उत्पाद खरीदने में मदद करती है। हम कोई रिटेल मार्जिन जोड़ने वाले वितरक नहीं हैं — हम आपकी अपनी आंतरिक खरीद टीम के रूप में काम करते हैं।",
       highlight: "ग्राहकों को आपूर्तिकर्ताओं, कूरियर, कस्टम्स या आयात कागजी कार्रवाई से निपटने की आवश्यकता नहीं है। वे केवल हमें एक उत्पाद लिंक भेजते हैं — हम सब कुछ संभालते हैं।",
       cta: "उत्पाद लिंक भेजें"
     },
@@ -414,10 +414,10 @@ const procurementI18n: Record<Language, {
       }
     ],
     positioning: {
-      badge: "ನಮ್ಮ ಕಾರ್ಯತಂತ್ರದ ಸ್ಥಾನ",
-      title: "Byalance ಎಲೆಕ್ಟ್ರಾನಿಕ್ಸ್ ವಿತರಕರಲ್ಲ, ",
-      titleNot: "ಬದಲಿಗೆ ಕಾರ್ಯಾಚರಣೆ ಸಂಸ್ಥೆ",
-      desc: "Byalance ಭಾರತೀಯ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು, R&D ಲ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಸಣ್ಣ ಉದ್ಯಮಗಳಿಗೆ ಪ್ರಪಂಚದಾದ್ಯಂತ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಲು ಮತ್ತು ಸಂಪೂರ್ಣ ಆಮದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+      badge: "ನಾವು ಏನು ಮಾಡುತ್ತೇವೆ",
+      title: "Byalance ನಿಮ್ಮ ",
+      titleHighlight: "ಸಂಪೂರ್ಣ ಜಾಗತಿಕ ಖರೀದಿ ಮತ್ತು ಆಮದು ಕಾರ್ಯಾಚರಣೆಯ ತಂಡ",
+      desc: "Byalance ಭಾರತೀಯ ಸ್ಟಾರ್ಟ್‌ಅಪ್‌ಗಳು, R&D ಲ್ಯಾಬ್‌ಗಳು ಮತ್ತು ಸಣ್ಣ ಉದ್ಯಮಗಳಿಗೆ ಪ್ರಪಂಚದಾದ್ಯಂತ ಉತ್ಪನ್ನಗಳನ್ನು ಖರೀದಿಸಲು ಮತ್ತು ಸಂಪೂರ್ಣ ಆಮದು ಪ್ರಕ್ರಿಯೆಯನ್ನು ನಿರ್ವಹಿಸಲು ನೆರವಾಗುತ್ತದೆ. ನಾವು ಕೇವಲ ಸರಕು ಮಾರಾಟಗಾರರಲ್ಲ — ನಿಮ್ಮ ಸಂಸ್ಥೆಯ ಸ್ವಂತ ಖರೀದಿ ವಿಭಾಗವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತೇವೆ.",
       highlight: "ಗ್ರಾಹಕರು ಪೂರೈಕೆದಾರರು, ಕೊರಿಯರ್ ಅಥವಾ ಕಸ್ಟಮ್ಸ್ ದಾಖಲೆಗಳೊಂದಿಗೆ ವ್ಯವಹರಿಸಬೇಕಾಗಿಲ್ಲ. ಕೇವಲ ಲಿಂಕ್ ಕಳುಹಿಸಿದರೆ ಸಾಕು — ನಾವು ಎಲ್ಲವನ್ನೂ ನಿರ್ವಹಿಸುತ್ತೇವೆ.",
       cta: "ಉತ್ಪನ್ನ ಲಿಂಕ್ ಕಳುಹಿಸಿ"
     },
@@ -549,10 +549,10 @@ const procurementI18n: Record<Language, {
       }
     ],
     positioning: {
-      badge: "మా వ్యూహాత్మక స్థానం",
-      title: "Byalance ఎలక్ట్రానిక్స్ డిస్ట్రిబ్యూటర్ కాదు, ",
-      titleNot: "ఆపరేషన్స్ సంస్థ",
-      desc: "Byalance భారతీయ స్టార్టప్‌లు, R&D ల్యాబ్‌లు మరియు చిన్న పరిశ్రమలకు ప్రపంచవ్యాప్తంగా ప్రొడక్ట్స్ కొనుగోలు చేయడానికి మరియు దిగుమతి ప్రక్రియను నిర్వహించడానికి సహాయం చేస్తుంది.",
+      badge: "మేము ఏమి చేస్తాము",
+      title: "Byalance మీ ",
+      titleHighlight: "గ్లోబల్ ప్రోక్యూర్మెంట్ & ఇంపోర్ట్ ఆపరేషన్స్ టీమ్",
+      desc: "Byalance భారతీయ స్టార్టప్‌లు, R&D ల్యాబ్‌లు మరియు చిన్న పరిశ్రమలకు ప్రపంచవ్యాప్తంగా ప్రొడక్ట్స్ కొనుగోలు చేయడానికి మరియు దిగుమతి ప్రక్రియను నిర్వహించడానికి సహాయం చేస్తుంది. మేము రిటైల్ మార్జిన్లతో కూడిన డిస్ట్రిబ్యూటర్ కాదు — మీ సొంత కంపెనీ కొనుగోలు విభాగంలా పనిచేస్తాము.",
       highlight: "కస్టమర్లు సరఫరాదారులు, కొరియర్ లేదా కస్టమ్స్ డాక్యుమెంట్లతో శ్రమపడనవసరం లేదు. కేవలం లింక్ పంపితే చాలు — మేమే అంతా చూసుకుంటాము.",
       cta: "ప్రొడక్ట్ లింక్ పంపండి"
     },
@@ -684,10 +684,10 @@ const procurementI18n: Record<Language, {
       }
     ],
     positioning: {
-      badge: "आमचे धोरणात्मक स्थान",
-      title: "Byalance इलेक्ट्रॉनिक्स डिस्ट्रीब्यूटर नाही, ",
-      titleNot: "तर ऑपरेशन्स कंपनी आहे",
-      desc: "Byalance भारतीय स्टार्टअप्स, R&D लॅब्स आणि लहान उद्योगांना जगभरातून उत्पादने खरेदी करण्यात आणि पूर्ण आयात प्रक्रिया हाताळण्यात मदत करते.",
+      badge: "आम्ही काय करतो",
+      title: "Byalance तुमची ",
+      titleHighlight: "समर्पित जागतिक खरेदी आणि आयात टीम आहे",
+      desc: "Byalance भारतीय स्टार्टअप्स, R&D लॅब्स आणि लहान उद्योगांना जगभरातून उत्पादने खरेदी करण्यात आणि पूर्ण आयात प्रक्रिया हाताळण्यात मदत करते. आम्ही कोणतेही रिटेल मार्जिन जोडणारे डिस्ट्रीब्यूटर नाही — आम्ही तुमच्या कंपनीचा स्वतःचा खरेदी विभाग म्हणून काम करतो.",
       highlight: "ग्राहकांना पुरवठादार, कुरियर किंवा कस्टम्स कागदपत्रांची चिंता करण्याची गरज नाही. फक्त लिंक पाठवा — सर्व काही आम्ही हाताळतो.",
       cta: "उत्पादन लिंक पाठवा"
     },
@@ -819,10 +819,10 @@ const procurementI18n: Record<Language, {
       }
     ],
     positioning: {
-      badge: "எங்கள் மூலோபாய நிலைப்பாடு",
-      title: "Byalance எலக்ட்ரானிக்ஸ் விநியோகஸ்தர் அல்ல, ",
-      titleNot: "செயல்பாட்டு நிறுவனம்",
-      desc: "Byalance இந்திய ஸ்டார்ட்அப்கள், R&D ஆய்வகங்கள் மற்றும் சிறு தொழில்களுக்கு உலகம் முழுவதிலுமிருந்து தயாரிப்புகளை வாங்கவும் இறக்குமதி செய்ய உதவவும் செயல்படுகிறது.",
+      badge: "நாங்கள் என்ன செய்கிறோம்",
+      title: "Byalance உங்கள் ",
+      titleHighlight: "உலகளாவிய கொள்முதல் மற்றும் இறக்குமதி செயல்பாட்டுக் குழு",
+      desc: "Byalance இந்திய ஸ்டார்ட்அப்கள், R&D ஆய்வகங்கள் மற்றும் சிறு தொழில்களுக்கு உலகம் முழுவதிலுமிருந்து தயாரிப்புகளை வாங்கவும் இறக்குமதி செய்ய உதவவும் செயல்படுகிறது. நாங்கள் விற்பனை வரம்பு சேர்க்கும் விநியோகஸ்தர் அல்ல — உங்கள் நிறுவனத்தின் சொந்த கொள்முதல் பிரிவாகவே செயல்படுகிறோம்.",
       highlight: "வாடிக்கையாளர்கள் சப்ளையர்கள், கூரியர் அல்லது சுங்க ஆவணங்களை கையாள வேண்டியதில்லை. லிங்க் அனுப்பினால் போதும் — நாங்கள் அனைத்தையும் பார்த்துக்கொள்கிறோம்.",
       cta: "தயாரிப்பு லிங்க் அனுப்பவும்"
     },
@@ -1220,7 +1220,7 @@ export default function Procurement() {
           </div>
         </section>
 
-        {/* POSITIONING BANNER */}
+        {/* WHAT IS BYALANCE / POSITIONING BANNER */}
         <section className="py-12 bg-slate-900 text-white relative overflow-hidden">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="bg-slate-800/80 border border-slate-700/80 rounded-2xl p-8 md:p-10 shadow-2xl backdrop-blur-sm">
@@ -1229,9 +1229,8 @@ export default function Procurement() {
                   <Globe className="w-7 h-7" />
                 </div>
                 <div>
-                  <span className="text-xs font-bold uppercase tracking-widest text-amber-400 mb-2 block">{data.positioning.badge}</span>
                   <h2 className="text-2xl md:text-3xl font-display font-extrabold text-white mb-4">
-                    {data.positioning.title} <span className="text-amber-400 underline decoration-amber-500/50 underline-offset-4">{data.positioning.titleNot}</span>
+                    {data.positioning.title} <span className="text-amber-400">{(data.positioning as any).titleHighlight || (data.positioning as any).titleNot}</span>
                   </h2>
                   <p className="text-slate-300 text-base md:text-lg leading-relaxed mb-6 font-medium">
                     {data.positioning.desc}

@@ -26,11 +26,6 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://byalance.in/services/itr-services</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://byalance.in/services/payroll-processing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

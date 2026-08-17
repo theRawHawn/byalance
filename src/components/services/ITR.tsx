@@ -240,6 +240,8 @@ const ITR = () => {
         keywords="ITR filing India, income tax return filing, ITR services Bengaluru, file ITR online, ITR for salaried, ITR for freelancers, Form 26AS, income tax notice response, Section 80C deductions, old vs new tax regime"
         canonical="https://byalance.in/services/itr-services"
         ogType="article"
+        noindex={true}
+        robots="noindex, follow"
       />
       <BreadcrumbSchema
         items={[

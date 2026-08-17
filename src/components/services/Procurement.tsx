@@ -53,7 +53,8 @@ const procurementI18n: Record<Language, {
   positioning: {
     badge: string;
     title: string;
-    titleNot: string;
+    titleHighlight?: string;
+    titleNot?: string;
     desc: string;
     highlight: string;
     cta: string;

@@ -10,6 +10,7 @@ interface SEOProps {
   ogType?: 'website' | 'article' | 'profile';
   twitterCard?: 'summary' | 'summary_large_image';
   noindex?: boolean;
+  robots?: string;
 }
 
 export default function SEO({
@@ -21,6 +22,7 @@ export default function SEO({
   ogType = 'website',
   twitterCard = 'summary_large_image',
   noindex = false,
+  robots,
 }: SEOProps) {
   return (
     <Helmet>
@@ -42,8 +44,10 @@ export default function SEO({
       {keywords && <meta name="keywords" content={keywords} />}
 
       {/* Robots Tag */}
-      {noindex ? (
-        <meta name="robots" content="noindex, nofollow" />
+      {robots ? (
+        <meta name="robots" content={robots} />
+      ) : noindex ? (
+        <meta name="robots" content="noindex, follow" />
       ) : (
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
       )}

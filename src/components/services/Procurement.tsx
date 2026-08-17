@@ -1,6 +1,30 @@
 import SEO from '../SEO';
 import React, { useState } from 'react';
-import { Check, ArrowRight, Globe, ArrowLeft, HelpCircle, ChevronDown, Sparkles, Send, CreditCard, Box, Award, ShieldCheck, MapPin } from "lucide-react";
+import { motion } from 'motion/react';
+import { 
+  Check, 
+  ArrowRight, 
+  Globe, 
+  ArrowLeft, 
+  HelpCircle, 
+  ChevronDown, 
+  Sparkles, 
+  Send, 
+  CreditCard, 
+  Box, 
+  Award, 
+  ShieldCheck, 
+  MapPin,
+  Link2,
+  Calculator,
+  Wallet,
+  Truck,
+  CheckCircle2,
+  FileSpreadsheet,
+  Zap,
+  Clock,
+  ArrowUpRight
+} from "lucide-react";
 import { useLanguage, Language } from "../../context/LanguageContext";
 import FAQSchema from '../FAQSchema';
 import ServiceSchema from '../ServiceSchema';
@@ -1269,30 +1293,263 @@ export default function Procurement() {
           </div>
         </section>
 
-        {/* HOW IT WORKS */}
-        <section id="how-it-works" className="py-16 md:py-24 bg-slate-50/70 border-y border-slate-100">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800 border border-amber-200 mb-3">
-              {data.howItWorks.badge}
-            </span>
-            <h2 className="text-3xl md:text-4xl font-display font-extrabold text-slate-900 tracking-tight mb-4">
-              {data.howItWorks.title}
-            </h2>
-            <p className="text-slate-600 max-w-2xl mx-auto text-base md:text-lg mb-16">
-              {data.howItWorks.desc}
-            </p>
+        {/* HOW IT WORKS (ANIMATED SCROLL TIMELINE) */}
+        <section id="how-it-works" className="py-24 md:py-36 bg-gradient-to-b from-slate-50/80 via-white to-slate-50 relative overflow-hidden border-y border-slate-200/80">
+          {/* Subtle Dynamic Ambient Background Gradients */}
+          <div className="absolute inset-0 pointer-events-none select-none z-0 overflow-hidden">
+            <div className="absolute left-[5%] top-[12%] w-[32rem] h-[32rem] rounded-full bg-gradient-to-br from-amber-200/30 to-orange-100/20 blur-3xl" />
+            <div className="absolute right-[5%] top-[45%] w-[36rem] h-[36rem] rounded-full bg-gradient-to-br from-blue-200/25 to-indigo-100/20 blur-3xl" />
+            <div className="absolute left-[10%] bottom-[10%] w-[34rem] h-[34rem] rounded-full bg-gradient-to-br from-emerald-200/30 to-teal-100/20 blur-3xl" />
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
-              {data.howItWorks.steps.map((s) => (
-                <div key={s.step} className="bg-white rounded-2xl border border-slate-200 p-6 relative shadow-sm hover:shadow-md transition-shadow">
-                  <div className="absolute -top-4 left-6 w-9 h-9 rounded-full bg-amber-600 text-white flex items-center justify-center font-black text-sm shadow">
-                    {s.step}
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 mt-2 mb-3">{s.title}</h3>
-                  <p className="text-sm text-slate-500 leading-relaxed">{s.desc}</p>
-                </div>
-              ))}
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            {/* Section Header */}
+            <div className="text-center max-w-3xl mx-auto mb-20 md:mb-28">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9, y: 15 }}
+                whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: "easeOut" }}
+                className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-amber-100/90 text-amber-900 border border-amber-300/80 mb-4 shadow-sm backdrop-blur-sm"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-spin" style={{ animationDuration: '4s' }} />
+                <span>{data.howItWorks.badge}</span>
+              </motion.div>
+
+              <motion.h2 
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-black text-slate-900 tracking-tight mb-5"
+              >
+                {data.howItWorks.title}
+              </motion.h2>
+
+              <motion.p 
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+                className="text-slate-600 text-base sm:text-lg md:text-xl font-normal leading-relaxed max-w-2xl mx-auto"
+              >
+                {data.howItWorks.desc}
+              </motion.p>
             </div>
+
+            {/* Scroll-Animated Timeline Sequence */}
+            <div className="relative">
+              {/* Central Glowing Connector Spine for Desktop */}
+              <div className="hidden md:block absolute left-1/2 top-10 bottom-16 w-[3px] -translate-x-1/2 bg-gradient-to-b from-amber-400 via-blue-500 via-purple-500 to-emerald-500 rounded-full shadow-[0_0_12px_rgba(59,130,246,0.3)] opacity-70" />
+
+              {/* Mobile Left Rail */}
+              <div className="md:hidden absolute left-6 top-8 bottom-12 w-[2.5px] bg-gradient-to-b from-amber-400 via-blue-500 to-emerald-500 rounded-full opacity-75 shadow-sm" />
+
+              {/* Step Cards Loop */}
+              <div className="space-y-14 md:space-y-24 relative">
+                {data.howItWorks.steps.map((s, idx) => {
+                  const stepIcons = [Link2, Calculator, Wallet, Globe, ShieldCheck, Truck];
+                  const StepIcon = stepIcons[idx] || CheckCircle2;
+                  
+                  const stepStyles = [
+                    {
+                      gradient: "from-amber-500 to-orange-500",
+                      badgeBg: "bg-amber-50/90 text-amber-800 border-amber-200/80",
+                      dotBg: "bg-amber-500",
+                      glow: "hover:border-amber-400/80 hover:shadow-2xl hover:shadow-amber-500/10",
+                      pillText: "01 • Share Link / BOM",
+                      iconBg: "from-amber-500 to-orange-500",
+                      ringColor: "ring-amber-200"
+                    },
+                    {
+                      gradient: "from-blue-500 to-indigo-600",
+                      badgeBg: "bg-blue-50/90 text-blue-800 border-blue-200/80",
+                      dotBg: "bg-blue-500",
+                      glow: "hover:border-blue-400/80 hover:shadow-2xl hover:shadow-blue-500/10",
+                      pillText: "02 • Landed Cost",
+                      iconBg: "from-blue-500 to-indigo-600",
+                      ringColor: "ring-blue-200"
+                    },
+                    {
+                      gradient: "from-emerald-500 to-teal-600",
+                      badgeBg: "bg-emerald-50/90 text-emerald-800 border-emerald-200/80",
+                      dotBg: "bg-emerald-500",
+                      glow: "hover:border-emerald-400/80 hover:shadow-2xl hover:shadow-emerald-500/10",
+                      pillText: "03 • Pay in INR",
+                      iconBg: "from-emerald-500 to-teal-600",
+                      ringColor: "ring-emerald-200"
+                    },
+                    {
+                      gradient: "from-purple-500 to-indigo-600",
+                      badgeBg: "bg-purple-50/90 text-purple-800 border-purple-200/80",
+                      dotBg: "bg-purple-500",
+                      glow: "hover:border-purple-400/80 hover:shadow-2xl hover:shadow-purple-500/10",
+                      pillText: "04 • Global Purchase",
+                      iconBg: "from-purple-500 to-indigo-600",
+                      ringColor: "ring-purple-200"
+                    },
+                    {
+                      gradient: "from-sky-500 to-blue-600",
+                      badgeBg: "bg-sky-50/90 text-sky-800 border-sky-200/80",
+                      dotBg: "bg-sky-500",
+                      glow: "hover:border-sky-400/80 hover:shadow-2xl hover:shadow-sky-500/10",
+                      pillText: "05 • Customs Clearance",
+                      iconBg: "from-sky-500 to-blue-600",
+                      ringColor: "ring-sky-200"
+                    },
+                    {
+                      gradient: "from-teal-500 to-emerald-600",
+                      badgeBg: "bg-teal-50/90 text-teal-800 border-teal-200/80",
+                      dotBg: "bg-emerald-500",
+                      glow: "hover:border-emerald-400/80 hover:shadow-2xl hover:shadow-emerald-500/10",
+                      pillText: "06 • Doorstep Delivery",
+                      iconBg: "from-teal-500 to-emerald-600",
+                      ringColor: "ring-emerald-200"
+                    }
+                  ];
+
+                  const style = stepStyles[idx] || stepStyles[0];
+                  const isEven = idx % 2 === 0;
+
+                  return (
+                    <motion.div
+                      key={s.step}
+                      initial={{ 
+                        opacity: 0, 
+                        y: 45, 
+                        scale: 0.95
+                      }}
+                      whileInView={{ 
+                        opacity: 1, 
+                        y: 0, 
+                        scale: 1
+                      }}
+                      viewport={{ once: true, margin: "-80px" }}
+                      transition={{ 
+                        duration: 0.65, 
+                        delay: 0.05, 
+                        ease: [0.16, 1, 0.3, 1] 
+                      }}
+                      className={`relative flex flex-col md:flex-row items-center ${
+                        isEven ? "md:flex-row" : "md:flex-row-reverse"
+                      } gap-6 md:gap-14 pl-12 md:pl-0`}
+                    >
+                      {/* Central Spine Node (Desktop & Mobile) */}
+                      <div className="absolute left-6 md:left-1/2 -translate-x-1/2 top-4 md:top-1/2 md:-translate-y-1/2 z-20">
+                        <motion.div 
+                          whileHover={{ scale: 1.15 }}
+                          transition={{ type: "spring", stiffness: 400, damping: 15 }}
+                          className="relative flex items-center justify-center cursor-pointer group"
+                        >
+                          {/* Pulsing Outer Glow */}
+                          <div className={`absolute w-12 h-12 md:w-14 md:h-14 rounded-full ${style.dotBg} opacity-20 animate-ping`} />
+                          
+                          {/* Center Step Badge Ring */}
+                          <div className={`w-9 h-9 md:w-12 md:h-12 rounded-full bg-gradient-to-br ${style.gradient} text-white font-black text-xs md:text-sm flex items-center justify-center shadow-xl border-2 border-white ring-4 ${style.ringColor} transition-transform`}>
+                            {s.step}
+                          </div>
+                        </motion.div>
+                      </div>
+
+                      {/* Step Card Content */}
+                      <div className={`w-full md:w-[calc(50%-2.75rem)] ${isEven ? "md:text-right" : "md:text-left"}`}>
+                        <motion.div
+                          whileHover={{ y: -6, scale: 1.01 }}
+                          transition={{ type: "spring", stiffness: 350, damping: 25 }}
+                          className={`bg-white/95 backdrop-blur-sm rounded-3xl border border-slate-200/90 p-6 sm:p-8 shadow-sm ${style.glow} transition-all duration-300 relative group overflow-hidden`}
+                        >
+                          {/* Top Accent Gradient Bar with subtle shine */}
+                          <div className={`absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r ${style.gradient}`} />
+
+                          {/* Header row with Icon & Badges */}
+                          <div className={`flex items-center gap-3 mb-5 ${isEven ? "md:justify-end" : "md:justify-start"}`}>
+                            <span className={`inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${style.badgeBg} border shadow-xs`}>
+                              <span className={`w-2 h-2 rounded-full ${style.dotBg} animate-pulse`} />
+                              {style.pillText}
+                            </span>
+                          </div>
+
+                          {/* Step Title & Icon */}
+                          <div className={`flex items-start gap-4 mb-3.5 ${isEven ? "md:flex-row-reverse" : "md:flex-row"}`}>
+                            <motion.div 
+                              whileHover={{ rotate: [0, -8, 8, 0] }}
+                              transition={{ duration: 0.5 }}
+                              className={`w-13 h-13 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br ${style.iconBg} text-white flex items-center justify-center shrink-0 shadow-md group-hover:shadow-lg group-hover:scale-105 transition-all p-3`}
+                            >
+                              <StepIcon className="w-6 h-6 sm:w-7 sm:h-7" strokeWidth={2.2} />
+                            </motion.div>
+                            <h3 className="text-xl sm:text-2xl font-display font-extrabold text-slate-900 group-hover:text-slate-950 transition-colors pt-1">
+                              {s.title}
+                            </h3>
+                          </div>
+
+                          {/* Description */}
+                          <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-5 font-normal">
+                            {s.desc}
+                          </p>
+
+                          {/* Bottom Stage Pill / Direct Benefit */}
+                          <div className={`pt-3.5 border-t border-slate-100 flex items-center text-xs font-semibold text-slate-500 ${isEven ? "md:justify-end" : "md:justify-start"} gap-2`}>
+                            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                            <span className="text-slate-600">
+                              {idx === 0 && "Supported: Digikey, Mouser, Alibaba, LCSC, OEMs & BOMs"}
+                              {idx === 1 && "100% transparent INR landed price • Zero hidden duties"}
+                              {idx === 2 && "Pay locally via RTGS/NEFT/UPI • No forex card needed"}
+                              {idx === 3 && "Byalance completes international vendor forex settlement"}
+                              {idx === 4 && "HSN classification, ICEGATE Bill of Entry & courier clearance"}
+                              {idx === 5 && "Delivered to your lab/office with 100% ITC GST Tax Invoice"}
+                            </span>
+                          </div>
+                        </motion.div>
+                      </div>
+
+                      {/* Empty spacer for the opposite column on desktop */}
+                      <div className="hidden md:block md:w-[calc(50%-2.75rem)]" />
+                    </motion.div>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Bottom Quick-Action Prompt */}
+            <motion.div
+              initial={{ opacity: 0, y: 30, scale: 0.96 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+              className="mt-20 md:mt-28 bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white rounded-3xl p-7 md:p-10 shadow-2xl border border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-6 relative overflow-hidden"
+            >
+              {/* Background ambient glow */}
+              <div className="absolute right-0 top-0 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+
+              <div className="flex items-center gap-5 text-center sm:text-left relative z-10">
+                <div className="w-14 h-14 rounded-2xl bg-amber-500/15 border border-amber-500/30 text-amber-400 flex items-center justify-center shrink-0 shadow-inner">
+                  <Zap className="w-7 h-7" />
+                </div>
+                <div>
+                  <h4 className="text-xl md:text-2xl font-bold font-display text-white">
+                    Ready to start Step 1?
+                  </h4>
+                  <p className="text-slate-300 text-xs sm:text-sm mt-1 max-w-lg">
+                    Share a product link or Bill of Materials to receive your all-inclusive landed quote in INR.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap items-center justify-center gap-3 shrink-0 relative z-10">
+                <motion.a
+                  whileHover={{ scale: 1.04 }}
+                  whileTap={{ scale: 0.97 }}
+                  href="https://wa.me/917406296116?text=Hi%20Byalance%2C%20I%20want%20to%20send%20a%20product%20link%20for%20a%20quote."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider shadow-lg hover:shadow-amber-500/30 transition-all cursor-pointer"
+                >
+                  <span>Share Link on WhatsApp</span>
+                  <ArrowUpRight className="w-4 h-4" />
+                </motion.a>
+              </div>
+            </motion.div>
           </div>
         </section>
 

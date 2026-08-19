@@ -15,14 +15,6 @@ export default function WebSiteSchema({
     '@type': 'WebSite',
     'name': name,
     'url': url,
-    'potentialAction': {
-      '@type': 'SearchAction',
-      'target': {
-        '@type': 'EntryPoint',
-        'urlTemplate': `${url}/?s={search_term_string}`
-      },
-      'query-input': 'required name=search_term_string'
-    }
   };
 
   return (

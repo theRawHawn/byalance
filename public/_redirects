@@ -1,3 +1,16 @@
+# 301 Permanent Redirects for trailing slash URLs to Canonical URLs
+/services/procurement-import-compliance/ /services/procurement-import-compliance 301!
+/services/accounting-bookkeeping/ /services/accounting-bookkeeping 301!
+/services/gst-services/ /services/gst-services 301!
+/services/itr-services/ /services/itr-services 301!
+/services/payroll-processing/ /services/payroll-processing 301!
+/services/tds-services/ /services/tds-services 301!
+/services/eor-services-india/ /services/eor-services-india 301!
+/privacy-policy/ /privacy-policy 301!
+/data-handling/ /data-handling 301!
+/refund-policy/ /refund-policy 301!
+
+# 200 Rewrite for Pre-rendered Routes
 /services/procurement-import-compliance /services/procurement-import-compliance/index.html 200
 /services/accounting-bookkeeping /services/accounting-bookkeeping/index.html 200
 /services/gst-services /services/gst-services/index.html 200

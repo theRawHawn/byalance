@@ -52,6 +52,17 @@ async function startServer() {
     app.use(vite.middlewares);
   } else {
     const distPath = path.join(process.cwd(), 'dist');
+
+    // 301 Redirect trailing slash to non-trailing slash (except root '/')
+    app.use((req, res, next) => {
+      if (req.path.length > 1 && req.path.endsWith('/')) {
+        const query = req.url.slice(req.path.length);
+        const safePath = req.path.slice(0, -1);
+        return res.redirect(301, safePath + query);
+      }
+      next();
+    });
+
     app.use(express.static(distPath));
     app.get('*', (req, res) => {
       res.sendFile(path.join(distPath, 'index.html'));
